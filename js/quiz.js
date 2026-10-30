@@ -411,7 +411,7 @@ export class QuizEngine {
     this.questions = this.loadQuestions(topicId);
     this.current = 0;
     this.answers = {};
-    this.timeLimit = type === 'mock' ? 60 * 60 : Math.max(this.questions.length * 45, 60); // seconds
+    this.timeLimit = type === 'mock' ? 60 * 60 : Math.max(this.questions.length * 50, 60); // seconds
     this.timeLeft = this.timeLimit;
     this.timerInterval = null;
     this.submitted = false;
@@ -419,11 +419,14 @@ export class QuizEngine {
   }
 
   loadQuestions(topicId = null) {
-    const pool = questionBank[this.subject] || questionBank.mathematics;
+    const fullBank = (typeof window !== 'undefined' && window.FULL_QUESTION_BANK) ? window.FULL_QUESTION_BANK : null;
+    const pool = (fullBank && fullBank[this.subject]) ? fullBank[this.subject] : (questionBank[this.subject] || questionBank.mathematics);
     let filtered = topicId ? pool.filter(q => q.topic && (q.topic === topicId || q.topic.includes(topicId))) : pool;
     if (filtered.length === 0) filtered = pool;
     const shuffled = [...filtered].sort(() => Math.random() - 0.5);
-    return shuffled.slice(0, Math.min(shuffled.length, this.type === 'mock' ? shuffled.length : 10));
+    // 16 questions per episode/topic practice test (within requested 15-20 range)
+    const targetCount = this.type === 'mock' ? Math.min(shuffled.length, 40) : Math.min(shuffled.length, 16);
+    return shuffled.slice(0, targetCount);
   }
 
   start() {
