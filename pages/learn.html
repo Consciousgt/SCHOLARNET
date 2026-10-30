@@ -7,6 +7,11 @@
   <title>Learn Hub — ScholarNet</title>
   <link rel="stylesheet" href="../css/main.css">
   <script src="../data/syllabus.js"></script>
+  <!-- KaTeX for LaTeX Math Rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false},{left:'\\(',right:'\\)',display:false}]})"></script>
   <style>
     body { background: #f4faf6; }
     
@@ -451,6 +456,56 @@
   let searchTerm = '';
   let currentUser = null;
 
+  // =============================================
+  // EPISODE GATE SYSTEM (Part 3)
+  // =============================================
+  let passedTopics = JSON.parse(localStorage.getItem('scholarnet_passed_topics') || '{}');
+
+  function isEpisodePassed(episodeId) {
+    return passedTopics[episodeId] !== undefined && passedTopics[episodeId] >= 70;
+  }
+
+  function markEpisodePassed(episodeId, score) {
+    passedTopics[episodeId] = score;
+    localStorage.setItem('scholarnet_passed_topics', JSON.stringify(passedTopics));
+  }
+
+  // Check URL for gate return
+  const gateParams = new URLSearchParams(window.location.search);
+  if (gateParams.get('gated') === 'passed') {
+    const gatedEp = gateParams.get('episode');
+    const gatedScore = parseInt(gateParams.get('score') || '70');
+    if (gatedEp) {
+      markEpisodePassed(gatedEp, gatedScore);
+      // Clean URL
+      const cleanUrl = window.location.pathname + '?subject=' + (gateParams.get('subject') || 'mathematics');
+      history.replaceState({}, '', cleanUrl);
+      setTimeout(() => {
+        showToast('Topic Unlocked! 🎉', `You scored ${gatedScore}% and can now proceed to the next episode.`, 'success');
+      }, 500);
+    }
+  }
+
+  function showGateModal(episodeId, topicId, subjectId) {
+    document.getElementById('gate-modal')?.remove();
+    const modal = document.createElement('div');
+    modal.id = 'gate-modal';
+    modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:9999;display:flex;align-items:center;justify-content:center;padding:1rem;';
+    modal.innerHTML = `
+      <div style="background:white;border-radius:20px;padding:2rem;max-width:480px;width:100%;box-shadow:0 25px 60px rgba(0,0,0,0.3);text-align:center;">
+        <div style="font-size:3rem;margin-bottom:1rem;">🔒</div>
+        <h2 style="font-size:1.35rem;font-weight:800;margin-bottom:0.75rem;color:#1a1a2e;">Topic Not Yet Unlocked</h2>
+        <p style="color:#6b7280;line-height:1.6;margin-bottom:1.75rem;">You need to score <strong style="color:#00a651;">70% or higher</strong> on the practice test for this topic before advancing to the next episode.</p>
+        <div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;">
+          <button onclick="document.getElementById('gate-modal').remove(); videoIframe.src = videoIframe.src;" style="padding:0.7rem 1.25rem;border:2px solid #e5e7eb;border-radius:12px;font-weight:700;cursor:pointer;background:white;color:#374151;">↺ Rewatch Video</button>
+          <a href="practice.html?subject=${subjectId}&topic=${topicId}&type=topic-gate&gateEpisode=${episodeId}" style="padding:0.7rem 1.25rem;background:linear-gradient(135deg,#00a651,#048a44);color:white;border-radius:12px;font-weight:700;text-decoration:none;display:inline-block;">📝 Take Topic Quiz</a>
+        </div>
+        <button onclick="document.getElementById('gate-modal').remove()" style="margin-top:1rem;background:none;border:none;color:#9ca3af;cursor:pointer;font-size:0.85rem;">✕ Close</button>
+      </div>`;
+    document.body.appendChild(modal);
+  }
+  // =============================================
+
   const subjectSelector = document.getElementById('subject-selector');
   const playlistScroll = document.getElementById('playlist-scroll');
   const videoIframe = document.getElementById('video-iframe');
@@ -591,8 +646,19 @@
       </div>
     `;
 
-    // Quiz handoff button
-    btnQuizHandoff.href = `practice.html?subject=${currentSubject.id}&type=topic`;
+    // Quiz handoff button: topic-specific practice gate
+    btnQuizHandoff.href = `practice.html?subject=${currentSubject.id}&topic=${topic.id}&type=topic-gate&gateEpisode=${episode.id}`;
+    btnQuizHandoff.innerHTML = isEpisodePassed(episode.id) ? '📝 Topic Test Passed (≥70%) ✓' : '📝 Take Topic Quiz (Pass ≥70%) →';
+
+    // KaTeX LaTeX rendering in notes
+    if (window.renderMathInElement) {
+      try {
+        window.renderMathInElement(epNotesContent, {
+          delimiters: [{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false},{left:'\\(',right:'\\)',display:false}],
+          throwOnError: false
+        });
+      } catch(e) {}
+    }
 
     // Completion button state
     const isDone = completedEpisodes.has(episode.id);
@@ -647,16 +713,22 @@
         <div class="topic-episodes ${isCurrentTopic || searchTerm ? 'open' : ''}">
           ${matchingEpisodes.map(ep => {
             const isDone = completedEpisodes.has(ep.id);
+            const isPassed = isEpisodePassed(ep.id);
             const isPlaying = currentEpisode && currentEpisode.id === ep.id;
+            const statusIcon = isPassed ? '✅' : (isDone ? '✓' : (isPlaying ? '▶' : ep.order));
             return `
               <div class="episode-row ${isPlaying ? 'active' : ''} ${isDone ? 'completed' : ''}" 
                    data-epid="${ep.id}">
-                <div class="status-dot">${isDone ? '✓' : ep.order}</div>
+                <div class="status-dot">${statusIcon}</div>
                 <div style="flex:1;">
-                  <div>${ep.objective}</div>
+                  <div>
+                    ${ep.objective}
+                    ${ep.collapsed ? '<span style="display:inline-block;background:rgba(0,166,81,0.12);color:var(--primary);font-size:0.68rem;padding:0.1rem 0.4rem;border-radius:4px;font-weight:700;margin-left:0.4rem;">Full Topic</span>' : ''}
+                  </div>
                   <div class="ep-meta">
                     <span>Episode ${ep.order}</span>
-                    <span>⏱ ${ep.duration || '12:00'}</span>
+                    <span>⏱ ${ep.duration || '14:00'}</span>
+                    ${isPassed ? '<span style="color:var(--success);font-weight:700;">Passed ≥70%</span>' : ''}
                   </div>
                 </div>
               </div>
@@ -676,11 +748,21 @@
         arrow.textContent = isOpen ? '▼' : '▶';
       });
 
-      // Episode click
+      // Episode click (enforces 70% gate on subsequent episodes)
       accord.querySelectorAll('.episode-row').forEach(row => {
         row.addEventListener('click', () => {
           const ep = t.episodes.find(e => e.id === row.dataset.epid);
-          if (ep) playEpisode(t, ep);
+          if (!ep) return;
+          const allEps = currentSubject.topics.flatMap(top => top.episodes);
+          const epIdx = allEps.findIndex(e => e.id === ep.id);
+          if (epIdx > 0) {
+            const prevEp = allEps[epIdx - 1];
+            if (!isEpisodePassed(prevEp.id) && !isEpisodePassed(ep.id)) {
+              showGateModal(prevEp.id, t.id, currentSubject.id);
+              return;
+            }
+          }
+          playEpisode(t, ep);
         });
       });
 
@@ -699,9 +781,14 @@
     progressPercent.textContent = `${doneCount}/${allEps.length} (${pct}%)`;
   }
 
-  // Mark Episode Completed
+  // Mark Episode Completed (requires 70%+ score on topic practice quiz)
   btnComplete.addEventListener('click', async () => {
     if (!currentEpisode) return;
+
+    if (!isEpisodePassed(currentEpisode.id)) {
+      showGateModal(currentEpisode.id, currentTopic.id, currentSubject.id);
+      return;
+    }
 
     if (completedEpisodes.has(currentEpisode.id)) {
       completedEpisodes.delete(currentEpisode.id);
@@ -740,13 +827,17 @@
   // Next / Previous Navigation
   btnNext.addEventListener('click', () => {
     if (!currentSubject || !currentEpisode) return;
+    if (!isEpisodePassed(currentEpisode.id)) {
+      showGateModal(currentEpisode.id, currentTopic.id, currentSubject.id);
+      return;
+    }
     const allEps = currentSubject.topics.flatMap(t => t.episodes.map(e => ({ topic: t, ep: e })));
     const curIdx = allEps.findIndex(item => item.ep.id === currentEpisode.id);
     if (curIdx < allEps.length - 1) {
       const nextItem = allEps[curIdx + 1];
       playEpisode(nextItem.topic, nextItem.ep);
     } else {
-      showToast('Subject Completed! 🎓', 'You have reached the end of this syllabus. Great dedication!', 'success');
+      showToast('Subject Completed! 🎓', 'You have mastered this entire syllabus. Brilliant!', 'success');
     }
   });
 

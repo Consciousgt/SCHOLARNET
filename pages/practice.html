@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Practice Tests — ScholarNet</title>
   <link rel="stylesheet" href="../css/main.css">
+  <!-- KaTeX for LaTeX math rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false},{left:'\\(',right:'\\)',display:false}]})"></script>
   <style>
     body { background: #f4faf6; }
     .practice-hero {
@@ -240,6 +245,9 @@
 
   // Check URL params for auto-start
   const params = new URLSearchParams(window.location.search);
+  const topicParam = params.get('topic') || null;
+  const gateEpisodeParam = params.get('gateEpisode') || null;
+
   if (params.get('subject')) {
     document.getElementById('sel-subject').value = params.get('subject') || 'mathematics';
   }
@@ -254,6 +262,26 @@
     selectedType = typeParam;
   }
 
+  // Topic-gate mode: show banner and auto-launch quiz
+  if (params.get('type') === 'topic-gate') {
+    const gateBanner = document.createElement('div');
+    gateBanner.style.cssText = 'background:linear-gradient(135deg,#1a1a2e,#16213e);color:white;padding:1rem 1.5rem;text-align:center;font-size:0.95rem;font-weight:700;border-bottom:3px solid #00a651;';
+    gateBanner.innerHTML = '📋 Topic Quiz — Score <span style="color:#4ade80;">70% or above</span> to unlock the next lesson';
+    document.querySelector('.practice-hero').before(gateBanner);
+
+    // Auto-hide setup and launch quiz
+    setTimeout(() => {
+      const subject = document.getElementById('sel-subject').value;
+      const year    = document.getElementById('sel-year').value;
+      document.getElementById('quiz-setup').style.display = 'none';
+      const root = document.getElementById('quiz-root');
+      root.classList.remove('hidden');
+      const engine = new QuizEngine({ subject, year, type: selectedType, containerId: 'quiz-root', topicId: topicParam, gateEpisode: gateEpisodeParam });
+      engine.start();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 100);
+  }
+
   document.getElementById('start-quiz-btn').addEventListener('click', () => {
     const subject = document.getElementById('sel-subject').value;
     const year    = document.getElementById('sel-year').value;
@@ -263,7 +291,7 @@
     const root = document.getElementById('quiz-root');
     root.classList.remove('hidden');
 
-    const engine = new QuizEngine({ subject, year, type: selectedType, containerId: 'quiz-root' });
+    const engine = new QuizEngine({ subject, year, type: selectedType, containerId: 'quiz-root', topicId: topicParam, gateEpisode: gateEpisodeParam });
     engine.start();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
