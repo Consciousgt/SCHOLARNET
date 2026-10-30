@@ -25,6 +25,7 @@ rules_version = '2';
 //   - createdAt: timestamp (required, <= request.time, immutable)
 //   - lastActiveDate: timestamp (required, <= request.time)
 //   - state: string (optional, Nigerian state, max 50 chars)
+//   - completedEpisodes: list (optional, max 1500 items)
 //
 // Collection: quizResults
 // Document ID: {resultId} (Auto-generated Firestore document ID)
@@ -74,7 +75,8 @@ service cloud.firestore {
       let allowedFields = [
         'uid', 'displayName', 'email', 'phone', 'photoURL', 
         'examType', 'targetScore', 'score', 'streak', 
-        'lessonsCompleted', 'quizzesTaken', 'createdAt', 'lastActiveDate', 'state'
+        'lessonsCompleted', 'quizzesTaken', 'createdAt', 'lastActiveDate', 'state',
+        'completedEpisodes'
       ];
 
       return data.keys().hasAll(requiredFields) &&
@@ -97,6 +99,8 @@ service cloud.firestore {
                ((data.targetScore is int || data.targetScore is float) && data.targetScore >= 0 && data.targetScore <= 500) || 
                (data.targetScore is string && data.targetScore.size() <= 10)) &&
              (!('state' in data) || (data.state is string && data.state.size() <= 50)) &&
+             (!('completedEpisodes' in data) || 
+               (data.completedEpisodes is list && data.completedEpisodes.size() <= 1500)) &&
              // Performance metrics
              (data.score is int || data.score is float) && 
              data.score >= 0 && 
