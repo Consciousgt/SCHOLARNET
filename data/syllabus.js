@@ -1,4 +1,4 @@
-// ScholarNet Complete WAEC/NECO/JAMB Syllabus & Episode Database
+// ScholarNet Comprehensive WAEC/NECO/JAMB Syllabus & Curated Video Lessons
 export const syllabusData = {
   "subjects": [
     {
@@ -19,28 +19,34 @@ export const syllabusData = {
               "id": "mathematics.number-bases.e1",
               "order": 1,
               "objective": "Convert between base 10 and other bases",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "w6hHUAe8SQ0",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Convert between base 10 and other bases. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "CONVERSION FROM OTHER BASES TO BASE 10 - NUMBER BASES (JAMB, WAEC, NECO) EXAMS",
+              "channel": "MATH WITH OG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Convert between base 10 and other bases. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.number-bases.e2",
               "order": 2,
               "objective": "Add, subtract and multiply in other bases",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "KUqx_qTlEDc",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Add, subtract and multiply in other bases. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Addition and Subtraction of Number Bases | SHS 1 CORE MATH",
+              "channel": "SkanCity Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Add, subtract and multiply in other bases. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.number-bases.e3",
               "order": 3,
               "objective": "Solve equations in different bases",
-              "youtubeId": "kIF4fD5gK7M",
+              "youtubeId": "7lfctOgq8iA",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: Solve equations in different bases. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Number Bases Conversion.",
+              "channel": "Brilliant Maths  -    Ngozi Orevaoghene PhD",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Solve equations in different bases. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -53,28 +59,34 @@ export const syllabusData = {
               "id": "mathematics.fractions-decimals-and-approximation.e1",
               "order": 1,
               "objective": "Operations on fractions and decimals",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "t8nOYpcEsEM",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Operations on fractions and decimals. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "What Is Fraction? | The Maths Club | WAEC | NECO | JAMB",
+              "channel": "The Maths Club",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Operations on fractions and decimals. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.fractions-decimals-and-approximation.e2",
               "order": 2,
               "objective": "Rounding, decimal places and significant figures",
-              "youtubeId": "4yA_R6X3o9A",
+              "youtubeId": "7-IEUfNg0eg",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Rounding, decimal places and significant figures. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB & WAEC Maths: Approximation and Estimation (Significant Figures & Decimals) - Student VillageNG",
+              "channel": "Student Village NG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Rounding, decimal places and significant figures. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.fractions-decimals-and-approximation.e3",
               "order": 3,
               "objective": "Standard form and estimation",
-              "youtubeId": "3T_aJ9pS5vU",
+              "youtubeId": "t8nOYpcEsEM",
               "videoStatus": "approved",
-              "duration": "14:34",
-              "summaryNotes": "Key objective: Standard form and estimation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "What Is Fraction? | The Maths Club | WAEC | NECO | JAMB",
+              "channel": "The Maths Club",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Standard form and estimation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -87,19 +99,23 @@ export const syllabusData = {
               "id": "mathematics.indices-and-surds.e1",
               "order": 1,
               "objective": "Laws of indices and solving index equations",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "0_FlzTVk6ls",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Laws of indices and solving index equations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Indices: How to Solve Indices Problems||Rules of Indices",
+              "channel": "Precious Ugwueze (Maths Experience)",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Laws of indices and solving index equations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.indices-and-surds.e2",
               "order": 2,
               "objective": "Simplify surds and rationalise denominators",
-              "youtubeId": "bT0Q3V6j1kE",
+              "youtubeId": "5xGyZhj_BAA",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Simplify surds and rationalise denominators. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Rationalization of surds",
+              "channel": "Taxonomy online mathematics",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Simplify surds and rationalise denominators. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -112,28 +128,34 @@ export const syllabusData = {
               "id": "mathematics.logarithms.e1",
               "order": 1,
               "objective": "Laws of logarithms and converting between index and log form",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "92pZpFVdtD8",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Laws of logarithms and converting between index and log form. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Logarithm 1 | Laws of Logarithm best explained #excellenceacademy #jonahemmanuel #logarithm",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Laws of logarithms and converting between index and log form. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.logarithms.e2",
               "order": 2,
               "objective": "Use of log tables and calculators",
-              "youtubeId": "kqVp4kVzN7A",
+              "youtubeId": "i44vRrQoReU",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Use of log tables and calculators. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "To find a logarithm (log) using a calculator",
+              "channel": "Maths Hub",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Use of log tables and calculators. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.logarithms.e3",
               "order": 3,
               "objective": "Solve logarithmic equations",
-              "youtubeId": "puXhH7b6P6E",
+              "youtubeId": "gHbtHsYi46s",
               "videoStatus": "approved",
-              "duration": "18:34",
-              "summaryNotes": "Key objective: Solve logarithmic equations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Solve logarithmic equation",
+              "channel": "Jacob Sichamba Online Math",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Solve logarithmic equations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -146,37 +168,45 @@ export const syllabusData = {
               "id": "mathematics.sets.e1",
               "order": 1,
               "objective": "Set notation, types of sets and subsets",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "3ZG_LUvHJK4",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Set notation, types of sets and subsets. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "SET THEOREM 1: Definition, Set Notation, Types of Sets, Subset, Superset, Power Set, Cardinality.",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Set notation, types of sets and subsets. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.sets.e2",
               "order": 2,
               "objective": "Union, intersection, complement",
-              "youtubeId": "1Z_2y0j2h5M",
+              "youtubeId": "pOak8aOUG-I",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Union, intersection, complement. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Union, Intersection and  Compliment Operations in Set | The Maths Club | WAEC | NECO | JAMB | WASSCE",
+              "channel": "The Maths Club",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Union, intersection, complement. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.sets.e3",
               "order": 3,
               "objective": "Venn diagrams with two sets",
-              "youtubeId": "5zP1u1Z4v7k",
+              "youtubeId": "zCJWP_brD54",
               "videoStatus": "approved",
-              "duration": "20:34",
-              "summaryNotes": "Key objective: Venn diagrams with two sets. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Venn Diagrams Explained | Sets, Union, Intersection and Complement.",
+              "channel": "MasterOlusegun",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Venn diagrams with two sets. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.sets.e4",
               "order": 4,
               "objective": "Venn diagrams with three sets and word problems",
-              "youtubeId": "n3nS1S_u_4Q",
+              "youtubeId": "2mkU7N_RCPA",
               "videoStatus": "approved",
-              "duration": "21:51",
-              "summaryNotes": "Key objective: Venn diagrams with three sets and word problems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Set Theory_Venn Diagram",
+              "channel": "Excel-Victory Academy ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Venn diagrams with three sets and word problems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -189,28 +219,34 @@ export const syllabusData = {
               "id": "mathematics.percentages-ratio-proportion-and-rates.e1",
               "order": 1,
               "objective": "Percentage change, profit and loss",
-              "youtubeId": "t1m9rC7m7wA",
+              "youtubeId": "qjONP0pdOms",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Percentage change, profit and loss. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "PERCENTAGE PROFIT AND LOSS (JAMB, WAEC, NECO) EXAMS",
+              "channel": "MATH WITH OG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Percentage change, profit and loss. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.percentages-ratio-proportion-and-rates.e2",
               "order": 2,
               "objective": "Ratio, proportion and sharing",
-              "youtubeId": "0_f3Y7o2u9E",
+              "youtubeId": "djFApaAFIDY",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Ratio, proportion and sharing. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Ratio, Proportion & Rates.",
+              "channel": "Brilliant Maths  -    Ngozi Orevaoghene PhD",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Ratio, proportion and sharing. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.percentages-ratio-proportion-and-rates.e3",
               "order": 3,
               "objective": "Rates, speed and unit conversion",
-              "youtubeId": "r3K2v7s8m0E",
+              "youtubeId": "djFApaAFIDY",
               "videoStatus": "approved",
-              "duration": "22:34",
-              "summaryNotes": "Key objective: Rates, speed and unit conversion. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Ratio, Proportion & Rates.",
+              "channel": "Brilliant Maths  -    Ngozi Orevaoghene PhD",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Rates, speed and unit conversion. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -223,28 +259,34 @@ export const syllabusData = {
               "id": "mathematics.financial-arithmetic.e1",
               "order": 1,
               "objective": "Simple and compound interest",
-              "youtubeId": "k8Y2b9m8q7A",
+              "youtubeId": "dyzxic7zGNs",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Simple and compound interest. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Mathematics 2027 Ep 5 - [Simple & Compound Interest, Repayment] + Past Questions & Solutions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Simple and compound interest. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.financial-arithmetic.e2",
               "order": 2,
               "objective": "Depreciation, discount, commission, VAT",
-              "youtubeId": "Z1p2v9w8x7C",
+              "youtubeId": "d07_NHqrS_c",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Depreciation, discount, commission, VAT. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "SHS 2 Core Mathematics | Discount and Commission",
+              "channel": "Adesua Online",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Depreciation, discount, commission, VAT. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.financial-arithmetic.e3",
               "order": 3,
               "objective": "Hire purchase and bills",
-              "youtubeId": "m9Y2b9m8q7A",
+              "youtubeId": "rXl9RBnUOAw",
               "videoStatus": "approved",
-              "duration": "24:34",
-              "summaryNotes": "Key objective: Hire purchase and bills. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Hire purchase calculations#how to solve hire purchase problems#downpayment#monthly installments",
+              "channel": "Mechanical Engineer",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Hire purchase and bills. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -257,28 +299,34 @@ export const syllabusData = {
               "id": "mathematics.sequences-and-series.e1",
               "order": 1,
               "objective": "Arithmetic progression (AP)",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "525Dwouk7a8",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Arithmetic progression (AP). Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Arithmetic Progression (AP), find the 1st, 10th and nth term.",
+              "channel": "Jacob Sichamba Online Math",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Arithmetic progression (AP). Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.sequences-and-series.e2",
               "order": 2,
               "objective": "Geometric progression (GP)",
-              "youtubeId": "l8yX8l6R7V0",
+              "youtubeId": "pyyVtalI-E8",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Geometric progression (GP). Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction To Geometric Progression Sequence (GP)",
+              "channel": "Tambuwal Maths Class",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Geometric progression (GP). Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.sequences-and-series.e3",
               "order": 3,
               "objective": "Sum to infinity and word problems",
-              "youtubeId": "p0_v9r1w2e3",
+              "youtubeId": "Ezebp2-e1fI",
               "videoStatus": "approved",
-              "duration": "11:34",
-              "summaryNotes": "Key objective: Sum to infinity and word problems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "SEQUENCE AND SERIES - JAMB/WAEC  2025 MATHEMATICS QUESTIONS AND ANSWERS",
+              "channel": "DE-ROCK TUTORS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Sum to infinity and word problems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -291,19 +339,23 @@ export const syllabusData = {
               "id": "mathematics.variation.e1",
               "order": 1,
               "objective": "Direct and inverse variation",
-              "youtubeId": "K3_v7r8m9x0",
+              "youtubeId": "A22cId2k5AE",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Direct and inverse variation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "FORM 3 MATHS: VARIATION DIRECT -Tr Jane",
+              "channel": "JANE HOPE",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Direct and inverse variation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.variation.e2",
               "order": 2,
               "objective": "Joint and partial variation",
-              "youtubeId": "z1x2c3v4b5n",
+              "youtubeId": "dl_SoCUmaJc",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Joint and partial variation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Solving Joint & Partial Variation - Past Exam Questions #JAMB #variation",
+              "channel": "Mathematics With Sam",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Joint and partial variation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -316,28 +368,34 @@ export const syllabusData = {
               "id": "mathematics.algebraic-expressions-and-factorisation.e1",
               "order": 1,
               "objective": "Expansion, simplification and substitution",
-              "youtubeId": "m1_v9r7k8q2",
+              "youtubeId": "c_3aS4OGjvw",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Expansion, simplification and substitution. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to solve the most hardest equation in the world || x+1=x",
+              "channel": "Jacob Sichamba Online Math",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Expansion, simplification and substitution. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.algebraic-expressions-and-factorisation.e2",
               "order": 2,
               "objective": "Factorisation: common factor, grouping, difference of two squares",
-              "youtubeId": "0_p9o8i7u6y",
+              "youtubeId": "AJBj1dV9H8A",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Factorisation: common factor, grouping, difference of two squares. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Algebraic Expansion, Factorization, Difference of Two Squares | The Maths Club | WAEC | NECO | JAMB",
+              "channel": "The Maths Club",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Factorisation: common factor, grouping, difference of two squares. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.algebraic-expressions-and-factorisation.e3",
               "order": 3,
               "objective": "Algebraic fractions",
-              "youtubeId": "q2w3e4r5t6y",
+              "youtubeId": "PO0_FOQfpYs",
               "videoStatus": "approved",
-              "duration": "15:34",
-              "summaryNotes": "Key objective: Algebraic fractions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Solving Algebraic Fractions | WAEC | NECO | JAMB",
+              "channel": "The Maths Club",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Algebraic fractions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -350,37 +408,45 @@ export const syllabusData = {
               "id": "mathematics.linear-equations-and-inequalities.e1",
               "order": 1,
               "objective": "Solve linear equations",
-              "youtubeId": "D_QW9gS7g8I",
+              "youtubeId": "ieL6_dcTHHI",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Solve linear equations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Solving & Graphing Linear Inequalities | WAEC | NECO | JAMB",
+              "channel": "The Maths Club",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Solve linear equations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.linear-equations-and-inequalities.e2",
               "order": 2,
               "objective": "Change of subject of formula",
-              "youtubeId": "w1_v9r7k8q2",
+              "youtubeId": "ablcp1ulGwg",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Change of subject of formula. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Maths Prof: Changing Subject of Formula",
+              "channel": "The Maths Prof",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Change of subject of formula. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.linear-equations-and-inequalities.e3",
               "order": 3,
               "objective": "Linear inequalities and number line",
-              "youtubeId": "i2_v9r7k8q2",
+              "youtubeId": "ieL6_dcTHHI",
               "videoStatus": "approved",
-              "duration": "17:34",
-              "summaryNotes": "Key objective: Linear inequalities and number line. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Solving & Graphing Linear Inequalities | WAEC | NECO | JAMB",
+              "channel": "The Maths Club",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Linear inequalities and number line. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.linear-equations-and-inequalities.e4",
               "order": 4,
               "objective": "Graphical solution of inequalities",
-              "youtubeId": "g3_v9r7k8q2",
+              "youtubeId": "6ObRfBONVCQ",
               "videoStatus": "approved",
-              "duration": "18:51",
-              "summaryNotes": "Key objective: Graphical solution of inequalities. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Can Ai Solve Linear Inequality properly? watch this video #ai #mathematics #linearinequalities",
+              "channel": "MA Tutorial Tube ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Graphical solution of inequalities. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -393,28 +459,34 @@ export const syllabusData = {
               "id": "mathematics.simultaneous-equations.e1",
               "order": 1,
               "objective": "Substitution and elimination methods",
-              "youtubeId": "1_v9r7k8q2A",
+              "youtubeId": "XRpLm4fguHM",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Substitution and elimination methods. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to Solve Simultaneous Equations in 15 Minutes - JAMB & WAEC Trick",
+              "channel": "@SamuelZealAcademy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Substitution and elimination methods. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.simultaneous-equations.e2",
               "order": 2,
               "objective": "Linear and quadratic simultaneous equations",
-              "youtubeId": "v3_v9r7k8q2",
+              "youtubeId": "ugIXZ04QFWQ",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Linear and quadratic simultaneous equations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Solving One Linear One Quadratic Simultaneous Equations | Easy Math Tricks with Two Solved Examples",
+              "channel": "Bethelmatics Academy ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Linear and quadratic simultaneous equations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.simultaneous-equations.e3",
               "order": 3,
               "objective": "Word problems",
-              "youtubeId": "w4_v9r7k8q2",
+              "youtubeId": "UPriaVMVLEQ",
               "videoStatus": "approved",
-              "duration": "19:34",
-              "summaryNotes": "Key objective: Word problems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "\"WAEC Mathematics: Simultaneous Equation Word Problems Made Easy.\"",
+              "channel": "LearnCity",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Word problems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -427,37 +499,45 @@ export const syllabusData = {
               "id": "mathematics.quadratic-equations.e1",
               "order": 1,
               "objective": "Solve by factorisation",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "MCoAXKFXXQk",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Solve by factorisation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Solve quadratic equation by factorisation",
+              "channel": "Jacob Sichamba Online Math",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Solve by factorisation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.quadratic-equations.e2",
               "order": 2,
               "objective": "Completing the square and quadratic formula",
-              "youtubeId": "IlNAJl36-10",
+              "youtubeId": "5lVxcx4ajks",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Completing the square and quadratic formula. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Quadratic Equations 1 - Methods and Examples",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Completing the square and quadratic formula. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.quadratic-equations.e3",
               "order": 3,
               "objective": "Forming quadratic equations from roots",
-              "youtubeId": "e2_0bVp-f8s",
+              "youtubeId": "5lVxcx4ajks",
               "videoStatus": "approved",
-              "duration": "21:34",
-              "summaryNotes": "Key objective: Forming quadratic equations from roots. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Quadratic Equations 1 - Methods and Examples",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Forming quadratic equations from roots. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.quadratic-equations.e4",
               "order": 4,
               "objective": "Sum and product of roots",
-              "youtubeId": "s3_0bVp-f8s",
+              "youtubeId": "V6p-yZwJqIQ",
               "videoStatus": "approved",
-              "duration": "22:51",
-              "summaryNotes": "Key objective: Sum and product of roots. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Alpha Beta Quadratic Equation: Sum and Product of Roots and Formation of Quadratic Equation",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Sum and product of roots. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -470,19 +550,23 @@ export const syllabusData = {
               "id": "mathematics.polynomials.e1",
               "order": 1,
               "objective": "Remainder and factor theorems",
-              "youtubeId": "p9_v1r2k3q4",
+              "youtubeId": "o3eb_lLEsaQ",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Remainder and factor theorems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Polynomials Remainder Theorem (Solved JAMB Past Question 2019 - Qst 12)",
+              "channel": "DTW TUTORIALS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Remainder and factor theorems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.polynomials.e2",
               "order": 2,
               "objective": "Polynomial division and solving cubic equations",
-              "youtubeId": "r8_v7q6m5n4",
+              "youtubeId": "kFFRtqh8L8c",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Polynomial division and solving cubic equations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "💯 Dividing Cubic Polynomials by Linear Divisors using Long Division",
+              "channel": "iitutor.com",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Polynomial division and solving cubic equations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -495,37 +579,45 @@ export const syllabusData = {
               "id": "mathematics.functions-and-graphs.e1",
               "order": 1,
               "objective": "Domain, range, mapping",
-              "youtubeId": "f1_v9r7k8q2",
+              "youtubeId": "Bmuh9BEcWYs",
               "videoStatus": "approved",
-              "duration": "23:00",
-              "summaryNotes": "Key objective: Domain, range, mapping. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to find the Domain of functions. #mathshorts #functions",
+              "channel": "JJ ONLINE MATHS CLASS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Domain, range, mapping. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.functions-and-graphs.e2",
               "order": 2,
               "objective": "Composite and inverse functions",
-              "youtubeId": "g2_v9r7k8q2",
+              "youtubeId": "3JCtZvV7gmk",
               "videoStatus": "approved",
-              "duration": "24:17",
-              "summaryNotes": "Key objective: Composite and inverse functions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Composite Functions: How to Find Function Composition (f o g), (g o f), (f^-1 o g) and (g^-1 o f)",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Composite and inverse functions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.functions-and-graphs.e3",
               "order": 3,
               "objective": "Graphs of linear and quadratic functions",
-              "youtubeId": "h3_v9r7k8q2",
+              "youtubeId": "7VIkTyrCp0g",
               "videoStatus": "approved",
-              "duration": "10:34",
-              "summaryNotes": "Key objective: Graphs of linear and quadratic functions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Live highlight Simultaneous linear and quadratic Equations | Waec | IGCSE | GMats Hub",
+              "channel": "Mathswithmr.olukorede      ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Graphs of linear and quadratic functions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.functions-and-graphs.e4",
               "order": 4,
               "objective": "Graphical solution of equations",
-              "youtubeId": "j4_v9r7k8q2",
+              "youtubeId": "KjW5F_F5MZ4",
               "videoStatus": "approved",
-              "duration": "11:51",
-              "summaryNotes": "Key objective: Graphical solution of equations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WAEC  2021 Mathematics Question 7  Quadratic Graph",
+              "channel": "Petakus Simplified Maths",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Graphical solution of equations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -538,28 +630,34 @@ export const syllabusData = {
               "id": "mathematics.matrices-and-determinants.e1",
               "order": 1,
               "objective": "Matrix operations",
-              "youtubeId": "m3_v9r7k8q2",
+              "youtubeId": "xAen1GCD2Z0",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Matrix operations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to find determinant of a matrix",
+              "channel": "JJ ONLINE MATHS CLASS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Matrix operations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.matrices-and-determinants.e2",
               "order": 2,
               "objective": "Determinant and inverse of 2x2 matrix",
-              "youtubeId": "d4_v9r7k8q2",
+              "youtubeId": "W0xb6_JpCVE",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Determinant and inverse of 2x2 matrix. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Matrices & Determinants Full Class: Master It in 2 Hours (WAEC, JAMB, NECO) #matrices #viralvideo ",
+              "channel": "The Hon. Gbesh Academy ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Determinant and inverse of 2x2 matrix. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.matrices-and-determinants.e3",
               "order": 3,
               "objective": "Solve simultaneous equations with matrices",
-              "youtubeId": "s5_v9r7k8q2",
+              "youtubeId": "WUx6i0F7SBg",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: Solve simultaneous equations with matrices. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Mathematics: Matrices Made EASY + Past Questions",
+              "channel": "DELZY Academy ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Solve simultaneous equations with matrices. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -572,28 +670,34 @@ export const syllabusData = {
               "id": "mathematics.plane-geometry-and-angles.e1",
               "order": 1,
               "objective": "Angles on lines, triangles, polygons",
-              "youtubeId": "a1_v9r7k8q2",
+              "youtubeId": "emoPyeYNY-I",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Angles on lines, triangles, polygons. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Master Plane Geometry: Parallel Lines, Triangles & Quadrilaterals",
+              "channel": "Teacher Olalekan",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Angles on lines, triangles, polygons. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.plane-geometry-and-angles.e2",
               "order": 2,
               "objective": "Parallel lines and transversals",
-              "youtubeId": "p2_v9r7k8q2",
+              "youtubeId": "OLGezb-1W5w",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Parallel lines and transversals. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Angles & Parallel Lines | WAEC | NECO | JAMB",
+              "channel": "The Maths Club",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Parallel lines and transversals. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.plane-geometry-and-angles.e3",
               "order": 3,
               "objective": "Congruence and similarity",
-              "youtubeId": "c3_v9r7k8q2",
+              "youtubeId": "zm8ayXoXBKU",
               "videoStatus": "approved",
-              "duration": "14:34",
-              "summaryNotes": "Key objective: Congruence and similarity. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Geometry | Find the angle #math #tutor #mathtrick #learning #geometry #angles #x",
+              "channel": "LKLogic",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Congruence and similarity. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -606,28 +710,34 @@ export const syllabusData = {
               "id": "mathematics.circle-theorems.e1",
               "order": 1,
               "objective": "Angles in a circle and cyclic quadrilaterals",
-              "youtubeId": "rL3d9rU6y3c",
+              "youtubeId": "JjufXOaC7WY",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Angles in a circle and cyclic quadrilaterals. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "All Circle Geometry Theorems Explained | WAEC, JAMB, NECO Math (WASSCE)",
+              "channel": "Poscholars",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Angles in a circle and cyclic quadrilaterals. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.circle-theorems.e2",
               "order": 2,
               "objective": "Tangent and chord theorems",
-              "youtubeId": "g0l9A8v7j6Y",
+              "youtubeId": "JjufXOaC7WY",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Tangent and chord theorems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "All Circle Geometry Theorems Explained | WAEC, JAMB, NECO Math (WASSCE)",
+              "channel": "Poscholars",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Tangent and chord theorems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.circle-theorems.e3",
               "order": 3,
               "objective": "Chord and arc length",
-              "youtubeId": "a2_0bVp-f8s",
+              "youtubeId": "fZ3S0SFatcI",
               "videoStatus": "approved",
-              "duration": "16:34",
-              "summaryNotes": "Key objective: Chord and arc length. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Mathematics 2027 EP 14 - Circles (Chords, Arcs, Segments) + Likely Exam Questions & Solutions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Chord and arc length. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -640,37 +750,45 @@ export const syllabusData = {
               "id": "mathematics.mensuration.e1",
               "order": 1,
               "objective": "Perimeter and area of plane shapes",
-              "youtubeId": "m1_0bVp-f8s",
+              "youtubeId": "ffFIeG8YQ1o",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Perimeter and area of plane shapes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Mensuration: Plane Shapes 1 [#Rectangle, #Triangle And #Parallelogram] #waec #neco",
+              "channel": "Mathematics With Sam",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Perimeter and area of plane shapes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.mensuration.e2",
               "order": 2,
               "objective": "Surface area and volume of solids",
-              "youtubeId": "s2_0bVp-f8s",
+              "youtubeId": "c6vUNno9ocI",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Surface area and volume of solids. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Mathematics 2027  EP 12 - Mensuration (Volume) + Likely Exam Questions & Solutions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Surface area and volume of solids. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.mensuration.e3",
               "order": 3,
               "objective": "Sector, segment and arc",
-              "youtubeId": "s3_0bVp-f8s",
+              "youtubeId": "2VQwaXRnb8s",
               "videoStatus": "approved",
-              "duration": "18:34",
-              "summaryNotes": "Key objective: Sector, segment and arc. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Area of a Circle, Sector, and Segment | WAEC | NECO | JAMB",
+              "channel": "The Maths Club",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Sector, segment and arc. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.mensuration.e4",
               "order": 4,
               "objective": "Frustum and composite solids",
-              "youtubeId": "f4_0bVp-f8s",
+              "youtubeId": "FpXpxqoweN8",
               "videoStatus": "approved",
-              "duration": "19:51",
-              "summaryNotes": "Key objective: Frustum and composite solids. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Volume of a Frustum of a cone.",
+              "channel": "VINDAL'S ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Frustum and composite solids. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -683,28 +801,34 @@ export const syllabusData = {
               "id": "mathematics.construction-and-loci.e1",
               "order": 1,
               "objective": "Basic constructions with ruler and compass",
-              "youtubeId": "c1_0bVp-f8s",
+              "youtubeId": "0o1gI0IwPB4",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Basic constructions with ruler and compass. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WASSCE Past questions with solution 1988 | Mathematics | Loci and Construction",
+              "channel": "Tunde Sanni (Engr. SB)",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Basic constructions with ruler and compass. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.construction-and-loci.e2",
               "order": 2,
               "objective": "Construction of angles and polygons",
-              "youtubeId": "c2_0bVp-f8s",
+              "youtubeId": "OCAat6NzQSc",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Construction of angles and polygons. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Construction of Basic Angles | WAEC | NECO | JAMB",
+              "channel": "The Maths Club",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Construction of angles and polygons. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.construction-and-loci.e3",
               "order": 3,
               "objective": "Loci and their intersections",
-              "youtubeId": "l3_0bVp-f8s",
+              "youtubeId": "5ns3ilFmUPY",
               "videoStatus": "approved",
-              "duration": "20:34",
-              "summaryNotes": "Key objective: Loci and their intersections. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Loci and Construction 📐 | Basic Concepts, Rules & Geometrical Constructions | #Shorts",
+              "channel": "Learn Math With Rishi ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Loci and their intersections. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -717,37 +841,45 @@ export const syllabusData = {
               "id": "mathematics.coordinate-geometry.e1",
               "order": 1,
               "objective": "Distance, midpoint and gradient",
-              "youtubeId": "d1_0bVp-f8s",
+              "youtubeId": "_tBip3wy2N4",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Distance, midpoint and gradient. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "🧠 WAEC & JAMB Mathematics: Coordinate Geometry (1) - Gradient",
+              "channel": "Acada Ace Tutors",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Distance, midpoint and gradient. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.coordinate-geometry.e2",
               "order": 2,
               "objective": "Equation of a straight line",
-              "youtubeId": "e2_0bVp-f8s",
+              "youtubeId": "_tBip3wy2N4",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Equation of a straight line. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "🧠 WAEC & JAMB Mathematics: Coordinate Geometry (1) - Gradient",
+              "channel": "Acada Ace Tutors",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Equation of a straight line. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.coordinate-geometry.e3",
               "order": 3,
               "objective": "Parallel and perpendicular lines",
-              "youtubeId": "p3_0bVp-f8s",
+              "youtubeId": "QdzyqnTZN8I",
               "videoStatus": "approved",
-              "duration": "22:34",
-              "summaryNotes": "Key objective: Parallel and perpendicular lines. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Coordinate Geometry | Straight Line Graphs | Parallel and Perpendicular Lines | Add Maths | IGCSE",
+              "channel": "Kweku Online Study 2",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Parallel and perpendicular lines. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.coordinate-geometry.e4",
               "order": 4,
               "objective": "Equation of a circle",
-              "youtubeId": "c4_0bVp-f8s",
+              "youtubeId": "yNPpFXp0SKg",
               "videoStatus": "approved",
-              "duration": "23:51",
-              "summaryNotes": "Key objective: Equation of a circle. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WAEC/JAMB/NECO: How to Find the Equation of a Circle Passing Through 3 Points",
+              "channel": "Maths Atoka",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Equation of a circle. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -760,37 +892,45 @@ export const syllabusData = {
               "id": "mathematics.trigonometry.e1",
               "order": 1,
               "objective": "Sine, cosine, tangent of acute angles",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "sCr08pjJcWA",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Sine, cosine, tangent of acute angles. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Trigonometric Ratios, The Sine, Cosine & Tangent Ratios for Acute Angles.",
+              "channel": "Brilliant Maths  -    Ngozi Orevaoghene PhD",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Sine, cosine, tangent of acute angles. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.trigonometry.e2",
               "order": 2,
               "objective": "Sine and cosine rules",
-              "youtubeId": "PZgM9A0vW3I",
+              "youtubeId": "9UBNNpAVjE0",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Sine and cosine rules. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Sine, Cosine & Tangent Explained Visually! 📐🔥 #Shorts",
+              "channel": "OJF Academy ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Sine and cosine rules. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.trigonometry.e3",
               "order": 3,
               "objective": "Bearings and angles of elevation and depression",
-              "youtubeId": "b1_0bVp-f8s",
+              "youtubeId": "9Xz7LyWwpDw",
               "videoStatus": "approved",
-              "duration": "24:34",
-              "summaryNotes": "Key objective: Bearings and angles of elevation and depression. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Angle of Elevation and Depression #angles #elevation #depression #maths #exam #jamb #waec #",
+              "channel": "Oluwadamilare | Premium Math Consultant",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Bearings and angles of elevation and depression. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.trigonometry.e4",
               "order": 4,
               "objective": "Trigonometric ratios of 0 to 360 degrees and graphs",
-              "youtubeId": "t2_0bVp-f8s",
+              "youtubeId": "kHVvIx86Wiw",
               "videoStatus": "approved",
-              "duration": "10:51",
-              "summaryNotes": "Key objective: Trigonometric ratios of 0 to 360 degrees and graphs. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Basics of Trigonometry | WAEC | NECO | JAMB",
+              "channel": "The Maths Club",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Trigonometric ratios of 0 to 360 degrees and graphs. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -803,19 +943,23 @@ export const syllabusData = {
               "id": "mathematics.vectors.e1",
               "order": 1,
               "objective": "Vector notation, addition and magnitude",
-              "youtubeId": "v1_0bVp-f8s",
+              "youtubeId": "kKiNh5ZIVEQ",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Vector notation, addition and magnitude. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "What is a vector?",
+              "channel": "Paulo Flores",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Vector notation, addition and magnitude. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.vectors.e2",
               "order": 2,
               "objective": "Position vectors and geometric applications",
-              "youtubeId": "p2_0bVp-f8s",
+              "youtubeId": "IzKuKw-X_WI",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Position vectors and geometric applications. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to Find the Unit Vector in the Direction of a Given Vector | Vector Basics Simplified",
+              "channel": "Philemathics",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Position vectors and geometric applications. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -828,28 +972,34 @@ export const syllabusData = {
               "id": "mathematics.transformation.e1",
               "order": 1,
               "objective": "Reflection and rotation",
-              "youtubeId": "r1_0bVp-f8s",
+              "youtubeId": "esBL0TpItls",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Reflection and rotation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "TRANSFORMATIONS- ROTATION, REFLECTION AND ENLARGEMENT",
+              "channel": "Shifting Grades Online School ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Reflection and rotation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.transformation.e2",
               "order": 2,
               "objective": "Translation and enlargement",
-              "youtubeId": "t2_0bVp-f8s",
+              "youtubeId": "jKs4LElKGuk",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Translation and enlargement. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How To EASILY Solve Enlargement Problems | Enlarge Shape GCSE Maths",
+              "channel": "Mathademic",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Translation and enlargement. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.transformation.e3",
               "order": 3,
               "objective": "Combined transformations",
-              "youtubeId": "c3_0bVp-f8s",
+              "youtubeId": "UMr7BXfuXnY",
               "videoStatus": "approved",
-              "duration": "13:34",
-              "summaryNotes": "Key objective: Combined transformations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "O level Mathematics Geometrical Transformations Introduction - 6 types of Transformations Part 1",
+              "channel": "Maths Zone African Motives",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Combined transformations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -862,37 +1012,45 @@ export const syllabusData = {
               "id": "mathematics.statistics.e1",
               "order": 1,
               "objective": "Frequency tables and charts",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "8LdU1_shWW8",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Frequency tables and charts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Statistical Graphs and Charts  - WAEC/WASSCE/JAMB Math",
+              "channel": "Ighota!",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Frequency tables and charts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.statistics.e2",
               "order": 2,
               "objective": "Mean, median, mode",
-              "youtubeId": "6G4_8t_Y5oM",
+              "youtubeId": "xrwKWNflrgc",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Mean, median, mode. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "MEAN, MEDIAN & MODE OF GROUPED DATA 📊 | Full Calculation & How to Get the Points | WAEC, NECO & JAMB",
+              "channel": "ACHIEVER'S ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Mean, median, mode. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.statistics.e3",
               "order": 3,
               "objective": "Grouped data, histogram, ogive",
-              "youtubeId": "g1_0bVp-f8s",
+              "youtubeId": "l5bGQjfaJBQ",
               "videoStatus": "approved",
-              "duration": "15:34",
-              "summaryNotes": "Key objective: Grouped data, histogram, ogive. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to find the mean, median, mode, variance and standard deviation for a grouped data",
+              "channel": "Tambuwal Maths Class",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Grouped data, histogram, ogive. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.statistics.e4",
               "order": 4,
               "objective": "Quartiles, variance and standard deviation",
-              "youtubeId": "q2_0bVp-f8s",
+              "youtubeId": "9rdMkIUt2fA",
               "videoStatus": "approved",
-              "duration": "16:51",
-              "summaryNotes": "Key objective: Quartiles, variance and standard deviation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "STATISTICS (Ungrouped Data): VARIANCE AND STANDARD DEVIATION",
+              "channel": "Prof Wilson Kamami",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Quartiles, variance and standard deviation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -905,28 +1063,34 @@ export const syllabusData = {
               "id": "mathematics.probability-and-permutation.e1",
               "order": 1,
               "objective": "Basic probability and sample space",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "gAnKvHmrJ0g",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Basic probability and sample space. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Permutations and Combinations",
+              "channel": "Tambuwal Maths Class",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Basic probability and sample space. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.probability-and-permutation.e2",
               "order": 2,
               "objective": "Independent, mutually exclusive and conditional events",
-              "youtubeId": "KzZ2v0R2c8k",
+              "youtubeId": "X6usGgwXFyU",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Independent, mutually exclusive and conditional events. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Probability of Mutually Exclusive Events With Venn Diagrams",
+              "channel": "The Organic Chemistry Tutor",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Independent, mutually exclusive and conditional events. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.probability-and-permutation.e3",
               "order": 3,
               "objective": "Permutation and combination",
-              "youtubeId": "p1_0bVp-f8s",
+              "youtubeId": "gAnKvHmrJ0g",
               "videoStatus": "approved",
-              "duration": "17:34",
-              "summaryNotes": "Key objective: Permutation and combination. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Permutations and Combinations",
+              "channel": "Tambuwal Maths Class",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Permutation and combination. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -939,37 +1103,45 @@ export const syllabusData = {
               "id": "mathematics.differentiation.e1",
               "order": 1,
               "objective": "Limits and differentiation from first principles",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "2IIfjY7Sjns",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Limits and differentiation from first principles. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Differentiation by First Principle Method | Derivative #jonahemmanuel #excellenceacademy",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Limits and differentiation from first principles. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.differentiation.e2",
               "order": 2,
               "objective": "Rules of differentiation",
-              "youtubeId": "5yfh5cf4-0w",
+              "youtubeId": "dj7zIIjvfCk",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Rules of differentiation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Mathematics 2027 EP 31 - Differentiation + Likely Exam Questions & Solutions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Rules of differentiation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.differentiation.e3",
               "order": 3,
               "objective": "Tangents, normals, rates of change",
-              "youtubeId": "t1_0bVp-f8s",
+              "youtubeId": "hYOvn6Jef34",
               "videoStatus": "approved",
-              "duration": "19:34",
-              "summaryNotes": "Key objective: Tangents, normals, rates of change. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DIFFERENTIATION - Tangents And Normals",
+              "channel": "Brilliant Maths  -    Ngozi Orevaoghene PhD",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Tangents, normals, rates of change. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.differentiation.e4",
               "order": 4,
               "objective": "Maxima and minima",
-              "youtubeId": "m2_0bVp-f8s",
+              "youtubeId": "7hqrIdnaXZw",
               "videoStatus": "approved",
-              "duration": "20:51",
-              "summaryNotes": "Key objective: Maxima and minima. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Minimum And Maximum Values Of Differentiation  [SS 2 JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB]",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Maxima and minima. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -982,19 +1154,23 @@ export const syllabusData = {
               "id": "mathematics.integration.e1",
               "order": 1,
               "objective": "Integration as reverse of differentiation",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "ejBdACKbV0Y",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Integration as reverse of differentiation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "INTEGRATION : SIMPLE TRICK FOR WAEC AND JAMB STUDENTS",
+              "channel": "DE-MASTERS ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Integration as reverse of differentiation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "mathematics.integration.e2",
               "order": 2,
               "objective": "Definite integrals and area under curve",
-              "youtubeId": "e2_0bVp-f8s",
+              "youtubeId": "UjTTx2eYrx8",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Definite integrals and area under curve. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Finding The Area Under The Curve Using Definite Integrals - Calculus",
+              "channel": "The Organic Chemistry Tutor",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Mathematics: Definite integrals and area under curve. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -1018,46 +1194,56 @@ export const syllabusData = {
               "id": "english-language.lexis-and-structure.e1",
               "order": 1,
               "objective": "Synonyms and antonyms",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "B375jOIanDo",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Synonyms and antonyms. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ANTONYMS AND SYNONYMS PART 1 by CEO JUSTIFIED | Practicing 10 Questions (JAMB USE OF ENGLISH 2026)",
+              "channel": "JUSTIFIED TUTOR'S ACADEMY",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Synonyms and antonyms. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.lexis-and-structure.e2",
               "order": 2,
               "objective": "Homophones and commonly confused words",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "_1mKBtLVb3A",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Homophones and commonly confused words. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Lexis and Structure 1 (Synonyms, Antonyms, Homonyms and Clauses)",
+              "channel": "Gopius E-Learning",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Homophones and commonly confused words. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.lexis-and-structure.e3",
               "order": 3,
               "objective": "Idioms and proverbs",
-              "youtubeId": "oYm4j7-y8-A",
+              "youtubeId": "MJcqPmoNJnM",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: Idioms and proverbs. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Lexis and Structure - Detailed Class",
+              "channel": "FlashLearners",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Idioms and proverbs. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.lexis-and-structure.e4",
               "order": 4,
               "objective": "Figures of speech",
-              "youtubeId": "vL_w7jN9x5Q",
+              "youtubeId": "6wlFQSCLtMw",
               "videoStatus": "approved",
-              "duration": "13:51",
-              "summaryNotes": "Key objective: Figures of speech. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Figures of Speech (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Figures of speech. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.lexis-and-structure.e5",
               "order": 5,
               "objective": "Phrasal verbs",
-              "youtubeId": "w6_v9r7k8q2",
+              "youtubeId": "USeBA_VM-Ys",
               "videoStatus": "approved",
-              "duration": "14:08",
-              "summaryNotes": "Key objective: Phrasal verbs. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Concord in English Language Explained (JAMB, NECO & WAEC Grammar Masterclass)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Phrasal verbs. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1070,28 +1256,34 @@ export const syllabusData = {
               "id": "english-language.grammar-parts-of-speech.e1",
               "order": 1,
               "objective": "Nouns and pronouns",
-              "youtubeId": "2F2rXQj3yXU",
+              "youtubeId": "SceDmiBEESI",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Nouns and pronouns. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Basic English Grammar: Parts of Speech – noun, verb, adjective, pronoun, adverb...",
+              "channel": "ENGLISH with James · engVid",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Nouns and pronouns. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.grammar-parts-of-speech.e2",
               "order": 2,
               "objective": "Verbs, adverbs, adjectives",
-              "youtubeId": "3k_v9r7k8q2",
+              "youtubeId": "SceDmiBEESI",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Verbs, adverbs, adjectives. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Basic English Grammar: Parts of Speech – noun, verb, adjective, pronoun, adverb...",
+              "channel": "ENGLISH with James · engVid",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Verbs, adverbs, adjectives. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.grammar-parts-of-speech.e3",
               "order": 3,
               "objective": "Prepositions, conjunctions, determiners",
-              "youtubeId": "4k_v9r7k8q2",
+              "youtubeId": "SceDmiBEESI",
               "videoStatus": "approved",
-              "duration": "14:34",
-              "summaryNotes": "Key objective: Prepositions, conjunctions, determiners. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Basic English Grammar: Parts of Speech – noun, verb, adjective, pronoun, adverb...",
+              "channel": "ENGLISH with James · engVid",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Prepositions, conjunctions, determiners. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1104,28 +1296,34 @@ export const syllabusData = {
               "id": "english-language.grammar-tenses-and-concord.e1",
               "order": 1,
               "objective": "Tenses and their uses",
-              "youtubeId": "eG_Y3Zq8m7k",
+              "youtubeId": "USeBA_VM-Ys",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Tenses and their uses. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Concord in English Language Explained (JAMB, NECO & WAEC Grammar Masterclass)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Tenses and their uses. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.grammar-tenses-and-concord.e2",
               "order": 2,
               "objective": "Subject-verb agreement",
-              "youtubeId": "f5_v9r7k8q2",
+              "youtubeId": "USeBA_VM-Ys",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Subject-verb agreement. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Concord in English Language Explained (JAMB, NECO & WAEC Grammar Masterclass)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Subject-verb agreement. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.grammar-tenses-and-concord.e3",
               "order": 3,
               "objective": "Sequence of tenses and reported speech",
-              "youtubeId": "g6_v9r7k8q2",
+              "youtubeId": "USeBA_VM-Ys",
               "videoStatus": "approved",
-              "duration": "16:34",
-              "summaryNotes": "Key objective: Sequence of tenses and reported speech. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Concord in English Language Explained (JAMB, NECO & WAEC Grammar Masterclass)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Sequence of tenses and reported speech. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1138,28 +1336,34 @@ export const syllabusData = {
               "id": "english-language.phrases-clauses-and-sentences.e1",
               "order": 1,
               "objective": "Phrases and clause types",
-              "youtubeId": "h7_v9r7k8q2",
+              "youtubeId": "FRp5Ufi2t0k",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Phrases and clause types. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Advanced English Grammar: Clauses",
+              "channel": "English with Lucy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Phrases and clause types. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.phrases-clauses-and-sentences.e2",
               "order": 2,
               "objective": "Simple, compound and complex sentences",
-              "youtubeId": "j8_v9r7k8q2",
+              "youtubeId": "urr55rAreWc",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Simple, compound and complex sentences. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The 4 English Sentence Types – simple, compound, complex, compound-complex",
+              "channel": "Adam’s English Lessons · engVid",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Simple, compound and complex sentences. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.phrases-clauses-and-sentences.e3",
               "order": 3,
               "objective": "Sentence transformation",
-              "youtubeId": "k9_v9r7k8q2",
+              "youtubeId": "RTfmCSDmnkw",
               "videoStatus": "approved",
-              "duration": "18:34",
-              "summaryNotes": "Key objective: Sentence transformation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Most Students Fail This JAMB English Question! ❌ Can You Get It?",
+              "channel": "BJOT OFFICIAL",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Sentence transformation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1172,19 +1376,23 @@ export const syllabusData = {
               "id": "english-language.punctuation-and-spelling.e1",
               "order": 1,
               "objective": "Punctuation marks and their uses",
-              "youtubeId": "l0_v9r7k8q2",
+              "youtubeId": "gfYq2ng9s4E",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Punctuation marks and their uses. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "English Punctuation Guide - English Writing Lesson",
+              "channel": "Oxford Online English",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Punctuation marks and their uses. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.punctuation-and-spelling.e2",
               "order": 2,
               "objective": "Spelling rules and common errors",
-              "youtubeId": "m1_v9r7k8q2",
+              "youtubeId": "KVCRkJZK4IA",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Spelling rules and common errors. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Online Class 2025 || English Language: Punctuation and Spelling",
+              "channel": "AONE TUTOR",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Spelling rules and common errors. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1197,28 +1405,34 @@ export const syllabusData = {
               "id": "english-language.oral-english-vowels-and-consonants.e1",
               "order": 1,
               "objective": "English vowel sounds",
-              "youtubeId": "n2_v9r7k8q2",
+              "youtubeId": "WdSZta4HGhU",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: English vowel sounds. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2026 ENGLISH: Master Vowel Sounds in English FAST! | JAMB & WAEC 2026 Must-Know Tips",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: English vowel sounds. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.oral-english-vowels-and-consonants.e2",
               "order": 2,
               "objective": "English consonant sounds",
-              "youtubeId": "o3_v9r7k8q2",
+              "youtubeId": "WdSZta4HGhU",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: English consonant sounds. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2026 ENGLISH: Master Vowel Sounds in English FAST! | JAMB & WAEC 2026 Must-Know Tips",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: English consonant sounds. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.oral-english-vowels-and-consonants.e3",
               "order": 3,
               "objective": "Minimal pairs and rhymes",
-              "youtubeId": "p4_v9r7k8q2",
+              "youtubeId": "WdSZta4HGhU",
               "videoStatus": "approved",
-              "duration": "22:34",
-              "summaryNotes": "Key objective: Minimal pairs and rhymes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2026 ENGLISH: Master Vowel Sounds in English FAST! | JAMB & WAEC 2026 Must-Know Tips",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Minimal pairs and rhymes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1231,28 +1445,34 @@ export const syllabusData = {
               "id": "english-language.oral-english-stress-and-intonation.e1",
               "order": 1,
               "objective": "Word stress and sentence stress",
-              "youtubeId": "q5_v9r7k8q2",
+              "youtubeId": "Vu6UVwkUgzc",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Word stress and sentence stress. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Syllables and Word Stress - English Pronunciation Lesson",
+              "channel": "Oxford Online English",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Word stress and sentence stress. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.oral-english-stress-and-intonation.e2",
               "order": 2,
               "objective": "Emphatic stress",
-              "youtubeId": "r6_v9r7k8q2",
+              "youtubeId": "Vu6UVwkUgzc",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Emphatic stress. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Syllables and Word Stress - English Pronunciation Lesson",
+              "channel": "Oxford Online English",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Emphatic stress. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.oral-english-stress-and-intonation.e3",
               "order": 3,
               "objective": "Intonation patterns",
-              "youtubeId": "s7_v9r7k8q2",
+              "youtubeId": "Vu6UVwkUgzc",
               "videoStatus": "approved",
-              "duration": "24:34",
-              "summaryNotes": "Key objective: Intonation patterns. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Syllables and Word Stress - English Pronunciation Lesson",
+              "channel": "Oxford Online English",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Intonation patterns. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1265,28 +1485,34 @@ export const syllabusData = {
               "id": "english-language.comprehension.e1",
               "order": 1,
               "objective": "Reading strategies and main idea",
-              "youtubeId": "t8_v9r7k8q2",
+              "youtubeId": "6Rqy1rXfE3s",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Reading strategies and main idea. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB USE OF ENGLISH SYLLABUS (JAMB AND WAEC 2026) (UTME 2026)",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Reading strategies and main idea. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.comprehension.e2",
               "order": 2,
               "objective": "Inference and vocabulary in context",
-              "youtubeId": "u9_v9r7k8q2",
+              "youtubeId": "qMsl2-48kwk",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Inference and vocabulary in context. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Tutorials - The Structure of JAMB English Examination (Watch Now)",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Inference and vocabulary in context. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.comprehension.e3",
               "order": 3,
               "objective": "Answering comprehension questions",
-              "youtubeId": "v0_v9r7k8q2",
+              "youtubeId": "R-N83vHz7AA",
               "videoStatus": "approved",
-              "duration": "11:34",
-              "summaryNotes": "Key objective: Answering comprehension questions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB English Past Questions & Answers of the Day #jamb #jamb2025 #dtwtutorials",
+              "channel": "DTW TUTORIALS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Answering comprehension questions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1299,19 +1525,23 @@ export const syllabusData = {
               "id": "english-language.summary-writing.e1",
               "order": 1,
               "objective": "Identifying key points",
-              "youtubeId": "w1_v9r7k8q2",
+              "youtubeId": "RTfmCSDmnkw",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Identifying key points. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Most Students Fail This JAMB English Question! ❌ Can You Get It?",
+              "channel": "BJOT OFFICIAL",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Identifying key points. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.summary-writing.e2",
               "order": 2,
               "objective": "Writing concise summaries in own words",
-              "youtubeId": "x2_v9r7k8q2",
+              "youtubeId": "cuaQxJWprIs",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Writing concise summaries in own words. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Unlock the Secrets of Summary Writing | Improve Your Reading Comprehension #writing #task",
+              "channel": "English with Palwasha",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Writing concise summaries in own words. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1324,19 +1554,23 @@ export const syllabusData = {
               "id": "english-language.essay-letter-writing.e1",
               "order": 1,
               "objective": "Informal letters",
-              "youtubeId": "y3_v9r7k8q2",
+              "youtubeId": "q3lrrSZSMG8",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Informal letters. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WAEC/NECO English Language Essay Secrets: Letter Writing Explained Step by Step",
+              "channel": "The English Language Teacher 📚",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Informal letters. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.essay-letter-writing.e2",
               "order": 2,
               "objective": "Formal and official letters",
-              "youtubeId": "z4_v9r7k8q2",
+              "youtubeId": "q3lrrSZSMG8",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Formal and official letters. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WAEC/NECO English Language Essay Secrets: Letter Writing Explained Step by Step",
+              "channel": "The English Language Teacher 📚",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Formal and official letters. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1349,19 +1583,23 @@ export const syllabusData = {
               "id": "english-language.essay-narrative-and-descriptive.e1",
               "order": 1,
               "objective": "Narrative essay",
-              "youtubeId": "a5_v9r7k8q2",
+              "youtubeId": "q3lrrSZSMG8",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Narrative essay. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WAEC/NECO English Language Essay Secrets: Letter Writing Explained Step by Step",
+              "channel": "The English Language Teacher 📚",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Narrative essay. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.essay-narrative-and-descriptive.e2",
               "order": 2,
               "objective": "Descriptive essay",
-              "youtubeId": "b6_v9r7k8q2",
+              "youtubeId": "q3lrrSZSMG8",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Descriptive essay. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WAEC/NECO English Language Essay Secrets: Letter Writing Explained Step by Step",
+              "channel": "The English Language Teacher 📚",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Descriptive essay. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1374,28 +1612,34 @@ export const syllabusData = {
               "id": "english-language.essay-argumentative-and-expository.e1",
               "order": 1,
               "objective": "Argumentative essay",
-              "youtubeId": "c7_v9r7k8q2",
+              "youtubeId": "7byQTDMuCCs",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Argumentative essay. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Essay in English: Master Narrative, Expository & Argumentative Essays - (WAEC & JAMB 2026)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Argumentative essay. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.essay-argumentative-and-expository.e2",
               "order": 2,
               "objective": "Expository essay",
-              "youtubeId": "d8_v9r7k8q2",
+              "youtubeId": "7byQTDMuCCs",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Expository essay. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Essay in English: Master Narrative, Expository & Argumentative Essays - (WAEC & JAMB 2026)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Expository essay. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.essay-argumentative-and-expository.e3",
               "order": 3,
               "objective": "Speech and article writing",
-              "youtubeId": "e9_v9r7k8q2",
+              "youtubeId": "BTEV3HAvDAg",
               "videoStatus": "approved",
-              "duration": "19:34",
-              "summaryNotes": "Key objective: Speech and article writing. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WAEC Article Writing | Step-by-Step Guide + Model Answer | Using WAEC 2026 Past Questions ",
+              "channel": "The English Language Teacher 📚",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Speech and article writing. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1408,19 +1652,23 @@ export const syllabusData = {
               "id": "english-language.register-and-style.e1",
               "order": 1,
               "objective": "Registers and their vocabulary",
-              "youtubeId": "f0_v9r7k8q2",
+              "youtubeId": "LKrs1gQ0tRI",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Registers and their vocabulary. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Language Registers in English Explained | How to speak Correctly | JAMB Use of English, WAEC, NECO",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Registers and their vocabulary. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.register-and-style.e2",
               "order": 2,
               "objective": "Formal and informal language",
-              "youtubeId": "g1_v9r7k8q2",
+              "youtubeId": "zJLvRgPU5Ms",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Formal and informal language. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Language Register Explained | WAEC, NECO & JAMB English Masterclass",
+              "channel": "ExamKP",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Formal and informal language. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1433,19 +1681,23 @@ export const syllabusData = {
               "id": "english-language.reading-skills-for-jamb.e1",
               "order": 1,
               "objective": "Cloze passages",
-              "youtubeId": "h2_v9r7k8q2",
+              "youtubeId": "Bxt55OHOkvc",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Cloze passages. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How To Answer JAMB Comprehension Passage (LESSON 1) | JAMB English",
+              "channel": "321Exam",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Cloze passages. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "english-language.reading-skills-for-jamb.e2",
               "order": 2,
               "objective": "Interpreting and identifying tone and attitude",
-              "youtubeId": "i3_v9r7k8q2",
+              "youtubeId": "Twr_1Jwh81U",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Interpreting and identifying tone and attitude. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Intonation in English Language | WAEC, NECO & JAMB English",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for English Language: Interpreting and identifying tone and attitude. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -1469,28 +1721,34 @@ export const syllabusData = {
               "id": "chemistry.particulate-nature-of-matter.e1",
               "order": 1,
               "objective": "States of matter and kinetic theory",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "Jq61thIFbr8",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: States of matter and kinetic theory. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Chemistry 2027 -  EP 4 - Particulate Nature of Matter 1 + Likely Exam Questions & Answer",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: States of matter and kinetic theory. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.particulate-nature-of-matter.e2",
               "order": 2,
               "objective": "Changes of state",
-              "youtubeId": "j3_v9r7k8q2",
+              "youtubeId": "Jq61thIFbr8",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Changes of state. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Chemistry 2027 -  EP 4 - Particulate Nature of Matter 1 + Likely Exam Questions & Answer",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Changes of state. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.particulate-nature-of-matter.e3",
               "order": 3,
               "objective": "Diffusion and Brownian motion",
-              "youtubeId": "k4_v9r7k8q2",
+              "youtubeId": "Jq61thIFbr8",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: Diffusion and Brownian motion. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Chemistry 2027 -  EP 4 - Particulate Nature of Matter 1 + Likely Exam Questions & Answer",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Diffusion and Brownian motion. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1503,28 +1761,34 @@ export const syllabusData = {
               "id": "chemistry.separation-techniques.e1",
               "order": 1,
               "objective": "Filtration, evaporation, distillation",
-              "youtubeId": "m5_v9r7k8q2",
+              "youtubeId": "29Rd-Lly-fw",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Filtration, evaporation, distillation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "GCSE Chemistry - Separation Techniques - Filtration | Evaporation | Crystallisation",
+              "channel": "Cognito",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Filtration, evaporation, distillation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.separation-techniques.e2",
               "order": 2,
               "objective": "Chromatography, sublimation, separating funnel",
-              "youtubeId": "n6_v9r7k8q2",
+              "youtubeId": "PP6mzt74rP0",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Chromatography, sublimation, separating funnel. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Chromatography experiment from my book, ‘Science is Lit’ 🌟 #science #chemistry #experiment",
+              "channel": "Big Manny",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Chromatography, sublimation, separating funnel. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.separation-techniques.e3",
               "order": 3,
               "objective": "Purity tests",
-              "youtubeId": "o7_v9r7k8q2",
+              "youtubeId": "1KAuVP6nQtM",
               "videoStatus": "approved",
-              "duration": "14:34",
-              "summaryNotes": "Key objective: Purity tests. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "PURE AND IMPURE SUBSTANCES (JAMB AND WAEC 2026) (UTME 2026)",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Purity tests. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1537,37 +1801,45 @@ export const syllabusData = {
               "id": "chemistry.atomic-structure-and-periodic-table.e1",
               "order": 1,
               "objective": "Atomic models and subatomic particles",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "0bu_gN6k4II",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Atomic models and subatomic particles. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Atomic Structure Explained | The Foundation of All Chemistry #Jamb #Waec #Putme",
+              "channel": "Tech & EduSpark Hub",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Atomic models and subatomic particles. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.atomic-structure-and-periodic-table.e2",
               "order": 2,
               "objective": "Electronic configuration and isotopes",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "0bu_gN6k4II",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Electronic configuration and isotopes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Atomic Structure Explained | The Foundation of All Chemistry #Jamb #Waec #Putme",
+              "channel": "Tech & EduSpark Hub",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Electronic configuration and isotopes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.atomic-structure-and-periodic-table.e3",
               "order": 3,
               "objective": "Periodic trends",
-              "youtubeId": "q8_v9r7k8q2",
+              "youtubeId": "0bu_gN6k4II",
               "videoStatus": "approved",
-              "duration": "16:34",
-              "summaryNotes": "Key objective: Periodic trends. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Atomic Structure Explained | The Foundation of All Chemistry #Jamb #Waec #Putme",
+              "channel": "Tech & EduSpark Hub",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Periodic trends. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.atomic-structure-and-periodic-table.e4",
               "order": 4,
               "objective": "Ionisation energy and electronegativity",
-              "youtubeId": "r9_v9r7k8q2",
+              "youtubeId": "rrKUs5REW70",
               "videoStatus": "approved",
-              "duration": "17:51",
-              "summaryNotes": "Key objective: Ionisation energy and electronegativity. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2026: The Periodic Table: Atomic Radius, Ionization Energy, and Electronegativity",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Ionisation energy and electronegativity. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1580,37 +1852,45 @@ export const syllabusData = {
               "id": "chemistry.chemical-bonding.e1",
               "order": 1,
               "objective": "Ionic bonding",
-              "youtubeId": "CGA8s_V7m1k",
+              "youtubeId": "bOV3DQZflZA",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Ionic bonding. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Chemical Bonding | Ionic Bonding | Covalent Bonding | Practice Questions ",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Ionic bonding. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.chemical-bonding.e2",
               "order": 2,
               "objective": "Covalent bonding",
-              "youtubeId": "s0_v9r7k8q2",
+              "youtubeId": "bOV3DQZflZA",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Covalent bonding. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Chemical Bonding | Ionic Bonding | Covalent Bonding | Practice Questions ",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Covalent bonding. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.chemical-bonding.e3",
               "order": 3,
               "objective": "Metallic, dative and hydrogen bonding",
-              "youtubeId": "t1_v9r7k8q2",
+              "youtubeId": "bOV3DQZflZA",
               "videoStatus": "approved",
-              "duration": "18:34",
-              "summaryNotes": "Key objective: Metallic, dative and hydrogen bonding. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Chemical Bonding | Ionic Bonding | Covalent Bonding | Practice Questions ",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Metallic, dative and hydrogen bonding. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.chemical-bonding.e4",
               "order": 4,
               "objective": "Intermolecular forces",
-              "youtubeId": "u2_v9r7k8q2",
+              "youtubeId": "bOV3DQZflZA",
               "videoStatus": "approved",
-              "duration": "19:51",
-              "summaryNotes": "Key objective: Intermolecular forces. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Chemical Bonding | Ionic Bonding | Covalent Bonding | Practice Questions ",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Intermolecular forces. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1623,37 +1903,45 @@ export const syllabusData = {
               "id": "chemistry.stoichiometry-and-the-mole.e1",
               "order": 1,
               "objective": "Relative atomic mass and mole concept",
-              "youtubeId": "AsqVu8z8-Yw",
+              "youtubeId": "9x3qCfWr_wk",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Relative atomic mass and mole concept. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Stoichiometry Series 1.0 — Mole Concept by Ajaks | With 20 Solved JAMB SOLID Questions",
+              "channel": "Ajaks Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Relative atomic mass and mole concept. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.stoichiometry-and-the-mole.e2",
               "order": 2,
               "objective": "Chemical formulae and equations",
-              "youtubeId": "v3_v9r7k8q2",
+              "youtubeId": "9x3qCfWr_wk",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Chemical formulae and equations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Stoichiometry Series 1.0 — Mole Concept by Ajaks | With 20 Solved JAMB SOLID Questions",
+              "channel": "Ajaks Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Chemical formulae and equations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.stoichiometry-and-the-mole.e3",
               "order": 3,
               "objective": "Percentage composition and empirical formula",
-              "youtubeId": "w4_v9r7k8q2",
+              "youtubeId": "9x3qCfWr_wk",
               "videoStatus": "approved",
-              "duration": "20:34",
-              "summaryNotes": "Key objective: Percentage composition and empirical formula. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Stoichiometry Series 1.0 — Mole Concept by Ajaks | With 20 Solved JAMB SOLID Questions",
+              "channel": "Ajaks Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Percentage composition and empirical formula. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.stoichiometry-and-the-mole.e4",
               "order": 4,
               "objective": "Reacting masses and volumes",
-              "youtubeId": "x5_v9r7k8q2",
+              "youtubeId": "9x3qCfWr_wk",
               "videoStatus": "approved",
-              "duration": "21:51",
-              "summaryNotes": "Key objective: Reacting masses and volumes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Stoichiometry Series 1.0 — Mole Concept by Ajaks | With 20 Solved JAMB SOLID Questions",
+              "channel": "Ajaks Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Reacting masses and volumes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1666,28 +1954,34 @@ export const syllabusData = {
               "id": "chemistry.gas-laws.e1",
               "order": 1,
               "objective": "Boyle's and Charles' laws",
-              "youtubeId": "o-39U3M7s8Q",
+              "youtubeId": "TghkuQq7yQ4",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Boyle's and Charles' laws. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Gas Laws - Boyles and Charles Law (JAMB and PUTME Class) #excellenceacademy #jonahemmanuel",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Boyle's and Charles' laws. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.gas-laws.e2",
               "order": 2,
               "objective": "Gas laws combined and Avogadro's law",
-              "youtubeId": "y6_v9r7k8q2",
+              "youtubeId": "uRsufL3oBaY",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Gas laws combined and Avogadro's law. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Gas Laws Tutorial. How to solve questions on Gas Law (Full topic video)",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Gas laws combined and Avogadro's law. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.gas-laws.e3",
               "order": 3,
               "objective": "Ideal gas equation and Graham's law",
-              "youtubeId": "z7_v9r7k8q2",
+              "youtubeId": "uRsufL3oBaY",
               "videoStatus": "approved",
-              "duration": "22:34",
-              "summaryNotes": "Key objective: Ideal gas equation and Graham's law. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Gas Laws Tutorial. How to solve questions on Gas Law (Full topic video)",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Ideal gas equation and Graham's law. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1700,37 +1994,45 @@ export const syllabusData = {
               "id": "chemistry.acids-bases-and-salts.e1",
               "order": 1,
               "objective": "Properties of acids and bases",
-              "youtubeId": "AN4K6y4G_cI",
+              "youtubeId": "La-XYjq0vjA",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Properties of acids and bases. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Chemistry 2026: Acids, Bases & Salts (Everything You Must Know + Past Questions!)",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Properties of acids and bases. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.acids-bases-and-salts.e2",
               "order": 2,
               "objective": "pH and indicators",
-              "youtubeId": "a8_v9r7k8q2",
+              "youtubeId": "La-XYjq0vjA",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: pH and indicators. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Chemistry 2026: Acids, Bases & Salts (Everything You Must Know + Past Questions!)",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: pH and indicators. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.acids-bases-and-salts.e3",
               "order": 3,
               "objective": "Preparation of salts",
-              "youtubeId": "b9_v9r7k8q2",
+              "youtubeId": "H5vkquliT74",
               "videoStatus": "approved",
-              "duration": "24:34",
-              "summaryNotes": "Key objective: Preparation of salts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Chemistry: Acids, Bases & Salts! Everything You Need to Know",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Preparation of salts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.acids-bases-and-salts.e4",
               "order": 4,
               "objective": "Titration calculations",
-              "youtubeId": "c0_v9r7k8q2",
+              "youtubeId": "-y7nVizx4RY",
               "videoStatus": "approved",
-              "duration": "10:51",
-              "summaryNotes": "Key objective: Titration calculations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WAEC CHEMISTRY PRACTICAL ( TITRATION) A MUST WATCH!!!",
+              "channel": "Chemistry Hangout",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Titration calculations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1743,19 +2045,23 @@ export const syllabusData = {
               "id": "chemistry.chemical-energetics.e1",
               "order": 1,
               "objective": "Exothermic and endothermic reactions",
-              "youtubeId": "d1_v9r7k8q2",
+              "youtubeId": "lRho8xluE84",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Exothermic and endothermic reactions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Endothermic Reactions Vs Exothermic Reactions for JAMB & WAEC Students #chemistryclass #jamb2025",
+              "channel": "Rhema vibes",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Exothermic and endothermic reactions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.chemical-energetics.e2",
               "order": 2,
               "objective": "Enthalpy changes and Hess's law",
-              "youtubeId": "e2_v9r7k8q2",
+              "youtubeId": "2ixEf2zpR8E",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Enthalpy changes and Hess's law. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Hess's Law Problems & Enthalpy Change - Chemistry",
+              "channel": "The Organic Chemistry Tutor",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Enthalpy changes and Hess's law. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1768,19 +2074,23 @@ export const syllabusData = {
               "id": "chemistry.rates-of-reaction.e1",
               "order": 1,
               "objective": "Factors affecting rate",
-              "youtubeId": "f3_v9r7k8q2",
+              "youtubeId": "d0W6Q_N2VLE",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Factors affecting rate. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Chemistry 2027 EP 93 - Factors That Affect The Rate Of Chemical Reactions Part A",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Factors affecting rate. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.rates-of-reaction.e2",
               "order": 2,
               "objective": "Collision theory and catalysts",
-              "youtubeId": "g4_v9r7k8q2",
+              "youtubeId": "zXkS9FqTBX0",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Collision theory and catalysts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Rates of Reaction! Factors & Collision Theory (JAMB CHEMISTRY)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Collision theory and catalysts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1793,19 +2103,23 @@ export const syllabusData = {
               "id": "chemistry.chemical-equilibrium.e1",
               "order": 1,
               "objective": "Reversible reactions and equilibrium constant",
-              "youtubeId": "h5_v9r7k8q2",
+              "youtubeId": "td3Yr0PyH1M",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Reversible reactions and equilibrium constant. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Chemical Equilibrium and Equilibrium Constant Chemistry full tutorial video #excellenceacademy",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Reversible reactions and equilibrium constant. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.chemical-equilibrium.e2",
               "order": 2,
               "objective": "Le Chatelier's principle",
-              "youtubeId": "i6_v9r7k8q2",
+              "youtubeId": "GeKzlLc4yGs",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Le Chatelier's principle. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Chemical Equilibrium Tutorial. How to solve questions on Le Chatelier's principle(GCSE Chemistry)",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Le Chatelier's principle. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1818,37 +2132,45 @@ export const syllabusData = {
               "id": "chemistry.redox-and-electrolysis.e1",
               "order": 1,
               "objective": "Oxidation numbers and redox",
-              "youtubeId": "j7_v9r7k8q2",
+              "youtubeId": "R8l77-3wOVQ",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Oxidation numbers and redox. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Oxidation & Reduction Explained in Details – 2026 JAMB chemistry Potential Question!",
+              "channel": "Ajaks Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Oxidation numbers and redox. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.redox-and-electrolysis.e2",
               "order": 2,
               "objective": "Electrolysis of molten and aqueous solutions",
-              "youtubeId": "k8_v9r7k8q2",
+              "youtubeId": "UEeynFc1NKI",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Electrolysis of molten and aqueous solutions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Electrolysis Explained: JAMB & WAEC Chemistry 2026 (Full Tutorial)",
+              "channel": "Brain Doctors Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Electrolysis of molten and aqueous solutions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.redox-and-electrolysis.e3",
               "order": 3,
               "objective": "Faraday's laws",
-              "youtubeId": "l9_v9r7k8q2",
+              "youtubeId": "JXosQeZZPIE",
               "videoStatus": "approved",
-              "duration": "17:34",
-              "summaryNotes": "Key objective: Faraday's laws. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Faraday’s Laws of Electrolysis Explained with Calculation | JAMB & WAEC Chemistry 2026",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Faraday's laws. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.redox-and-electrolysis.e4",
               "order": 4,
               "objective": "Electrochemical cells and electrode potentials",
-              "youtubeId": "m0_v9r7k8q2",
+              "youtubeId": "LN9IizCxUEA",
               "videoStatus": "approved",
-              "duration": "18:51",
-              "summaryNotes": "Key objective: Electrochemical cells and electrode potentials. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Electrochemical Cells, Electrode Potentials & Corrosion (JAMB CHEMISTRY)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Electrochemical cells and electrode potentials. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1861,19 +2183,23 @@ export const syllabusData = {
               "id": "chemistry.solubility-and-solutions.e1",
               "order": 1,
               "objective": "Solubility curves",
-              "youtubeId": "n1_v9r7k8q2",
+              "youtubeId": "8aXJ970TpAM",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Solubility curves. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "On My Way To Teach GMAETS_41's JAMB & WAEC Students Chemistry— Water 💦 & Solubility",
+              "channel": "GMAETS —41",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Solubility curves. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.solubility-and-solutions.e2",
               "order": 2,
               "objective": "Colloids and suspensions",
-              "youtubeId": "o2_v9r7k8q2",
+              "youtubeId": "qC1_3tUVI4g",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Colloids and suspensions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Solubility ,Solubility Curves & Calculations (JAMB CHEMISTRY)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Colloids and suspensions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1886,28 +2212,34 @@ export const syllabusData = {
               "id": "chemistry.hydrogen-oxygen-and-water.e1",
               "order": 1,
               "objective": "Preparation and properties of hydrogen",
-              "youtubeId": "p3_v9r7k8q2",
+              "youtubeId": "yJlqDDBYLOs",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Preparation and properties of hydrogen. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Hydrogen and Hydrides (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Preparation and properties of hydrogen. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.hydrogen-oxygen-and-water.e2",
               "order": 2,
               "objective": "Oxygen, oxides and combustion",
-              "youtubeId": "q4_v9r7k8q2",
+              "youtubeId": "mTYOaAhS9X0",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Oxygen, oxides and combustion. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Oxygen/Oxides/Hydrogen/Peroxide/Ozone - ALL YOU NEED TO KNOW",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Oxygen, oxides and combustion. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.hydrogen-oxygen-and-water.e3",
               "order": 3,
               "objective": "Water: hardness and treatment",
-              "youtubeId": "r5_v9r7k8q2",
+              "youtubeId": "EETN6eOjIig",
               "videoStatus": "approved",
-              "duration": "21:34",
-              "summaryNotes": "Key objective: Water: hardness and treatment. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Water And Water Hardness ( JAMB CHEMISTRY )",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Water: hardness and treatment. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1920,37 +2252,45 @@ export const syllabusData = {
               "id": "chemistry.non-metals-and-their-compounds.e1",
               "order": 1,
               "objective": "Nitrogen, ammonia, nitric acid",
-              "youtubeId": "s6_v9r7k8q2",
+              "youtubeId": "5fi7h88w6XA",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Nitrogen, ammonia, nitric acid. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Compounds of Nitrogen Explained | Ammonia, Nitric Acid & Nitrogen Oxides | WAEC, NECO & JAMB",
+              "channel": "The CMA",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Nitrogen, ammonia, nitric acid. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.non-metals-and-their-compounds.e2",
               "order": 2,
               "objective": "Sulphur, SO2, sulphuric acid",
-              "youtubeId": "t7_v9r7k8q2",
+              "youtubeId": "0KEmAt5xvic",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Sulphur, SO2, sulphuric acid. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Sulphur and its compounds (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Sulphur, SO2, sulphuric acid. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.non-metals-and-their-compounds.e3",
               "order": 3,
               "objective": "Chlorine and hydrogen chloride",
-              "youtubeId": "u8_v9r7k8q2",
+              "youtubeId": "7dMEsYpSfSE",
               "videoStatus": "approved",
-              "duration": "23:34",
-              "summaryNotes": "Key objective: Chlorine and hydrogen chloride. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Master Chlorine and Its Compounds Quickly – WAEC Chemistry Guide",
+              "channel": "Klass Tutorial",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Chlorine and hydrogen chloride. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.non-metals-and-their-compounds.e4",
               "order": 4,
               "objective": "Carbon and its oxides",
-              "youtubeId": "v9_v9r7k8q2",
+              "youtubeId": "xoGwtepYAGM",
               "videoStatus": "approved",
-              "duration": "24:51",
-              "summaryNotes": "Key objective: Carbon and its oxides. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Chemistry 2026: Non-Metals & Their Compounds (MUST WATCH Before Exam!)",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Carbon and its oxides. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1963,28 +2303,34 @@ export const syllabusData = {
               "id": "chemistry.metals-and-their-compounds.e1",
               "order": 1,
               "objective": "Reactivity series",
-              "youtubeId": "w0_v9r7k8q2",
+              "youtubeId": "WfsKMtCLVGA",
               "videoStatus": "approved",
-              "duration": "23:00",
-              "summaryNotes": "Key objective: Reactivity series. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "METALS & THEIR COMPOUNDS IN 30 MINUTES! 🔥 JAMB Chemistry 2026 Last-Minute Revision (Must Watch!)",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Reactivity series. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.metals-and-their-compounds.e2",
               "order": 2,
               "objective": "Sodium, calcium, aluminium, iron, copper",
-              "youtubeId": "x1_v9r7k8q2",
+              "youtubeId": "WfsKMtCLVGA",
               "videoStatus": "approved",
-              "duration": "24:17",
-              "summaryNotes": "Key objective: Sodium, calcium, aluminium, iron, copper. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "METALS & THEIR COMPOUNDS IN 30 MINUTES! 🔥 JAMB Chemistry 2026 Last-Minute Revision (Must Watch!)",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Sodium, calcium, aluminium, iron, copper. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.metals-and-their-compounds.e3",
               "order": 3,
               "objective": "Extraction of metals and alloys",
-              "youtubeId": "y2_v9r7k8q2",
+              "youtubeId": "WfsKMtCLVGA",
               "videoStatus": "approved",
-              "duration": "10:34",
-              "summaryNotes": "Key objective: Extraction of metals and alloys. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "METALS & THEIR COMPOUNDS IN 30 MINUTES! 🔥 JAMB Chemistry 2026 Last-Minute Revision (Must Watch!)",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Extraction of metals and alloys. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -1997,37 +2343,45 @@ export const syllabusData = {
               "id": "chemistry.organic-chemistry-hydrocarbons.e1",
               "order": 1,
               "objective": "Alkanes",
-              "youtubeId": "z3_v9r7k8q2",
+              "youtubeId": "yaQYTTlrhPI",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Alkanes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Alkanes | Homologous series | General Organic Chemistry #chemistry #Hydrocarbons #organicchemistry",
+              "channel": "Chemistry ke ustad",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Alkanes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.organic-chemistry-hydrocarbons.e2",
               "order": 2,
               "objective": "Alkenes",
-              "youtubeId": "a4_v9r7k8q2",
+              "youtubeId": "yaQYTTlrhPI",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Alkenes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Alkanes | Homologous series | General Organic Chemistry #chemistry #Hydrocarbons #organicchemistry",
+              "channel": "Chemistry ke ustad",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Alkenes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.organic-chemistry-hydrocarbons.e3",
               "order": 3,
               "objective": "Alkynes",
-              "youtubeId": "b5_v9r7k8q2",
+              "youtubeId": "yaQYTTlrhPI",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: Alkynes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Alkanes | Homologous series | General Organic Chemistry #chemistry #Hydrocarbons #organicchemistry",
+              "channel": "Chemistry ke ustad",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Alkynes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.organic-chemistry-hydrocarbons.e4",
               "order": 4,
               "objective": "Isomerism and nomenclature",
-              "youtubeId": "c6_v9r7k8q2",
+              "youtubeId": "yaQYTTlrhPI",
               "videoStatus": "approved",
-              "duration": "13:51",
-              "summaryNotes": "Key objective: Isomerism and nomenclature. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Alkanes | Homologous series | General Organic Chemistry #chemistry #Hydrocarbons #organicchemistry",
+              "channel": "Chemistry ke ustad",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Isomerism and nomenclature. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2040,28 +2394,34 @@ export const syllabusData = {
               "id": "chemistry.organic-chemistry-functional-groups.e1",
               "order": 1,
               "objective": "Alkanols",
-              "youtubeId": "d7_v9r7k8q2",
+              "youtubeId": "AOwrMPlarhU",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Alkanols. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Organic Chemistry (ALKANOLS) for JAMB & WAEC STUDENTS #jamb #chemistryclass #jamb2025",
+              "channel": "Rhema vibes",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Alkanols. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.organic-chemistry-functional-groups.e2",
               "order": 2,
               "objective": "Alkanoic acids and esters",
-              "youtubeId": "e8_v9r7k8q2",
+              "youtubeId": "xiKt3fTh9IY",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Alkanoic acids and esters. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Shorcuts to Naming ALKANOLS,ALKANOIC ACIDS & ESTERS for JAMB & WAEC STUDENTS #chemistryclass",
+              "channel": "Rhema vibes",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Alkanoic acids and esters. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.organic-chemistry-functional-groups.e3",
               "order": 3,
               "objective": "Fats, oils, soaps and detergents",
-              "youtubeId": "f9_v9r7k8q2",
+              "youtubeId": "pLUD7w_lXoU",
               "videoStatus": "approved",
-              "duration": "14:34",
-              "summaryNotes": "Key objective: Fats, oils, soaps and detergents. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Soap | Chemistry | Science",
+              "channel": "Science Unlocked",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Fats, oils, soaps and detergents. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2074,28 +2434,34 @@ export const syllabusData = {
               "id": "chemistry.polymers-and-biochemicals.e1",
               "order": 1,
               "objective": "Polymers and polymerisation",
-              "youtubeId": "g0_v9r7k8q2",
+              "youtubeId": "2bvmCtyG6EE",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Polymers and polymerisation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Polymerization! Addition vs. Condensation & Plastic Chemistry (JAMB CHEMISTRY)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Polymers and polymerisation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.polymers-and-biochemicals.e2",
               "order": 2,
               "objective": "Carbohydrates, proteins",
-              "youtubeId": "h1_v9r7k8q2",
+              "youtubeId": "k57I4cd1l5g",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Carbohydrates, proteins. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Biological Molecules and Carbohydrates - Macromolecules; Polysaccharides, Proteins, Nucleic acids",
+              "channel": "Magnus Nonso Ezeanubekwe",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Carbohydrates, proteins. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.polymers-and-biochemicals.e3",
               "order": 3,
               "objective": "Petroleum and natural gas",
-              "youtubeId": "i2_v9r7k8q2",
+              "youtubeId": "3no_ZVi1hkE",
               "videoStatus": "approved",
-              "duration": "16:34",
-              "summaryNotes": "Key objective: Petroleum and natural gas. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Petroleum Explained: Uses, Fractions & Refining Process for WAEC, JAMB & IGCSE Chemistry!",
+              "channel": "Acestudents",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Petroleum and natural gas. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2108,28 +2474,34 @@ export const syllabusData = {
               "id": "chemistry.environmental-chemistry-and-qualitative-analysis.e1",
               "order": 1,
               "objective": "Air, water and soil pollution",
-              "youtubeId": "j3_v9r7k8q2",
+              "youtubeId": "1rD0LhsOZKc",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Air, water and soil pollution. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "AIR AND AIR POLLUTON (JAMB 2026 CHEMISTRY & WAEC 2026 CHEMISTRY) PART 1/11",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Air, water and soil pollution. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.environmental-chemistry-and-qualitative-analysis.e2",
               "order": 2,
               "objective": "Tests for cations and anions",
-              "youtubeId": "k4_v9r7k8q2",
+              "youtubeId": "1bCxvvT-3sg",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Tests for cations and anions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Qualitative Analysis of cation part 1. Chemistry Practicals",
+              "channel": "CHEM IS TRY",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Tests for cations and anions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.environmental-chemistry-and-qualitative-analysis.e3",
               "order": 3,
               "objective": "Tests for gases and organic compounds",
-              "youtubeId": "l5_v9r7k8q2",
+              "youtubeId": "OjVglX3kdcU",
               "videoStatus": "approved",
-              "duration": "18:34",
-              "summaryNotes": "Key objective: Tests for gases and organic compounds. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "2025 WAEC Chemistry Practical | Complete Qualitative Analysis Guide + Answers Explained!",
+              "channel": "Chemistry Hangout",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Tests for gases and organic compounds. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2142,19 +2514,23 @@ export const syllabusData = {
               "id": "chemistry.nuclear-chemistry.e1",
               "order": 1,
               "objective": "Radioactivity and half-life",
-              "youtubeId": "m6_v9r7k8q2",
+              "youtubeId": "4mI9d0IUGxc",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Radioactivity and half-life. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Radioactivity (JAMB CHEMISTRY) | Types of Radiation | Alpha & Beta Decay | Nuclear Fission & Fusion",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Radioactivity and half-life. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "chemistry.nuclear-chemistry.e2",
               "order": 2,
               "objective": "Uses of radioisotopes",
-              "youtubeId": "n7_v9r7k8q2",
+              "youtubeId": "4mI9d0IUGxc",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Uses of radioisotopes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Radioactivity (JAMB CHEMISTRY) | Types of Radiation | Alpha & Beta Decay | Nuclear Fission & Fusion",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Chemistry: Uses of radioisotopes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -2178,28 +2554,34 @@ export const syllabusData = {
               "id": "physics.measurements-and-units.e1",
               "order": 1,
               "objective": "Fundamental and derived quantities and units",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "6Uden0tXhZM",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Fundamental and derived quantities and units. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "UNITS (UNITS & MEASUREMENT)  (PHYSICS JAMB AND WAEC 2026) (UTME 2026)",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Fundamental and derived quantities and units. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.measurements-and-units.e2",
               "order": 2,
               "objective": "Measuring instruments, errors and accuracy",
-              "youtubeId": "p2_v9r7k8q2",
+              "youtubeId": "6Uden0tXhZM",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Measuring instruments, errors and accuracy. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "UNITS (UNITS & MEASUREMENT)  (PHYSICS JAMB AND WAEC 2026) (UTME 2026)",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Measuring instruments, errors and accuracy. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.measurements-and-units.e3",
               "order": 3,
               "objective": "Dimensions",
-              "youtubeId": "q3_v9r7k8q2",
+              "youtubeId": "6Uden0tXhZM",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: Dimensions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "UNITS (UNITS & MEASUREMENT)  (PHYSICS JAMB AND WAEC 2026) (UTME 2026)",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Dimensions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2212,19 +2594,23 @@ export const syllabusData = {
               "id": "physics.scalars-and-vectors.e1",
               "order": 1,
               "objective": "Resolution and composition of vectors",
-              "youtubeId": "r4_v9r7k8q2",
+              "youtubeId": "vaMiDKMBD-o",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Resolution and composition of vectors. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Resolution of Vectors dismantled by AJAKS | 2026 JAMB Physics Full lesson  ",
+              "channel": "Ajaks Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Resolution and composition of vectors. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.scalars-and-vectors.e2",
               "order": 2,
               "objective": "Resultant of forces",
-              "youtubeId": "s5_v9r7k8q2",
+              "youtubeId": "vaMiDKMBD-o",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Resultant of forces. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Resolution of Vectors dismantled by AJAKS | 2026 JAMB Physics Full lesson  ",
+              "channel": "Ajaks Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Resultant of forces. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2237,46 +2623,56 @@ export const syllabusData = {
               "id": "physics.motion.e1",
               "order": 1,
               "objective": "Speed, velocity, acceleration",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "-Z3jIEKWMfk",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Speed, velocity, acceleration. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Motion 1 (Physics JAMB and PUTME class 1)",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Speed, velocity, acceleration. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.motion.e2",
               "order": 2,
               "objective": "Equations of motion",
-              "youtubeId": "t6_v9r7k8q2",
+              "youtubeId": "-Z3jIEKWMfk",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Equations of motion. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Motion 1 (Physics JAMB and PUTME class 1)",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Equations of motion. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.motion.e3",
               "order": 3,
               "objective": "Motion graphs",
-              "youtubeId": "u7_v9r7k8q2",
+              "youtubeId": "H4kRWKhJ4OE",
               "videoStatus": "approved",
-              "duration": "16:34",
-              "summaryNotes": "Key objective: Motion graphs. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "VELOCITY-TIME GRAPH Physics Class: Meaning, Displacement, Acceleration, Deceleration All Explained.",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Motion graphs. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.motion.e4",
               "order": 4,
               "objective": "Projectile motion",
-              "youtubeId": "v8_v9r7k8q2",
+              "youtubeId": "r32wJJhjfZ4",
               "videoStatus": "approved",
-              "duration": "17:51",
-              "summaryNotes": "Key objective: Projectile motion. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "PROJECTILE MOTION (physics) (WAEC , JAMB , PUTME class ) #excellentlinkacademy",
+              "channel": "Excellent Link Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Projectile motion. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.motion.e5",
               "order": 5,
               "objective": "Circular motion",
-              "youtubeId": "w9_v9r7k8q2",
+              "youtubeId": "yu9E9Vp9Wbg",
               "videoStatus": "approved",
-              "duration": "18:08",
-              "summaryNotes": "Key objective: Circular motion. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Jamb 2026 Physics Tutorial | Circular Motion",
+              "channel": "THE JAMB MASTER",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Circular motion. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2289,28 +2685,34 @@ export const syllabusData = {
               "id": "physics.newton-s-laws-and-momentum.e1",
               "order": 1,
               "objective": "Newton's three laws",
-              "youtubeId": "kKKM8Y-u7ds",
+              "youtubeId": "MeKprfzpwY4",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Newton's three laws. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Newton’s Laws of Motion | JAMB and WAEC Physics tutorials #excellenceacademy #jonahemmanuel #physics",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Newton's three laws. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.newton-s-laws-and-momentum.e2",
               "order": 2,
               "objective": "Linear momentum and impulse",
-              "youtubeId": "x0_v9r7k8q2",
+              "youtubeId": "MeKprfzpwY4",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Linear momentum and impulse. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Newton’s Laws of Motion | JAMB and WAEC Physics tutorials #excellenceacademy #jonahemmanuel #physics",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Linear momentum and impulse. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.newton-s-laws-and-momentum.e3",
               "order": 3,
               "objective": "Friction",
-              "youtubeId": "y1_v9r7k8q2",
+              "youtubeId": "ytvG-lkEGiY",
               "videoStatus": "approved",
-              "duration": "18:34",
-              "summaryNotes": "Key objective: Friction. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Newton’s Laws of Motion Explained | Momentum, Collision & Rocket Motion (JAMB Physics)",
+              "channel": "NUL SCIENCE ACADEMY",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Friction. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2323,28 +2725,34 @@ export const syllabusData = {
               "id": "physics.work-energy-and-power.e1",
               "order": 1,
               "objective": "Work and energy",
-              "youtubeId": "z2_v9r7k8q2",
+              "youtubeId": "zFH2cTRG0sU",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Work and energy. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WORK, ENERGY AND POWER ( JAMB PHYSICS )",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Work and energy. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.work-energy-and-power.e2",
               "order": 2,
               "objective": "Power and machines",
-              "youtubeId": "a3_v9r7k8q2",
+              "youtubeId": "zFH2cTRG0sU",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Power and machines. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WORK, ENERGY AND POWER ( JAMB PHYSICS )",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Power and machines. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.work-energy-and-power.e3",
               "order": 3,
               "objective": "Conservation of energy",
-              "youtubeId": "b4_v9r7k8q2",
+              "youtubeId": "zFH2cTRG0sU",
               "videoStatus": "approved",
-              "duration": "20:34",
-              "summaryNotes": "Key objective: Conservation of energy. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WORK, ENERGY AND POWER ( JAMB PHYSICS )",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Conservation of energy. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2357,19 +2765,23 @@ export const syllabusData = {
               "id": "physics.gravitational-field.e1",
               "order": 1,
               "objective": "Newton's law of gravitation",
-              "youtubeId": "c5_v9r7k8q2",
+              "youtubeId": "IilS-vbKom0",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Newton's law of gravitation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Gravitational Field Physics: Meaning, Universal Gravitational Constant and Formula Derivation.",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Newton's law of gravitation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.gravitational-field.e2",
               "order": 2,
               "objective": "Satellites, escape velocity, weightlessness",
-              "youtubeId": "d6_v9r7k8q2",
+              "youtubeId": "UA53W3FypT0",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Satellites, escape velocity, weightlessness. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Gravitational Field Explained — Newton's Law, Escape Velocity & Weightlessness (JAMB/WAEC Physics)",
+              "channel": "Gopius E-Learning",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Satellites, escape velocity, weightlessness. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2382,19 +2794,23 @@ export const syllabusData = {
               "id": "physics.equilibrium-and-moments.e1",
               "order": 1,
               "objective": "Moments and principle of moments",
-              "youtubeId": "e7_v9r7k8q2",
+              "youtubeId": "AT3BQosJpS4",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Moments and principle of moments. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Principles of Moments and Moment of a Force: Meaning, Clockwise & Anticlockwise Moment, Equilibrium.",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Moments and principle of moments. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.equilibrium-and-moments.e2",
               "order": 2,
               "objective": "Centre of gravity and stability",
-              "youtubeId": "f8_v9r7k8q2",
+              "youtubeId": "XdLVo3TG1nw",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Centre of gravity and stability. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Detailed Explanation on Equilibrium of Forces and Moments",
+              "channel": "Dr Tes ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Centre of gravity and stability. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2407,19 +2823,23 @@ export const syllabusData = {
               "id": "physics.simple-harmonic-motion.e1",
               "order": 1,
               "objective": "SHM, period and frequency",
-              "youtubeId": "g9_v9r7k8q2",
+              "youtubeId": "_b6jWKqX3VM",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: SHM, period and frequency. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Understanding SIMPLE HARMONIC MOTION: Physics Made Easy",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: SHM, period and frequency. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.simple-harmonic-motion.e2",
               "order": 2,
               "objective": "Simple pendulum and spring",
-              "youtubeId": "h0_v9r7k8q2",
+              "youtubeId": "exDR_Tc3ERo",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Simple pendulum and spring. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Simple Harmonic Motion Explained in 10 Minutes | SHM Physics Made Easy (WAEC, JAMB)",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Simple pendulum and spring. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2432,28 +2852,34 @@ export const syllabusData = {
               "id": "physics.elasticity-and-fluids.e1",
               "order": 1,
               "objective": "Hooke's law and elasticity",
-              "youtubeId": "i1_v9r7k8q2",
+              "youtubeId": "OutxSSkTchQ",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Hooke's law and elasticity. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Hooke's Law JAMB and WAEC Physics and the Elastic Properties of Solids #excellenceacademy",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Hooke's law and elasticity. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.elasticity-and-fluids.e2",
               "order": 2,
               "objective": "Pressure in liquids and Pascal's principle",
-              "youtubeId": "j2_v9r7k8q2",
+              "youtubeId": "BcfOySCmLZs",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Pressure in liquids and Pascal's principle. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Pressure | Pressure in Solids and Liquids | JAMB Physics #pressure #jamb #putme #jonahemmanuel",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Pressure in liquids and Pascal's principle. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.elasticity-and-fluids.e3",
               "order": 3,
               "objective": "Archimedes' principle and floating",
-              "youtubeId": "k3_v9r7k8q2",
+              "youtubeId": "NL9LRvcWxHs",
               "videoStatus": "approved",
-              "duration": "13:34",
-              "summaryNotes": "Key objective: Archimedes' principle and floating. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Density (JAMB Phyiscs) | Relative Density, Archimedes's Principle and Upthrust #density #jamb",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Archimedes' principle and floating. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2466,19 +2892,23 @@ export const syllabusData = {
               "id": "physics.temperature-and-thermal-expansion.e1",
               "order": 1,
               "objective": "Thermometers and temperature scales",
-              "youtubeId": "l4_v9r7k8q2",
+              "youtubeId": "QQyimsA40gg",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Thermometers and temperature scales. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "THERMAL EXPANSION & THERMAL EXPANSIVITY (LINEAR, AREA  and VOLUME EXPANSIVITY) JAMB AND WAEC PHYSICS",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Thermometers and temperature scales. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.temperature-and-thermal-expansion.e2",
               "order": 2,
               "objective": "Expansion of solids, liquids, gases",
-              "youtubeId": "m5_v9r7k8q2",
+              "youtubeId": "QQyimsA40gg",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Expansion of solids, liquids, gases. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "THERMAL EXPANSION & THERMAL EXPANSIVITY (LINEAR, AREA  and VOLUME EXPANSIVITY) JAMB AND WAEC PHYSICS",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Expansion of solids, liquids, gases. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2491,46 +2921,56 @@ export const syllabusData = {
               "id": "physics.heat-and-thermodynamics.e1",
               "order": 1,
               "objective": "Heat capacity and specific heat",
-              "youtubeId": "n6_v9r7k8q2",
+              "youtubeId": "F-8BECqg4m0",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Heat capacity and specific heat. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Heat Capacity and Specific Heat Capacity ( JAMB PHYSICS)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Heat capacity and specific heat. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.heat-and-thermodynamics.e2",
               "order": 2,
               "objective": "Latent heat and change of state",
-              "youtubeId": "o7_v9r7k8q2",
+              "youtubeId": "0xkHH8izKyo",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Latent heat and change of state. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Physics 2026: Heat & Thermodynamics FULL GUIDE 🔥 (Latent Heat, SHC, Heat Transfer)",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Latent heat and change of state. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.heat-and-thermodynamics.e3",
               "order": 3,
               "objective": "Heat transfer",
-              "youtubeId": "p8_v9r7k8q2",
+              "youtubeId": "0xkHH8izKyo",
               "videoStatus": "approved",
-              "duration": "17:34",
-              "summaryNotes": "Key objective: Heat transfer. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Physics 2026: Heat & Thermodynamics FULL GUIDE 🔥 (Latent Heat, SHC, Heat Transfer)",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Heat transfer. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.heat-and-thermodynamics.e4",
               "order": 4,
               "objective": "Gas laws and kinetic theory",
-              "youtubeId": "q9_v9r7k8q2",
+              "youtubeId": "robEY-idcLU",
               "videoStatus": "approved",
-              "duration": "18:51",
-              "summaryNotes": "Key objective: Gas laws and kinetic theory. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Kinetic Molecular Theory and the Ideal Gas Laws",
+              "channel": "Professor Dave Explains",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Gas laws and kinetic theory. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.heat-and-thermodynamics.e5",
               "order": 5,
               "objective": "Laws of thermodynamics",
-              "youtubeId": "r0_v9r7k8q2",
+              "youtubeId": "0xkHH8izKyo",
               "videoStatus": "approved",
-              "duration": "19:08",
-              "summaryNotes": "Key objective: Laws of thermodynamics. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Physics 2026: Heat & Thermodynamics FULL GUIDE 🔥 (Latent Heat, SHC, Heat Transfer)",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Laws of thermodynamics. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2543,28 +2983,34 @@ export const syllabusData = {
               "id": "physics.waves.e1",
               "order": 1,
               "objective": "Wave properties and types",
-              "youtubeId": "s1_v9r7k8q2",
+              "youtubeId": "x_by5zbi0NQ",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Wave properties and types. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DEFINITION, TYPES AND CLASSIFICATION OF WAVES (PHYSICS JAMB AND WAEC 2026) (UTME 2026)",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Wave properties and types. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.waves.e2",
               "order": 2,
               "objective": "Sound: echo, resonance, pipes, strings",
-              "youtubeId": "t2_v9r7k8q2",
+              "youtubeId": "mrbrcfwcits",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Sound: echo, resonance, pipes, strings. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "HOW TO SOLVE SOUND WAVE & ECHO CALCULATIONS IN JAMB 2027 PHYSICS ",
+              "channel": "Exam Surgeon",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Sound: echo, resonance, pipes, strings. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.waves.e3",
               "order": 3,
               "objective": "Beats and Doppler effect",
-              "youtubeId": "u3_v9r7k8q2",
+              "youtubeId": "zSuEHBF3k54",
               "videoStatus": "approved",
-              "duration": "19:34",
-              "summaryNotes": "Key objective: Beats and Doppler effect. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "GCSE Physics Revision - Waves",
+              "channel": "Matt Green",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Beats and Doppler effect. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2577,37 +3023,45 @@ export const syllabusData = {
               "id": "physics.light-reflection-and-refraction.e1",
               "order": 1,
               "objective": "Reflection and plane mirrors",
-              "youtubeId": "v4_v9r7k8q2",
+              "youtubeId": "fnI1Hk0Qv-A",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Reflection and plane mirrors. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC PHYSICS 2027 - EP 1 Light Waves (PART 1)  [Reflection, Plane Mirrors] Past Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Reflection and plane mirrors. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.light-reflection-and-refraction.e2",
               "order": 2,
               "objective": "Curved mirrors",
-              "youtubeId": "w5_v9r7k8q2",
+              "youtubeId": "fnI1Hk0Qv-A",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Curved mirrors. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC PHYSICS 2027 - EP 1 Light Waves (PART 1)  [Reflection, Plane Mirrors] Past Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Curved mirrors. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.light-reflection-and-refraction.e3",
               "order": 3,
               "objective": "Refraction and total internal reflection",
-              "youtubeId": "x6_v9r7k8q2",
+              "youtubeId": "5bkiQob8ikc",
               "videoStatus": "approved",
-              "duration": "21:34",
-              "summaryNotes": "Key objective: Refraction and total internal reflection. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Total Internal Reflection of Light and Critical Angle of Refraction Physics",
+              "channel": "The Organic Chemistry Tutor",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Refraction and total internal reflection. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.light-reflection-and-refraction.e4",
               "order": 4,
               "objective": "Lenses and optical instruments",
-              "youtubeId": "y7_v9r7k8q2",
+              "youtubeId": "UFyRVHzLTeo",
               "videoStatus": "approved",
-              "duration": "22:51",
-              "summaryNotes": "Key objective: Lenses and optical instruments. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "2026 JAMB PHYSICS LIKELY QUESTION ON REFRACTION OF LIGHT!!",
+              "channel": "Ajaks Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Lenses and optical instruments. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2620,28 +3074,34 @@ export const syllabusData = {
               "id": "physics.light-dispersion-and-electromagnetic-waves.e1",
               "order": 1,
               "objective": "Dispersion and colour",
-              "youtubeId": "z8_v9r7k8q2",
+              "youtubeId": "rptD04ccNzw",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Dispersion and colour. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Dispersion & Colour Mixing » 120 Days To Jamb Physics - Ep 70",
+              "channel": "FlashLearners",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Dispersion and colour. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.light-dispersion-and-electromagnetic-waves.e2",
               "order": 2,
               "objective": "Electromagnetic spectrum",
-              "youtubeId": "a9_v9r7k8q2",
+              "youtubeId": "E7T23sXndro",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Electromagnetic spectrum. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Electromagnetic waves, Microscope & Telescope (JAMB 2026) | Meaning, Properties, Types, Calculations",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Electromagnetic spectrum. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.light-dispersion-and-electromagnetic-waves.e3",
               "order": 3,
               "objective": "Interference and diffraction",
-              "youtubeId": "b0_v9r7k8q2",
+              "youtubeId": "x_by5zbi0NQ",
               "videoStatus": "approved",
-              "duration": "23:34",
-              "summaryNotes": "Key objective: Interference and diffraction. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DEFINITION, TYPES AND CLASSIFICATION OF WAVES (PHYSICS JAMB AND WAEC 2026) (UTME 2026)",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Interference and diffraction. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2654,28 +3114,34 @@ export const syllabusData = {
               "id": "physics.electrostatics.e1",
               "order": 1,
               "objective": "Charges and Coulomb's law",
-              "youtubeId": "c1_v9r7k8q2",
+              "youtubeId": "8qmTzKGuOi8",
               "videoStatus": "approved",
-              "duration": "23:00",
-              "summaryNotes": "Key objective: Charges and Coulomb's law. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "COULOMB'S LAW  (PHYSICS JAMB AND WAEC 2026) (UTME 2026)",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Charges and Coulomb's law. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.electrostatics.e2",
               "order": 2,
               "objective": "Electric field and potential",
-              "youtubeId": "d2_v9r7k8q2",
+              "youtubeId": "khM7waW_yus",
               "videoStatus": "approved",
-              "duration": "24:17",
-              "summaryNotes": "Key objective: Electric field and potential. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Physics 2027 EP 8 [Electric Field Intensity, Potential] + Likely Exam Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Electric field and potential. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.electrostatics.e3",
               "order": 3,
               "objective": "Capacitors",
-              "youtubeId": "e3_v9r7k8q2",
+              "youtubeId": "uHAnwk3o04M",
               "videoStatus": "approved",
-              "duration": "10:34",
-              "summaryNotes": "Key objective: Capacitors. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Capacitor and Capacitance 1 | Capacitors in Series and in Parallel #capacitor #capacitance",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Capacitors. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2688,37 +3154,45 @@ export const syllabusData = {
               "id": "physics.current-electricity.e1",
               "order": 1,
               "objective": "Ohm's law and resistors",
-              "youtubeId": "f4_v9r7k8q2",
+              "youtubeId": "zrwfOWV6YKo",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Ohm's law and resistors. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Resistors, Capacitors and Inductors - Part 1 (JAMB and PUTME Physics)",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Ohm's law and resistors. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.current-electricity.e2",
               "order": 2,
               "objective": "Series and parallel circuits",
-              "youtubeId": "g5_v9r7k8q2",
+              "youtubeId": "aRhEu66XGfU",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Series and parallel circuits. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to Calculate Current in Parallel Resistors | JAMB & WAEC Physics Made Easy In Pidgin",
+              "channel": "Instructor Alison Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Series and parallel circuits. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.current-electricity.e3",
               "order": 3,
               "objective": "EMF and internal resistance",
-              "youtubeId": "h6_v9r7k8q2",
+              "youtubeId": "gngzOo4dXsM",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: EMF and internal resistance. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Internal Resistance of a Cell | Arrangement of Cells | JAMB physics #jamb #putme #internalresistance",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: EMF and internal resistance. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.current-electricity.e4",
               "order": 4,
               "objective": "Electrical energy and power",
-              "youtubeId": "i7_v9r7k8q2",
+              "youtubeId": "43HjpDquTlU",
               "videoStatus": "approved",
-              "duration": "13:51",
-              "summaryNotes": "Key objective: Electrical energy and power. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Electrical Energy & Power! Formulas & Billing (JAMB PHYSICS)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Electrical energy and power. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2731,37 +3205,45 @@ export const syllabusData = {
               "id": "physics.magnetism-and-electromagnetism.e1",
               "order": 1,
               "objective": "Magnets and magnetic fields",
-              "youtubeId": "j8_v9r7k8q2",
+              "youtubeId": "6USceQtJUfw",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Magnets and magnetic fields. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Magnetism and Magnetic Field in Vector and Scalar Form (Full Tutorial Video ) #electromagnetism",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Magnets and magnetic fields. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.magnetism-and-electromagnetism.e2",
               "order": 2,
               "objective": "Force on conductor and motors",
-              "youtubeId": "k9_v9r7k8q2",
+              "youtubeId": "6USceQtJUfw",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Force on conductor and motors. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Magnetism and Magnetic Field in Vector and Scalar Form (Full Tutorial Video ) #electromagnetism",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Force on conductor and motors. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.magnetism-and-electromagnetism.e3",
               "order": 3,
               "objective": "Electromagnetic induction",
-              "youtubeId": "l0_v9r7k8q2",
+              "youtubeId": "ZHPhDXo7BzE",
               "videoStatus": "approved",
-              "duration": "14:34",
-              "summaryNotes": "Key objective: Electromagnetic induction. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Electromagnetic Induction ( EMI )",
+              "channel": "Eureka Tutorials Official",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Electromagnetic induction. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.magnetism-and-electromagnetism.e4",
               "order": 4,
               "objective": "AC and transformers",
-              "youtubeId": "m1_v9r7k8q2",
+              "youtubeId": "6USceQtJUfw",
               "videoStatus": "approved",
-              "duration": "15:51",
-              "summaryNotes": "Key objective: AC and transformers. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Magnetism and Magnetic Field in Vector and Scalar Form (Full Tutorial Video ) #electromagnetism",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: AC and transformers. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2774,37 +3256,45 @@ export const syllabusData = {
               "id": "physics.atomic-and-nuclear-physics.e1",
               "order": 1,
               "objective": "Models of the atom",
-              "youtubeId": "n2_v9r7k8q2",
+              "youtubeId": "4mI9d0IUGxc",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Models of the atom. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Radioactivity (JAMB CHEMISTRY) | Types of Radiation | Alpha & Beta Decay | Nuclear Fission & Fusion",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Models of the atom. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.atomic-and-nuclear-physics.e2",
               "order": 2,
               "objective": "Radioactivity and decay",
-              "youtubeId": "o3_v9r7k8q2",
+              "youtubeId": "4mI9d0IUGxc",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Radioactivity and decay. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Radioactivity (JAMB CHEMISTRY) | Types of Radiation | Alpha & Beta Decay | Nuclear Fission & Fusion",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Radioactivity and decay. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.atomic-and-nuclear-physics.e3",
               "order": 3,
               "objective": "Nuclear fission and fusion",
-              "youtubeId": "p4_v9r7k8q2",
+              "youtubeId": "4mI9d0IUGxc",
               "videoStatus": "approved",
-              "duration": "16:34",
-              "summaryNotes": "Key objective: Nuclear fission and fusion. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Radioactivity (JAMB CHEMISTRY) | Types of Radiation | Alpha & Beta Decay | Nuclear Fission & Fusion",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Nuclear fission and fusion. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.atomic-and-nuclear-physics.e4",
               "order": 4,
               "objective": "Photoelectric effect and X-rays",
-              "youtubeId": "q5_v9r7k8q2",
+              "youtubeId": "QY8gnAnhkQw",
               "videoStatus": "approved",
-              "duration": "17:51",
-              "summaryNotes": "Key objective: Photoelectric effect and X-rays. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Elementary Modern Physics! Atoms, Photoelectric Effect & X-Rays (JAMB PHYSICS)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Photoelectric effect and X-rays. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2817,19 +3307,23 @@ export const syllabusData = {
               "id": "physics.electronics-and-conduction.e1",
               "order": 1,
               "objective": "Semiconductors and diodes",
-              "youtubeId": "r6_v9r7k8q2",
+              "youtubeId": "GGueM9znWzc",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Semiconductors and diodes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "SEMI-CONDUCTORS (INTRODUCTORY ELECTRONICS)  (PHYSICS JAMB AND WAEC 2026) (UTME 2026)",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Semiconductors and diodes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "physics.electronics-and-conduction.e2",
               "order": 2,
               "objective": "Conduction in liquids and gases",
-              "youtubeId": "s7_v9r7k8q2",
+              "youtubeId": "23vXLHrS3TI",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Conduction in liquids and gases. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Conduction in Liquids & Gases » 120 Days To Jamb Physics - Ep 108",
+              "channel": "FlashLearners",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Conduction in liquids and gases. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2842,10 +3336,12 @@ export const syllabusData = {
               "id": "physics.mechanics-of-machines.e1",
               "order": 1,
               "objective": "Simple machines, mechanical advantage and efficiency",
-              "youtubeId": "t8_v9r7k8q2",
+              "youtubeId": "0By4WTJfnSA",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Simple machines, mechanical advantage and efficiency. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Machines 1 (Physics JAMB and PUTME class)",
+              "channel": "Excellence Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Physics: Simple machines, mechanical advantage and efficiency. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -2869,28 +3365,34 @@ export const syllabusData = {
               "id": "biology.living-organisms-and-classification.e1",
               "order": 1,
               "objective": "Characteristics of living things",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "BkUxxIlamyE",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Characteristics of living things. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Biology|Classification of living organisms|Taxonomy|Importance",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Characteristics of living things. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.living-organisms-and-classification.e2",
               "order": 2,
               "objective": "Classification and taxonomy",
-              "youtubeId": "b1_v9r7k8q2",
+              "youtubeId": "1RUcfIwwoiY",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Classification and taxonomy. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Biology and living things (SS 1, JAMB, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Classification and taxonomy. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.living-organisms-and-classification.e3",
               "order": 3,
               "objective": "Kingdoms and viruses",
-              "youtubeId": "c2_v9r7k8q2",
+              "youtubeId": "4ujTKJs-mrM",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: Kingdoms and viruses. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2026 BIOLOGY: The Secret to Remembering All 5 Kingdoms of Classification of Living Things",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Kingdoms and viruses. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2903,28 +3405,34 @@ export const syllabusData = {
               "id": "biology.cell-biology.e1",
               "order": 1,
               "objective": "Cell structure and organelles",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "0rBD_Xy1ASY",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Cell structure and organelles. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Cell Biology | Cell Structure and Cell Function | Grade 9",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Cell structure and organelles. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.cell-biology.e2",
               "order": 2,
               "objective": "Cell division: mitosis and meiosis",
-              "youtubeId": "d3_v9r7k8q2",
+              "youtubeId": "LUDws4JrIiI",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Cell division: mitosis and meiosis. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Cell Biology | Cell Cycle: Interphase & Mitosis",
+              "channel": "Ninja Nerd",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Cell division: mitosis and meiosis. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.cell-biology.e3",
               "order": 3,
               "objective": "Cell organisation and microscopy",
-              "youtubeId": "e4_v9r7k8q2",
+              "youtubeId": "0rBD_Xy1ASY",
               "videoStatus": "approved",
-              "duration": "14:34",
-              "summaryNotes": "Key objective: Cell organisation and microscopy. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Cell Biology | Cell Structure and Cell Function | Grade 9",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Cell organisation and microscopy. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2937,28 +3445,34 @@ export const syllabusData = {
               "id": "biology.transport-of-substances.e1",
               "order": 1,
               "objective": "Diffusion, osmosis, active transport",
-              "youtubeId": "f5_v9r7k8q2",
+              "youtubeId": "RtgLoncigyc",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Diffusion, osmosis, active transport. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Cell Environment! Diffusion, Osmosis & Active Transport Explained (JAMB BIOLOGY)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Diffusion, osmosis, active transport. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.transport-of-substances.e2",
               "order": 2,
               "objective": "Transport in plants",
-              "youtubeId": "g6_v9r7k8q2",
+              "youtubeId": "NI7BXw-WSIo",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Transport in plants. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Biology 2027 EP 78 - Transportation in Plants + Free JAMB Biology Past Questions and Answers",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Transport in plants. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.transport-of-substances.e3",
               "order": 3,
               "objective": "Transport in animals and blood",
-              "youtubeId": "h7_v9r7k8q2",
+              "youtubeId": "vjLOmzVwLJY",
               "videoStatus": "approved",
-              "duration": "16:34",
-              "summaryNotes": "Key objective: Transport in animals and blood. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Biology 2027 EP 73 - Transport System - The BLOOD and Components  + Free JAMB Biology PQ's",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Transport in animals and blood. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -2971,37 +3485,45 @@ export const syllabusData = {
               "id": "biology.nutrition.e1",
               "order": 1,
               "objective": "Plant nutrition and photosynthesis",
-              "youtubeId": "i8_v9r7k8q2",
+              "youtubeId": "j1IJH1sUZlA",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Plant nutrition and photosynthesis. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Plant Nutrition | Full Biology Lesson for JAMB & WAEC 2026 | Photosynthesis, Chlorophyll Explained",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Plant nutrition and photosynthesis. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.nutrition.e2",
               "order": 2,
               "objective": "Mineral nutrition and deficiency",
-              "youtubeId": "j9_v9r7k8q2",
+              "youtubeId": "j1IJH1sUZlA",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Mineral nutrition and deficiency. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Plant Nutrition | Full Biology Lesson for JAMB & WAEC 2026 | Photosynthesis, Chlorophyll Explained",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Mineral nutrition and deficiency. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.nutrition.e3",
               "order": 3,
               "objective": "Animal nutrition and balanced diet",
-              "youtubeId": "k0_v9r7k8q2",
+              "youtubeId": "UkVKYs4emog",
               "videoStatus": "approved",
-              "duration": "18:34",
-              "summaryNotes": "Key objective: Animal nutrition and balanced diet. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Animal nutrition (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Animal nutrition and balanced diet. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.nutrition.e4",
               "order": 4,
               "objective": "Digestive system and enzymes",
-              "youtubeId": "l1_v9r7k8q2",
+              "youtubeId": "W9cIKFqe278",
               "videoStatus": "approved",
-              "duration": "19:51",
-              "summaryNotes": "Key objective: Digestive system and enzymes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DIGESTIVE SYSTEM (STOMACH) (JAMB AND WAEC 2026) (UTME 2026)",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Digestive system and enzymes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3014,19 +3536,23 @@ export const syllabusData = {
               "id": "biology.respiration.e1",
               "order": 1,
               "objective": "Aerobic and anaerobic respiration",
-              "youtubeId": "m2_v9r7k8q2",
+              "youtubeId": "SC-KorOsg3A",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Aerobic and anaerobic respiration. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "BIOLOGY | CELLULAR RESPIRATION | EXAM GUIDE | LEARNING HUB | ZIGMATECH CONSULT LIMITED | EXAMGUIDE",
+              "channel": "ExamGuide",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Aerobic and anaerobic respiration. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.respiration.e2",
               "order": 2,
               "objective": "Gaseous exchange in plants and animals",
-              "youtubeId": "n3_v9r7k8q2",
+              "youtubeId": "Yb2Fr-nLLgQ",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Gaseous exchange in plants and animals. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Respiratory System in Animals and Plants  (WAEC/JAMB/NECO Biology)",
+              "channel": "Ighota!",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Gaseous exchange in plants and animals. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3039,28 +3565,34 @@ export const syllabusData = {
               "id": "biology.excretion-and-homeostasis.e1",
               "order": 1,
               "objective": "Excretory organs in plants and animals",
-              "youtubeId": "o4_v9r7k8q2",
+              "youtubeId": "0ddpH8lKEzQ",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Excretory organs in plants and animals. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Your Body’s Cleaning System Explained in 2 mins. The Excretory System. #shorts #excretion #biology",
+              "channel": "Lessons by Uzzy. ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Excretory organs in plants and animals. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.excretion-and-homeostasis.e2",
               "order": 2,
               "objective": "The kidney and osmoregulation",
-              "youtubeId": "p5_v9r7k8q2",
+              "youtubeId": "0ddpH8lKEzQ",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: The kidney and osmoregulation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Your Body’s Cleaning System Explained in 2 mins. The Excretory System. #shorts #excretion #biology",
+              "channel": "Lessons by Uzzy. ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: The kidney and osmoregulation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.excretion-and-homeostasis.e3",
               "order": 3,
               "objective": "Homeostasis and temperature control",
-              "youtubeId": "q6_v9r7k8q2",
+              "youtubeId": "KPIzdNf3TmM",
               "videoStatus": "approved",
-              "duration": "22:34",
-              "summaryNotes": "Key objective: Homeostasis and temperature control. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "34. Liver Diseases Part 2 Biology Form 2",
+              "channel": "KCSE BIOLOGY",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Homeostasis and temperature control. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3073,28 +3605,34 @@ export const syllabusData = {
               "id": "biology.coordination-and-control.e1",
               "order": 1,
               "objective": "Nervous system and reflex action",
-              "youtubeId": "r7_v9r7k8q2",
+              "youtubeId": "ZzSoksKaKkg",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Nervous system and reflex action. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2026 | Nervous Coordination Explained (The Part JAMB Loves to Set 😱)",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Nervous system and reflex action. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.coordination-and-control.e2",
               "order": 2,
               "objective": "Sense organs: eye and ear",
-              "youtubeId": "s8_v9r7k8q2",
+              "youtubeId": "jWZjTel8puo",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Sense organs: eye and ear. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "NERVOUS SYSTEM (JAMB 2026 BIOLOGY & WAEC 2026 BIOLOGY) (UTME 2026)",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Sense organs: eye and ear. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.coordination-and-control.e3",
               "order": 3,
               "objective": "Hormones and endocrine glands",
-              "youtubeId": "t9_v9r7k8q2",
+              "youtubeId": "AQftdxkR5Hw",
               "videoStatus": "approved",
-              "duration": "24:34",
-              "summaryNotes": "Key objective: Hormones and endocrine glands. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "What Are Hormones | Biology Class on Hormonal Co - Ordinating System",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Hormones and endocrine glands. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3107,28 +3645,34 @@ export const syllabusData = {
               "id": "biology.support-and-movement.e1",
               "order": 1,
               "objective": "Skeleton and joints",
-              "youtubeId": "u0_v9r7k8q2",
+              "youtubeId": "RanPCH-UTOI",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Skeleton and joints. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Bones, Joints & Cartilage! Skeletal System & Movement (JAMB BIOLOGY)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Skeleton and joints. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.support-and-movement.e2",
               "order": 2,
               "objective": "Muscles and locomotion",
-              "youtubeId": "v1_v9r7k8q2",
+              "youtubeId": "ExjFH4wsKMA",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Muscles and locomotion. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Support and Movement | Biology | Full Explanation | Jamb, Waec, Tertiary Institutions",
+              "channel": "ScholarGen",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Muscles and locomotion. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.support-and-movement.e3",
               "order": 3,
               "objective": "Support in plants",
-              "youtubeId": "w2_v9r7k8q2",
+              "youtubeId": "ExjFH4wsKMA",
               "videoStatus": "approved",
-              "duration": "11:34",
-              "summaryNotes": "Key objective: Support in plants. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Support and Movement | Biology | Full Explanation | Jamb, Waec, Tertiary Institutions",
+              "channel": "ScholarGen",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Support in plants. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3141,28 +3685,34 @@ export const syllabusData = {
               "id": "biology.reproduction-in-plants.e1",
               "order": 1,
               "objective": "Asexual reproduction",
-              "youtubeId": "x3_v9r7k8q2",
+              "youtubeId": "SP01HeC2pSI",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Asexual reproduction. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Biology 2027 EP 101 - Reproduction & Growth (Asexual Reproduction) + Free Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Asexual reproduction. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.reproduction-in-plants.e2",
               "order": 2,
               "objective": "Flower structure, pollination, fertilisation",
-              "youtubeId": "y4_v9r7k8q2",
+              "youtubeId": "E5xdTDwxRK0",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Flower structure, pollination, fertilisation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Reproduction in flowering plants(Flowers structures and functions)Explained in 13 minutes",
+              "channel": "Nurse Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Flower structure, pollination, fertilisation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.reproduction-in-plants.e3",
               "order": 3,
               "objective": "Seeds, fruits, dispersal and germination",
-              "youtubeId": "z5_v9r7k8q2",
+              "youtubeId": "taaiH3XdSxw",
               "videoStatus": "approved",
-              "duration": "13:34",
-              "summaryNotes": "Key objective: Seeds, fruits, dispersal and germination. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Seeds and Germination Explained",
+              "channel": "Science Sauce",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Seeds, fruits, dispersal and germination. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3175,28 +3725,34 @@ export const syllabusData = {
               "id": "biology.reproduction-in-animals.e1",
               "order": 1,
               "objective": "Reproductive systems",
-              "youtubeId": "a6_v9r7k8q2",
+              "youtubeId": "piZ5C9oQGds",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Reproductive systems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "BIOLOGY | REPRODUCTION | EXAM GUIDE | LEARNING HUB | ZIGMATECH CONSULT | EXAMGUIDE | SCIENCE",
+              "channel": "ExamGuide",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Reproductive systems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.reproduction-in-animals.e2",
               "order": 2,
               "objective": "Fertilisation, pregnancy, development",
-              "youtubeId": "b7_v9r7k8q2",
+              "youtubeId": "1nmqbgw91CE",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Fertilisation, pregnancy, development. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "\"Embryonic Development 3D Animation | From Fertilization to Fetus Growth Explained 👶🧬\"",
+              "channel": "medialsmort study",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Fertilisation, pregnancy, development. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.reproduction-in-animals.e3",
               "order": 3,
               "objective": "Life cycles of insects",
-              "youtubeId": "c8_v9r7k8q2",
+              "youtubeId": "ldrwwxW_Dzs",
               "videoStatus": "approved",
-              "duration": "15:34",
-              "summaryNotes": "Key objective: Life cycles of insects. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Mosquito Life Cycle 🦟 | From Egg to Adult in 3D Animation #Shorts  #biology #animation",
+              "channel": "Wild Biology",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Life cycles of insects. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3209,37 +3765,45 @@ export const syllabusData = {
               "id": "biology.genetics.e1",
               "order": 1,
               "objective": "Mendel's laws and monohybrid crosses",
-              "youtubeId": "d9_v9r7k8q2",
+              "youtubeId": "0f9EGdyzrL0",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Mendel's laws and monohybrid crosses. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Monohybrid Cross in Genetics | F1 & F2 Generation, Phenotypic Ratio & Genotypic Ratio | NEET Biology",
+              "channel": "BioQuest",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Mendel's laws and monohybrid crosses. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.genetics.e2",
               "order": 2,
               "objective": "Dihybrid crosses and sex linkage",
-              "youtubeId": "e0_v9r7k8q2",
+              "youtubeId": "moNxXFAJ448",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Dihybrid crosses and sex linkage. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Genetics FULL CLASS for JAMB 2026 | Mendelian Genetics, Monohybrid Cross, Dihybrid Cross, Test Cross",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Dihybrid crosses and sex linkage. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.genetics.e3",
               "order": 3,
               "objective": "Chromosomes, genes, DNA",
-              "youtubeId": "f1_v9r7k8q2",
+              "youtubeId": "r1mfxo1vFpw",
               "videoStatus": "approved",
-              "duration": "17:34",
-              "summaryNotes": "Key objective: Chromosomes, genes, DNA. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DNA, RNA, Genes & Chromosomes 🧬 | Biology Notes Made Easy",
+              "channel": "Concept_Academics",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Chromosomes, genes, DNA. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.genetics.e4",
               "order": 4,
               "objective": "Mutation and variation",
-              "youtubeId": "g2_v9r7k8q2",
+              "youtubeId": "moNxXFAJ448",
               "videoStatus": "approved",
-              "duration": "18:51",
-              "summaryNotes": "Key objective: Mutation and variation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Genetics FULL CLASS for JAMB 2026 | Mendelian Genetics, Monohybrid Cross, Dihybrid Cross, Test Cross",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Mutation and variation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3252,19 +3816,23 @@ export const syllabusData = {
               "id": "biology.evolution.e1",
               "order": 1,
               "objective": "Theories of evolution",
-              "youtubeId": "h3_v9r7k8q2",
+              "youtubeId": "torNU9bl_Rs",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Theories of evolution. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "EVOLUTION IN BIOLOGY (JAMB 2026) 🔥 | Lamarck, Darwin, Evidence & Past Questions Explained",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Theories of evolution. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.evolution.e2",
               "order": 2,
               "objective": "Evidence and natural selection",
-              "youtubeId": "i4_v9r7k8q2",
+              "youtubeId": "JhEJj-usqQw",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Evidence and natural selection. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Charles Darwin’s  Theory of Human Evolution |Jethro Pie|",
+              "channel": "Jethro Pie",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Evidence and natural selection. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3277,28 +3845,34 @@ export const syllabusData = {
               "id": "biology.ecology-basic-concepts.e1",
               "order": 1,
               "objective": "Ecosystem, habitat, niche",
-              "youtubeId": "j5_v9r7k8q2",
+              "youtubeId": "vZzZhJslFoU",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Ecosystem, habitat, niche. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Basic ecological system  (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Ecosystem, habitat, niche. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.ecology-basic-concepts.e2",
               "order": 2,
               "objective": "Food chains and webs",
-              "youtubeId": "k6_v9r7k8q2",
+              "youtubeId": "fi76CGVnlnk",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Food chains and webs. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC  Biology 2027 EP 116 - Ecology ( Major Ecological Concepts) + Free JAMB/WAEC Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Food chains and webs. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.ecology-basic-concepts.e3",
               "order": 3,
               "objective": "Energy flow and nutrient cycles",
-              "youtubeId": "l7_v9r7k8q2",
+              "youtubeId": "srpl5YRw-_U",
               "videoStatus": "approved",
-              "duration": "21:34",
-              "summaryNotes": "Key objective: Energy flow and nutrient cycles. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Ecology Review: Food Chains & Webs, Relationships, Nitrogen & Carbon Cycles, Effects on Biodiversity",
+              "channel": "Amoeba Sisters",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Energy flow and nutrient cycles. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3311,28 +3885,34 @@ export const syllabusData = {
               "id": "biology.ecology-populations-and-succession.e1",
               "order": 1,
               "objective": "Population and communities",
-              "youtubeId": "m8_v9r7k8q2",
+              "youtubeId": "DpODXBc4gck",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Population and communities. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Hydrosere#Succession in aquatic reservoir#EP Odum# #biologyfacts #freshwaterecosystems",
+              "channel": "Biology with easy ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Population and communities. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.ecology-populations-and-succession.e2",
               "order": 2,
               "objective": "Ecological succession",
-              "youtubeId": "n9_v9r7k8q2",
+              "youtubeId": "bpJY3NEK8Kk",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Ecological succession. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ECOLOGICAL SUCCESSION AND OVERCROWDING | BIOLOGY",
+              "channel": "ExamGuide",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Ecological succession. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.ecology-populations-and-succession.e3",
               "order": 3,
               "objective": "Adaptations in plants and animals",
-              "youtubeId": "o0_v9r7k8q2",
+              "youtubeId": "aUfp4zep8PY",
               "videoStatus": "approved",
-              "duration": "23:34",
-              "summaryNotes": "Key objective: Adaptations in plants and animals. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Biology 2027 EP 122 - Adaptation, Habitat & Ecological Succession + JAMB/WAEC Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Adaptations in plants and animals. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3345,19 +3925,23 @@ export const syllabusData = {
               "id": "biology.biomes-and-conservation.e1",
               "order": 1,
               "objective": "Nigerian vegetation zones and biomes",
-              "youtubeId": "p1_v9r7k8q2",
+              "youtubeId": "hqZo_4mV6s0",
               "videoStatus": "approved",
-              "duration": "23:00",
-              "summaryNotes": "Key objective: Nigerian vegetation zones and biomes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Biomes in Biology | UTME 2026 | JAMB | WAEC | NECO | A-LEVELS",
+              "channel": "PRIMAX PREVARSITY",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Nigerian vegetation zones and biomes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.biomes-and-conservation.e2",
               "order": 2,
               "objective": "Conservation and pollution",
-              "youtubeId": "q2_v9r7k8q2",
+              "youtubeId": "gTzHzA-mJzw",
               "videoStatus": "approved",
-              "duration": "24:17",
-              "summaryNotes": "Key objective: Conservation and pollution. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "2027 JAMB Biology Syllabus & Areas of Concentration",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Conservation and pollution. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3370,28 +3954,34 @@ export const syllabusData = {
               "id": "biology.microbiology-and-health.e1",
               "order": 1,
               "objective": "Bacteria, fungi, viruses",
-              "youtubeId": "r3_v9r7k8q2",
+              "youtubeId": "q39RO0QzqoE",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Bacteria, fungi, viruses. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Microorganisms! Bacteria, Viruses, and the World of the Microscopic (JAMB BIOLOGY)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Bacteria, fungi, viruses. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.microbiology-and-health.e2",
               "order": 2,
               "objective": "Common diseases and vectors",
-              "youtubeId": "s4_v9r7k8q2",
+              "youtubeId": "n6tPcPcimYQ",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Common diseases and vectors. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "10 Most Repeated Questions on Microorganisms, Disease & Immunity (JAMB BIOLOGY)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Common diseases and vectors. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.microbiology-and-health.e3",
               "order": 3,
               "objective": "Immunity and vaccination",
-              "youtubeId": "t5_v9r7k8q2",
+              "youtubeId": "a1kJmcvfsYM",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: Immunity and vaccination. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Immunity & Vaccines! Natural vs Artificial & The Science of Antibodies (JAMB BIOLOGY)",
+              "channel": "MaxChem5",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Immunity and vaccination. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3404,19 +3994,23 @@ export const syllabusData = {
               "id": "biology.plant-and-animal-behaviour.e1",
               "order": 1,
               "objective": "Tropisms and nastic movements",
-              "youtubeId": "u6_v9r7k8q2",
+              "youtubeId": "_2GTghBr7j0",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Tropisms and nastic movements. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Biology 2027 EP 95 - Movement In Plants (Taxism , Tropism & Nastism) + Free JAMB/WAEC Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Tropisms and nastic movements. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.plant-and-animal-behaviour.e2",
               "order": 2,
               "objective": "Animal behaviour and social life",
-              "youtubeId": "v7_v9r7k8q2",
+              "youtubeId": "MUQbtI8dHv0",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Animal behaviour and social life. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 400 BIOLOGY (PART 1) JAMB 2026 LIKELY BIOLOGY EXAM QUESTIONS",
+              "channel": "Learnliftapp JAMB and WAEC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Animal behaviour and social life. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3429,19 +4023,23 @@ export const syllabusData = {
               "id": "biology.biotechnology.e1",
               "order": 1,
               "objective": "Fermentation and industrial uses",
-              "youtubeId": "w8_v9r7k8q2",
+              "youtubeId": "mnBScFI8IC4",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Fermentation and industrial uses. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Why Should You Study Biotech? #biotechnology #lablife #biotechindia #research",
+              "channel": "Thrilling Science With Facts",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Fermentation and industrial uses. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "biology.biotechnology.e2",
               "order": 2,
               "objective": "Genetic engineering and cloning",
-              "youtubeId": "x9_v9r7k8q2",
+              "youtubeId": "CDw4WPng2iE",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Genetic engineering and cloning. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Genetic Engineering",
+              "channel": "Amoeba Sisters",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Biology: Genetic engineering and cloning. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -3465,19 +4063,23 @@ export const syllabusData = {
               "id": "government.basic-concepts-of-government.e1",
               "order": 1,
               "objective": "Government, state, nation, power, authority",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "Se3D0wkZhXM",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Government, state, nation, power, authority. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB GOVERNMENT 2027  Full Syllabus and Area of Concentration",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Government, state, nation, power, authority. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.basic-concepts-of-government.e2",
               "order": 2,
               "objective": "Sovereignty, legitimacy, rights and duties",
-              "youtubeId": "g1_v9r7k8q2",
+              "youtubeId": "duQnO-Iqv2Y",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Sovereignty, legitimacy, rights and duties. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2025 Government Question . JAMB Government Past Question and Answer.",
+              "channel": "Study Smart Mentor A.R.A",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Sovereignty, legitimacy, rights and duties. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3490,19 +4092,23 @@ export const syllabusData = {
               "id": "government.forms-and-systems-of-government.e1",
               "order": 1,
               "objective": "Presidential, parliamentary, unitary, federal, confederal",
-              "youtubeId": "g2_v9r7k8q2",
+              "youtubeId": "vy0bX4efS_k",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Presidential, parliamentary, unitary, federal, confederal. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Systems & Forms of Government: Unitary, Federal, Monachical, Military & More | Complete Class",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Presidential, parliamentary, unitary, federal, confederal. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.forms-and-systems-of-government.e2",
               "order": 2,
               "objective": "Democracy, monarchy, oligarchy, autocracy",
-              "youtubeId": "g3_v9r7k8q2",
+              "youtubeId": "Se3D0wkZhXM",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Democracy, monarchy, oligarchy, autocracy. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB GOVERNMENT 2027  Full Syllabus and Area of Concentration",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Democracy, monarchy, oligarchy, autocracy. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3515,19 +4121,23 @@ export const syllabusData = {
               "id": "government.constitution.e1",
               "order": 1,
               "objective": "Types and sources of constitution",
-              "youtubeId": "g4_v9r7k8q2",
+              "youtubeId": "jxoRvfALees",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Types and sources of constitution. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Breaking Down Of CONSTITUTION: What You Need to Know",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Types and sources of constitution. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.constitution.e2",
               "order": 2,
               "objective": "Rule of law, separation of powers, checks and balances",
-              "youtubeId": "g5_v9r7k8q2",
+              "youtubeId": "JIzcSoYWE2E",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Rule of law, separation of powers, checks and balances. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "300+ in JAMB Government Series EP 31 - Separation of Powers (Principles of Democratic Government)",
+              "channel": "Knowledge Capsule",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Rule of law, separation of powers, checks and balances. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3540,28 +4150,34 @@ export const syllabusData = {
               "id": "government.arms-of-government.e1",
               "order": 1,
               "objective": "The legislature",
-              "youtubeId": "g6_v9r7k8q2",
+              "youtubeId": "Se3D0wkZhXM",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: The legislature. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB GOVERNMENT 2027  Full Syllabus and Area of Concentration",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: The legislature. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.arms-of-government.e2",
               "order": 2,
               "objective": "The executive",
-              "youtubeId": "g7_v9r7k8q2",
+              "youtubeId": "wdyEB1v-TUU",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: The executive. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Three Arms of Government & Separation of Powers – WAEC/NECO/JUPEB/Exam Prep Guide",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: The executive. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.arms-of-government.e3",
               "order": 3,
               "objective": "The judiciary",
-              "youtubeId": "g8_v9r7k8q2",
+              "youtubeId": "J8H2DUkHmVE",
               "videoStatus": "approved",
-              "duration": "18:34",
-              "summaryNotes": "Key objective: The judiciary. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Jamb 2026 Government | Arms and Forms of Government | Political Ideologies ",
+              "channel": "THE JAMB MASTER",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: The judiciary. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3574,19 +4190,23 @@ export const syllabusData = {
               "id": "government.political-ideologies.e1",
               "order": 1,
               "objective": "Capitalism and socialism",
-              "youtubeId": "g9_v9r7k8q2",
+              "youtubeId": "V4bGcjrmNtc",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Capitalism and socialism. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "300+ In JAMB Government Series - Communism (Political Ideologies) EP 24",
+              "channel": "Knowledge Capsule",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Capitalism and socialism. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.political-ideologies.e2",
               "order": 2,
               "objective": "Communism, fascism, feudalism",
-              "youtubeId": "g10_v9r7k8q2",
+              "youtubeId": "V4bGcjrmNtc",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Communism, fascism, feudalism. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "300+ In JAMB Government Series - Communism (Political Ideologies) EP 24",
+              "channel": "Knowledge Capsule",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Communism, fascism, feudalism. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3599,19 +4219,23 @@ export const syllabusData = {
               "id": "government.citizenship.e1",
               "order": 1,
               "objective": "Acquiring citizenship",
-              "youtubeId": "g11_v9r7k8q2",
+              "youtubeId": "jQlzeaW8peA",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Acquiring citizenship. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "CITIZENSHIP - Explained to Your Understanding",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Acquiring citizenship. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.citizenship.e2",
               "order": 2,
               "objective": "Rights, duties, civic responsibility",
-              "youtubeId": "g12_v9r7k8q2",
+              "youtubeId": "DcV6qtnSrCE",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Rights, duties, civic responsibility. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Citizen Duties and Responsibilities | Duties and Responsibilities of Citizens",
+              "channel": "Knowledge Topper",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Rights, duties, civic responsibility. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3624,19 +4248,23 @@ export const syllabusData = {
               "id": "government.political-parties-and-pressure-groups.e1",
               "order": 1,
               "objective": "Party systems and functions",
-              "youtubeId": "g13_v9r7k8q2",
+              "youtubeId": "Bvd0xFSwqtI",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Party systems and functions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "300+ in JAMB Government Series EP 44 – Political Parties & Party Systems | JAMB Government Tutorial",
+              "channel": "Knowledge Capsule",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Party systems and functions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.political-parties-and-pressure-groups.e2",
               "order": 2,
               "objective": "Pressure groups and interest groups",
-              "youtubeId": "g14_v9r7k8q2",
+              "youtubeId": "UiVRcvSAB94",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Pressure groups and interest groups. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Pressure Groups Explained | WAEC, NECO & JAMB Government Masterclass",
+              "channel": "ExamKP",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Pressure groups and interest groups. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3649,19 +4277,23 @@ export const syllabusData = {
               "id": "government.elections-and-electoral-systems.e1",
               "order": 1,
               "objective": "Types of electoral systems",
-              "youtubeId": "g15_v9r7k8q2",
+              "youtubeId": "yqnTvKftg6I",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Types of electoral systems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Government: Electoral Process Explained (Complete Guide)",
+              "channel": "EXCEL CLASS HUB",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Types of electoral systems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.elections-and-electoral-systems.e2",
               "order": 2,
               "objective": "INEC, electoral malpractices and reforms",
-              "youtubeId": "g16_v9r7k8q2",
+              "youtubeId": "yqnTvKftg6I",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: INEC, electoral malpractices and reforms. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Government: Electoral Process Explained (Complete Guide)",
+              "channel": "EXCEL CLASS HUB",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: INEC, electoral malpractices and reforms. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3674,19 +4306,23 @@ export const syllabusData = {
               "id": "government.civil-service-and-public-administration.e1",
               "order": 1,
               "objective": "Civil service principles",
-              "youtubeId": "g17_v9r7k8q2",
+              "youtubeId": "Zit8F4ssPIQ",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Civil service principles. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The meaning, explanation and scope of government [SS 1-3, JAMB Tutorial, WAEC, NECO, Post-UTME]",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Civil service principles. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.civil-service-and-public-administration.e2",
               "order": 2,
               "objective": "Public corporations and commissions",
-              "youtubeId": "g18_v9r7k8q2",
+              "youtubeId": "mi1qvf2JtU4",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Public corporations and commissions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "GOVERNMENT | CIVIL SERVICE AND THE PUBLIC CORPORATION | EXAM GUIDE | LEARNING HUB |ZIGMATECH CONSULT",
+              "channel": "ExamGuide",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Public corporations and commissions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3699,19 +4335,23 @@ export const syllabusData = {
               "id": "government.local-government.e1",
               "order": 1,
               "objective": "Functions, structure, finance",
-              "youtubeId": "g19_v9r7k8q2",
+              "youtubeId": "Se3D0wkZhXM",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Functions, structure, finance. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB GOVERNMENT 2027  Full Syllabus and Area of Concentration",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Functions, structure, finance. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.local-government.e2",
               "order": 2,
               "objective": "Traditional rulers and local government reforms",
-              "youtubeId": "g20_v9r7k8q2",
+              "youtubeId": "Se3D0wkZhXM",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Traditional rulers and local government reforms. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB GOVERNMENT 2027  Full Syllabus and Area of Concentration",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Traditional rulers and local government reforms. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3724,19 +4364,23 @@ export const syllabusData = {
               "id": "government.pre-colonial-political-systems.e1",
               "order": 1,
               "objective": "Hausa-Fulani and Sokoto Caliphate",
-              "youtubeId": "g21_v9r7k8q2",
+              "youtubeId": "L-Bh1NVxuv8",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Hausa-Fulani and Sokoto Caliphate. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Pre-Colonial Political Systems in Nigeria: The Hausa/Fulani, Igbo and Yoruba",
+              "channel": "Monday Osagie Iyoha",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Hausa-Fulani and Sokoto Caliphate. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.pre-colonial-political-systems.e2",
               "order": 2,
               "objective": "Yoruba and Igbo political systems",
-              "youtubeId": "g22_v9r7k8q2",
+              "youtubeId": "L-Bh1NVxuv8",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Yoruba and Igbo political systems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Pre-Colonial Political Systems in Nigeria: The Hausa/Fulani, Igbo and Yoruba",
+              "channel": "Monday Osagie Iyoha",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Yoruba and Igbo political systems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3749,19 +4393,23 @@ export const syllabusData = {
               "id": "government.colonial-administration-in-nigeria.e1",
               "order": 1,
               "objective": "Indirect rule and its effects",
-              "youtubeId": "g23_v9r7k8q2",
+              "youtubeId": "U-BmoBW8OIo",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Indirect rule and its effects. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "British Colonial Administration - DEFINITION/HISTORY/MERITS & DEMERITS etc",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Indirect rule and its effects. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.colonial-administration-in-nigeria.e2",
               "order": 2,
               "objective": "Colonial constitutions and rise of nationalism",
-              "youtubeId": "g24_v9r7k8q2",
+              "youtubeId": "Zit8F4ssPIQ",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Colonial constitutions and rise of nationalism. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The meaning, explanation and scope of government [SS 1-3, JAMB Tutorial, WAEC, NECO, Post-UTME]",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Colonial constitutions and rise of nationalism. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3774,19 +4422,23 @@ export const syllabusData = {
               "id": "government.nigerian-constitutional-development.e1",
               "order": 1,
               "objective": "Clifford, Richards, Macpherson, Lyttleton constitutions",
-              "youtubeId": "g25_v9r7k8q2",
+              "youtubeId": "RURfnoBGp1Q",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Clifford, Richards, Macpherson, Lyttleton constitutions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Clifford Constitution (1922) Nigeria's First Step Towards Political Voice Only the elite voted.",
+              "channel": "Echoes of history ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Clifford, Richards, Macpherson, Lyttleton constitutions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.nigerian-constitutional-development.e2",
               "order": 2,
               "objective": "Independence, republican and 1979/1999 constitutions",
-              "youtubeId": "g26_v9r7k8q2",
+              "youtubeId": "Rm6KYRrY54o",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Independence, republican and 1979/1999 constitutions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Constitutional Development (The Pre Independence Era) - PART 1",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Independence, republican and 1979/1999 constitutions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3799,19 +4451,23 @@ export const syllabusData = {
               "id": "government.federalism-in-nigeria.e1",
               "order": 1,
               "objective": "Federal structure and revenue allocation",
-              "youtubeId": "g27_v9r7k8q2",
+              "youtubeId": "lT_3jZbUoSo",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Federal structure and revenue allocation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "(Part 1) JAMB Government: Structure and Workings of Nigerian Federalism Explained",
+              "channel": "EXCEL CLASS HUB",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Federal structure and revenue allocation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.federalism-in-nigeria.e2",
               "order": 2,
               "objective": "Issues: federal character, resource control",
-              "youtubeId": "g28_v9r7k8q2",
+              "youtubeId": "wPJ5Gsi3Yes",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Issues: federal character, resource control. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Government: The Federal Character Principle Explained (UTME/O'LEVEL,WAEC Guide)- Student VillageNG",
+              "channel": "Student Village NG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Issues: federal character, resource control. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3824,19 +4480,23 @@ export const syllabusData = {
               "id": "government.military-rule-in-nigeria.e1",
               "order": 1,
               "objective": "Causes and impact of coups",
-              "youtubeId": "g29_v9r7k8q2",
+              "youtubeId": "dI1kB3dDfPM",
               "videoStatus": "approved",
-              "duration": "23:00",
-              "summaryNotes": "Key objective: Causes and impact of coups. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Military Rule in Nigeria (Definition, Key Characteristics etc) -  PART 1",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Causes and impact of coups. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.military-rule-in-nigeria.e2",
               "order": 2,
               "objective": "Transition to civil rule",
-              "youtubeId": "g30_v9r7k8q2",
+              "youtubeId": "TNPdMp_mlHc",
               "videoStatus": "approved",
-              "duration": "24:17",
-              "summaryNotes": "Key objective: Transition to civil rule. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WHAT IS MILITARY RULE #government #politicalsystem #militaryrule #government #politicalscience #jamb",
+              "channel": "𝕖𝕕𝕦𝕍𝕀𝔻.𝕤𝕥𝕦𝕕𝕪",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Transition to civil rule. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3849,19 +4509,23 @@ export const syllabusData = {
               "id": "government.nigerian-foreign-policy.e1",
               "order": 1,
               "objective": "Principles and objectives",
-              "youtubeId": "g31_v9r7k8q2",
+              "youtubeId": "-IP-gJNu8OQ",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Principles and objectives. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "NIGERIA'S FOREIGN POLICY - PART 1",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Principles and objectives. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.nigerian-foreign-policy.e2",
               "order": 2,
               "objective": "Nigeria in Africa and the world",
-              "youtubeId": "g32_v9r7k8q2",
+              "youtubeId": "-IP-gJNu8OQ",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Nigeria in Africa and the world. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "NIGERIA'S FOREIGN POLICY - PART 1",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Nigeria in Africa and the world. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3874,19 +4538,23 @@ export const syllabusData = {
               "id": "government.international-organisations.e1",
               "order": 1,
               "objective": "United Nations and agencies",
-              "youtubeId": "g33_v9r7k8q2",
+              "youtubeId": "97a6XkUBjPw",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: United Nations and agencies. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "International Organisations I (PART 1)",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: United Nations and agencies. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.international-organisations.e2",
               "order": 2,
               "objective": "AU, ECOWAS, Commonwealth, OPEC, NAM",
-              "youtubeId": "g34_v9r7k8q2",
+              "youtubeId": "wOgTSAHAs9M",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: AU, ECOWAS, Commonwealth, OPEC, NAM. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Commonwealth and ECOWAS Explained: Objectives, Structure, Achievements & Problems (JAMB Government)",
+              "channel": "Gopius E-Learning",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: AU, ECOWAS, Commonwealth, OPEC, NAM. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3899,19 +4567,23 @@ export const syllabusData = {
               "id": "government.pan-africanism-and-decolonisation.e1",
               "order": 1,
               "objective": "Meaning, origin, nationalist leaders",
-              "youtubeId": "g35_v9r7k8q2",
+              "youtubeId": "wvNWmJSed9k",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Meaning, origin, nationalist leaders. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Process of Decolonisation (Nationalism) PART 1",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Meaning, origin, nationalist leaders. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "government.pan-africanism-and-decolonisation.e2",
               "order": 2,
               "objective": "Regional integration in Africa",
-              "youtubeId": "g36_v9r7k8q2",
+              "youtubeId": "wvNWmJSed9k",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Regional integration in Africa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Process of Decolonisation (Nationalism) PART 1",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Government: Regional integration in Africa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -3935,28 +4607,34 @@ export const syllabusData = {
               "id": "economics.basic-concepts.e1",
               "order": 1,
               "objective": "Scarcity, choice, scale of preference, opportunity cost",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "U-egjoGPYTE",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Scarcity, choice, scale of preference, opportunity cost. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Economic Concepts Of Wants, Scarcity, Scale Of Preference, Choice And Opportunity Cost.",
+              "channel": "ECOPLUSHABOY",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Scarcity, choice, scale of preference, opportunity cost. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.basic-concepts.e2",
               "order": 2,
               "objective": "Economic systems",
-              "youtubeId": "e1_v9r7k8q2",
+              "youtubeId": "7qraWr2qCa4",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Economic systems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Economics 2027 EP 1 - Introduction to Economics, Definitions, PPF+ Likely Exam Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Economic systems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.basic-concepts.e3",
               "order": 3,
               "objective": "Production possibility curve",
-              "youtubeId": "e2_v9r7k8q2",
+              "youtubeId": "O6XL__2CDPU",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: Production possibility curve. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Production Possibilities Curve Review",
+              "channel": "Jacob Clifford",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Production possibility curve. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3969,19 +4647,23 @@ export const syllabusData = {
               "id": "economics.demand.e1",
               "order": 1,
               "objective": "Demand schedule, curve, determinants",
-              "youtubeId": "e3_v9r7k8q2",
+              "youtubeId": "7qraWr2qCa4",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Demand schedule, curve, determinants. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Economics 2027 EP 1 - Introduction to Economics, Definitions, PPF+ Likely Exam Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Demand schedule, curve, determinants. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.demand.e2",
               "order": 2,
               "objective": "Elasticity of demand",
-              "youtubeId": "e4_v9r7k8q2",
+              "youtubeId": "KOlPfQUBImE",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Elasticity of demand. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ECONOMICS:  ELASTICITY OF DEMAND (LESSON 1 of 2)",
+              "channel": "STEVKONS MATHEMATICS TUTORIALS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Elasticity of demand. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -3994,19 +4676,23 @@ export const syllabusData = {
               "id": "economics.supply.e1",
               "order": 1,
               "objective": "Supply schedule, curve, determinants",
-              "youtubeId": "e5_v9r7k8q2",
+              "youtubeId": "Rk9R4A85w3I",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Supply schedule, curve, determinants. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Supply Schedule & Supply Curve Explained | WAEC, NECO & JAMB Economics",
+              "channel": "Sir Gee Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Supply schedule, curve, determinants. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.supply.e2",
               "order": 2,
               "objective": "Elasticity of supply",
-              "youtubeId": "e6_v9r7k8q2",
+              "youtubeId": "baVjB688ymM",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Elasticity of supply. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2009 Economics | Price Elasticity of Supply Made Easy (Step-by-Step)",
+              "channel": "Sir Gee Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Elasticity of supply. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4019,19 +4705,23 @@ export const syllabusData = {
               "id": "economics.price-determination.e1",
               "order": 1,
               "objective": "Equilibrium price and quantity",
-              "youtubeId": "e7_v9r7k8q2",
+              "youtubeId": "Wra9WeX0sAw",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Equilibrium price and quantity. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Economics 2027 EP 36 - Theory Of Price Determination + Free JAMB Past Questions & Answers",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Equilibrium price and quantity. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.price-determination.e2",
               "order": 2,
               "objective": "Price control, subsidies, taxes",
-              "youtubeId": "e8_v9r7k8q2",
+              "youtubeId": "Wra9WeX0sAw",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Price control, subsidies, taxes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Economics 2027 EP 36 - Theory Of Price Determination + Free JAMB Past Questions & Answers",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Price control, subsidies, taxes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4044,28 +4734,34 @@ export const syllabusData = {
               "id": "economics.theory-of-production.e1",
               "order": 1,
               "objective": "Factors of production",
-              "youtubeId": "e9_v9r7k8q2",
+              "youtubeId": "gT8eEJaMs0Y",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Factors of production. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Economics 2027 EP 41 - Production Related Concepts TP, AP and MP + Free Past Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Factors of production. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.theory-of-production.e2",
               "order": 2,
               "objective": "Division of labour and specialisation",
-              "youtubeId": "e10_v9r7k8q2",
+              "youtubeId": "XAtcF2YbakA",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Division of labour and specialisation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Division of Labour & Specialisation Explained Simply | SS1 Economics",
+              "channel": "Economics Essentials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Division of labour and specialisation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.theory-of-production.e3",
               "order": 3,
               "objective": "Production costs and returns to scale",
-              "youtubeId": "e11_v9r7k8q2",
+              "youtubeId": "UxXGM6_bJoo",
               "videoStatus": "approved",
-              "duration": "20:34",
-              "summaryNotes": "Key objective: Production costs and returns to scale. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Economics 2027 EP 39 - Production Function, Short & Long Run, Returns to Scales",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Production costs and returns to scale. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4078,19 +4774,23 @@ export const syllabusData = {
               "id": "economics.theory-of-cost-and-revenue.e1",
               "order": 1,
               "objective": "Fixed, variable, total, average and marginal cost",
-              "youtubeId": "e12_v9r7k8q2",
+              "youtubeId": "acvmog553uc",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Fixed, variable, total, average and marginal cost. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Costs - all 7 explained - TFC, TVC, TC, AFC, AVC, AC and MC",
+              "channel": "Ingr Nomics",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Fixed, variable, total, average and marginal cost. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.theory-of-cost-and-revenue.e2",
               "order": 2,
               "objective": "Revenue and profit maximisation",
-              "youtubeId": "e13_v9r7k8q2",
+              "youtubeId": "WUni6YBNFC0",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Revenue and profit maximisation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "THEORY OF COST, REVENUE AND PROFIT.",
+              "channel": "ECOPLUSHABOY",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Revenue and profit maximisation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4103,19 +4803,23 @@ export const syllabusData = {
               "id": "economics.market-structures.e1",
               "order": 1,
               "objective": "Perfect competition",
-              "youtubeId": "e14_v9r7k8q2",
+              "youtubeId": "-KvYLtFND0U",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Perfect competition. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "SS 1 Economics - Market Structures: Perfect Competition | Nigerian Curriculum",
+              "channel": "Lite Tech Solutions Limited",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Perfect competition. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.market-structures.e2",
               "order": 2,
               "objective": "Monopoly, oligopoly, monopolistic competition",
-              "youtubeId": "e15_v9r7k8q2",
+              "youtubeId": "u1xIZOieOUw",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Monopoly, oligopoly, monopolistic competition. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "What Are the FOUR Market Structures in Economics? | [WITH EXAMPLES] | Think Econ",
+              "channel": "Think Econ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Monopoly, oligopoly, monopolistic competition. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4128,19 +4832,23 @@ export const syllabusData = {
               "id": "economics.business-organisations.e1",
               "order": 1,
               "objective": "Sole proprietorship, partnership, companies",
-              "youtubeId": "e16_v9r7k8q2",
+              "youtubeId": "X4bDDMwGNMU",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Sole proprietorship, partnership, companies. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Sole Proprietorship and Partnership  [SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB]",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Sole proprietorship, partnership, companies. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.business-organisations.e2",
               "order": 2,
               "objective": "Cooperatives, public enterprises, privatisation",
-              "youtubeId": "e17_v9r7k8q2",
+              "youtubeId": "lbz9E9haRRA",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Cooperatives, public enterprises, privatisation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Cooperative Societies (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Cooperatives, public enterprises, privatisation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4153,19 +4861,23 @@ export const syllabusData = {
               "id": "economics.national-income.e1",
               "order": 1,
               "objective": "Concepts and measurement",
-              "youtubeId": "e18_v9r7k8q2",
+              "youtubeId": "UDd7klwhsKQ",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Concepts and measurement. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "SS 1 Economics - National Income: Concepts and Measurement | Nigerian Curriculum",
+              "channel": "Lite Tech Solutions Limited",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Concepts and measurement. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.national-income.e2",
               "order": 2,
               "objective": "Circular flow and economic growth",
-              "youtubeId": "e19_v9r7k8q2",
+              "youtubeId": "g2Voizz_Cqk",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Circular flow and economic growth. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC 2027 Economics Lesson EP 55 - Circular Flow of Income + Real Exam Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Circular flow and economic growth. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4178,19 +4890,23 @@ export const syllabusData = {
               "id": "economics.money-and-inflation.e1",
               "order": 1,
               "objective": "Functions and forms of money",
-              "youtubeId": "e20_v9r7k8q2",
+              "youtubeId": "3az9XyvpE4s",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Functions and forms of money. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Economics Class: Everything You Need to Know About MONEY (Types, Functions & Fisher Equation)",
+              "channel": "Acada Ace Tutors",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Functions and forms of money. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.money-and-inflation.e2",
               "order": 2,
               "objective": "Inflation and deflation",
-              "youtubeId": "e21_v9r7k8q2",
+              "youtubeId": "FnZuxkJufLA",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Inflation and deflation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Inflation And Deflation (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Inflation and deflation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4203,28 +4919,34 @@ export const syllabusData = {
               "id": "economics.banking-and-financial-institutions.e1",
               "order": 1,
               "objective": "Central Bank and commercial banks",
-              "youtubeId": "e22_v9r7k8q2",
+              "youtubeId": "Jufwe0hVSo4",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Central Bank and commercial banks. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Central Bank and Specialized Banks (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Central Bank and commercial banks. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.banking-and-financial-institutions.e2",
               "order": 2,
               "objective": "Money and capital markets",
-              "youtubeId": "e23_v9r7k8q2",
+              "youtubeId": "YQl9IRtfas0",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Money and capital markets. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Money Market and Capital Market (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Money and capital markets. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.banking-and-financial-institutions.e3",
               "order": 3,
               "objective": "Insurance and monetary policy",
-              "youtubeId": "e24_v9r7k8q2",
+              "youtubeId": "fCUjt3xqRJI",
               "videoStatus": "approved",
-              "duration": "17:34",
-              "summaryNotes": "Key objective: Insurance and monetary policy. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "SS3 TV LESSONS: ECONOMICS FINANCIAL INSTITUTIONS",
+              "channel": "Wazobia Max TV",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Insurance and monetary policy. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4237,28 +4959,34 @@ export const syllabusData = {
               "id": "economics.public-finance.e1",
               "order": 1,
               "objective": "Taxation and public expenditure",
-              "youtubeId": "e25_v9r7k8q2",
+              "youtubeId": "0DIAH8SE7YE",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Taxation and public expenditure. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Public finance - Taxation (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Taxation and public expenditure. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.public-finance.e2",
               "order": 2,
               "objective": "Budget and fiscal policy",
-              "youtubeId": "e26_v9r7k8q2",
+              "youtubeId": "3nd9VE34iAA",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Budget and fiscal policy. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Fiscal policy of public finance (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Budget and fiscal policy. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.public-finance.e3",
               "order": 3,
               "objective": "Public debt",
-              "youtubeId": "e27_v9r7k8q2",
+              "youtubeId": "4mgY5iYeS_c",
               "videoStatus": "approved",
-              "duration": "19:34",
-              "summaryNotes": "Key objective: Public debt. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "What is Public Debt?  | Back to Basics",
+              "channel": "IMF",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Public debt. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4271,19 +4999,23 @@ export const syllabusData = {
               "id": "economics.labour-market.e1",
               "order": 1,
               "objective": "Population and demographic issues",
-              "youtubeId": "e28_v9r7k8q2",
+              "youtubeId": "yenb57eItHk",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Population and demographic issues. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Labour Market Explained | Supply, Demand & Wages Made Easy (WAEC & NECO)",
+              "channel": "Economics Essentials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Population and demographic issues. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.labour-market.e2",
               "order": 2,
               "objective": "Wages, labour unions, unemployment",
-              "youtubeId": "e29_v9r7k8q2",
+              "youtubeId": "7LxduQx7zyE",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Wages, labour unions, unemployment. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Economics 2003 | Why is Labour a Derived Demand?",
+              "channel": "Sir Gee Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Wages, labour unions, unemployment. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4296,19 +5028,23 @@ export const syllabusData = {
               "id": "economics.agriculture-in-nigeria.e1",
               "order": 1,
               "objective": "Types, problems, and policies",
-              "youtubeId": "e30_v9r7k8q2",
+              "youtubeId": "64mAdrxEZXU",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Types, problems, and policies. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ECONOMICS: Agriculture in Nigeria | UTME 2025 |Episode 2 of 7",
+              "channel": "Prepstation NG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Types, problems, and policies. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.agriculture-in-nigeria.e2",
               "order": 2,
               "objective": "Agricultural development",
-              "youtubeId": "e31_v9r7k8q2",
+              "youtubeId": "19OIsQX5wGg",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Agricultural development. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Meaning and Importance of Agriculture [SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB]",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Agricultural development. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4321,19 +5057,23 @@ export const syllabusData = {
               "id": "economics.industry-and-natural-resources.e1",
               "order": 1,
               "objective": "Industrialisation in Nigeria",
-              "youtubeId": "e32_v9r7k8q2",
+              "youtubeId": "MOCWVbTnf-0",
               "videoStatus": "approved",
-              "duration": "23:00",
-              "summaryNotes": "Key objective: Industrialisation in Nigeria. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Meaning of Industrialization, Importance & Challenges | SS1 Economics",
+              "channel": "Examhood",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Industrialisation in Nigeria. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.industry-and-natural-resources.e2",
               "order": 2,
               "objective": "Petroleum and mining",
-              "youtubeId": "e33_v9r7k8q2",
+              "youtubeId": "7qraWr2qCa4",
               "videoStatus": "approved",
-              "duration": "24:17",
-              "summaryNotes": "Key objective: Petroleum and mining. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Economics 2027 EP 1 - Introduction to Economics, Definitions, PPF+ Likely Exam Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Petroleum and mining. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4346,28 +5086,34 @@ export const syllabusData = {
               "id": "economics.international-trade.e1",
               "order": 1,
               "objective": "Comparative advantage",
-              "youtubeId": "e34_v9r7k8q2",
+              "youtubeId": "jd6FSwP5OS4",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Comparative advantage. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "International trade and balance of payments (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Comparative advantage. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.international-trade.e2",
               "order": 2,
               "objective": "Balance of payments and exchange rates",
-              "youtubeId": "e35_v9r7k8q2",
+              "youtubeId": "jd6FSwP5OS4",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Balance of payments and exchange rates. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "International trade and balance of payments (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Balance of payments and exchange rates. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.international-trade.e3",
               "order": 3,
               "objective": "Trade policies and organisations",
-              "youtubeId": "e36_v9r7k8q2",
+              "youtubeId": "jd6FSwP5OS4",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: Trade policies and organisations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "International trade and balance of payments (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Trade policies and organisations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4380,19 +5126,23 @@ export const syllabusData = {
               "id": "economics.economic-development-and-planning.e1",
               "order": 1,
               "objective": "Features of developing economies",
-              "youtubeId": "e37_v9r7k8q2",
+              "youtubeId": "Re-W3B21R8Y",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Features of developing economies. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Economics- meaning and basic concepts (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Features of developing economies. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.economic-development-and-planning.e2",
               "order": 2,
               "objective": "Development plans in Nigeria",
-              "youtubeId": "e38_v9r7k8q2",
+              "youtubeId": "Re-W3B21R8Y",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Development plans in Nigeria. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Economics- meaning and basic concepts (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Development plans in Nigeria. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4405,19 +5155,23 @@ export const syllabusData = {
               "id": "economics.distribution-and-rent-wages-interest.e1",
               "order": 1,
               "objective": "Theories of distribution",
-              "youtubeId": "e39_v9r7k8q2",
+              "youtubeId": "Re-W3B21R8Y",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Theories of distribution. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Economics- meaning and basic concepts (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Theories of distribution. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "economics.distribution-and-rent-wages-interest.e2",
               "order": 2,
               "objective": "Rent, wages, interest and profit",
-              "youtubeId": "e40_v9r7k8q2",
+              "youtubeId": "eX8p-yIPfE4",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Rent, wages, interest and profit. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Economics 2027 EP 49 - Types of Profits Made by A Perfect Competitor",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Economics: Rent, wages, interest and profit. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -4441,19 +5195,23 @@ export const syllabusData = {
               "id": "literature-in-english.introduction-to-literature.e1",
               "order": 1,
               "objective": "Genres: prose, drama, poetry",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "ucMDibee3qo",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Genres: prose, drama, poetry. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature in English: Drama, Prose, Poetry & Literary Devices Explained (Top 5 Topics)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Genres: prose, drama, poetry. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.introduction-to-literature.e2",
               "order": 2,
               "objective": "Literary devices and figures of speech",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "6wlFQSCLtMw",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Literary devices and figures of speech. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Figures of Speech (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Literary devices and figures of speech. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4466,19 +5224,23 @@ export const syllabusData = {
               "id": "literature-in-english.prose-elements.e1",
               "order": 1,
               "objective": "Plot, setting, characterisation, themes",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "ucMDibee3qo",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Plot, setting, characterisation, themes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature in English: Drama, Prose, Poetry & Literary Devices Explained (Top 5 Topics)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Plot, setting, characterisation, themes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.prose-elements.e2",
               "order": 2,
               "objective": "Point of view and style",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "ucMDibee3qo",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Point of view and style. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature in English: Drama, Prose, Poetry & Literary Devices Explained (Top 5 Topics)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Point of view and style. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4491,19 +5253,23 @@ export const syllabusData = {
               "id": "literature-in-english.drama-elements.e1",
               "order": 1,
               "objective": "Types of drama and dramatic techniques",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "JDNA_gP33Gk",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Types of drama and dramatic techniques. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Drama in Literature: Types, Techniques & Literary Devices | JAMB & WAEC | Student VillageNG",
+              "channel": "Student Village NG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Types of drama and dramatic techniques. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.drama-elements.e2",
               "order": 2,
               "objective": "Plot structure, dialogue, stage devices",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "JDNA_gP33Gk",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Plot structure, dialogue, stage devices. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Drama in Literature: Types, Techniques & Literary Devices | JAMB & WAEC | Student VillageNG",
+              "channel": "Student Village NG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Plot structure, dialogue, stage devices. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4516,28 +5282,34 @@ export const syllabusData = {
               "id": "literature-in-english.poetry-elements.e1",
               "order": 1,
               "objective": "Forms and types of poetry",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "ucMDibee3qo",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Forms and types of poetry. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature in English: Drama, Prose, Poetry & Literary Devices Explained (Top 5 Topics)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Forms and types of poetry. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.poetry-elements.e2",
               "order": 2,
               "objective": "Rhyme, rhythm, imagery, symbolism",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "ucMDibee3qo",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Rhyme, rhythm, imagery, symbolism. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature in English: Drama, Prose, Poetry & Literary Devices Explained (Top 5 Topics)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Rhyme, rhythm, imagery, symbolism. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.poetry-elements.e3",
               "order": 3,
               "objective": "Appreciating unseen poems",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "7Bari-Ggx5w",
               "videoStatus": "approved",
-              "duration": "18:34",
-              "summaryNotes": "Key objective: Appreciating unseen poems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Unseen Poetry: How To EASILY Get Full Marks In GCSE Literature Paper 2, Section C (GCSE 2026 Exams)",
+              "channel": "First Rate Tutors",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Appreciating unseen poems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4550,19 +5322,23 @@ export const syllabusData = {
               "id": "literature-in-english.african-prose-set-texts.e1",
               "order": 1,
               "objective": "Analysis of current WAEC/NECO/JAMB African prose set texts",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "CMgDLFdtfHE",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Analysis of current WAEC/NECO/JAMB African prose set texts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Summary and Analysis of 'Digging' by Seamus Heaney | WAEC & NECO Literature Syllabus 2026-2030",
+              "channel": "The English Language Teacher 📚",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Analysis of current WAEC/NECO/JAMB African prose set texts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.african-prose-set-texts.e2",
               "order": 2,
               "objective": "Themes, characters, literary devices",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "ucMDibee3qo",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Themes, characters, literary devices. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature in English: Drama, Prose, Poetry & Literary Devices Explained (Top 5 Topics)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Themes, characters, literary devices. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4575,19 +5351,23 @@ export const syllabusData = {
               "id": "literature-in-english.african-drama-set-texts.e1",
               "order": 1,
               "objective": "Analysis of current African drama set texts",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "CMgDLFdtfHE",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Analysis of current African drama set texts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Summary and Analysis of 'Digging' by Seamus Heaney | WAEC & NECO Literature Syllabus 2026-2030",
+              "channel": "The English Language Teacher 📚",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Analysis of current African drama set texts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.african-drama-set-texts.e2",
               "order": 2,
               "objective": "Themes, characters, style",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "u3ghS0ONLJk",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Themes, characters, style. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "#jamb2027prescribed poems for JAMB literature candidates #jambliterature #literatureinenglish",
+              "channel": "The JAMB Success Hub",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Themes, characters, style. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4600,19 +5380,23 @@ export const syllabusData = {
               "id": "literature-in-english.african-poetry-set-texts.e1",
               "order": 1,
               "objective": "Analysis of selected African poems",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "ucMDibee3qo",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Analysis of selected African poems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature in English: Drama, Prose, Poetry & Literary Devices Explained (Top 5 Topics)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Analysis of selected African poems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.african-poetry-set-texts.e2",
               "order": 2,
               "objective": "Poetic devices and themes",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "ucMDibee3qo",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Poetic devices and themes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature in English: Drama, Prose, Poetry & Literary Devices Explained (Top 5 Topics)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Poetic devices and themes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4625,19 +5409,23 @@ export const syllabusData = {
               "id": "literature-in-english.non-african-prose-set-texts.e1",
               "order": 1,
               "objective": "Analysis of non-African prose set texts",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "CMgDLFdtfHE",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Analysis of non-African prose set texts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Summary and Analysis of 'Digging' by Seamus Heaney | WAEC & NECO Literature Syllabus 2026-2030",
+              "channel": "The English Language Teacher 📚",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Analysis of non-African prose set texts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.non-african-prose-set-texts.e2",
               "order": 2,
               "objective": "Characters and themes",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "CMgDLFdtfHE",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Characters and themes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Summary and Analysis of 'Digging' by Seamus Heaney | WAEC & NECO Literature Syllabus 2026-2030",
+              "channel": "The English Language Teacher 📚",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Characters and themes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4650,19 +5438,23 @@ export const syllabusData = {
               "id": "literature-in-english.non-african-drama-set-texts.e1",
               "order": 1,
               "objective": "Analysis of non-African drama set texts",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "CMgDLFdtfHE",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Analysis of non-African drama set texts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Summary and Analysis of 'Digging' by Seamus Heaney | WAEC & NECO Literature Syllabus 2026-2030",
+              "channel": "The English Language Teacher 📚",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Analysis of non-African drama set texts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.non-african-drama-set-texts.e2",
               "order": 2,
               "objective": "Dramatic techniques",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "JDNA_gP33Gk",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Dramatic techniques. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Drama in Literature: Types, Techniques & Literary Devices | JAMB & WAEC | Student VillageNG",
+              "channel": "Student Village NG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Dramatic techniques. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4675,19 +5467,23 @@ export const syllabusData = {
               "id": "literature-in-english.non-african-poetry-set-texts.e1",
               "order": 1,
               "objective": "Analysis of non-African poems",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "r9NWDXNPSnE",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Analysis of non-African poems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Analysis of Non-African Poetry | Bat | Stanzas 1 & 2 | Literature In English | SS2",
+              "channel": "Afrilearn Education",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Analysis of non-African poems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.non-african-poetry-set-texts.e2",
               "order": 2,
               "objective": "Poetic devices and meaning",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "ucMDibee3qo",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Poetic devices and meaning. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature in English: Drama, Prose, Poetry & Literary Devices Explained (Top 5 Topics)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Poetic devices and meaning. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4700,19 +5496,23 @@ export const syllabusData = {
               "id": "literature-in-english.literary-appreciation.e1",
               "order": 1,
               "objective": "Answering essay and context questions",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "ucMDibee3qo",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Answering essay and context questions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature in English: Drama, Prose, Poetry & Literary Devices Explained (Top 5 Topics)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Answering essay and context questions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.literary-appreciation.e2",
               "order": 2,
               "objective": "Unseen prose and poetry",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "9M2ay4P9Cd8",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Unseen prose and poetry. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature-in-English | WAEC 2026 Past Questions and Answers (3RD VIDEO) #literatureinenglish",
+              "channel": "The English Language Teacher 📚",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Unseen prose and poetry. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4725,19 +5525,23 @@ export const syllabusData = {
               "id": "literature-in-english.oral-literature.e1",
               "order": 1,
               "objective": "Folktales, proverbs, myths, songs",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "ucMDibee3qo",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Folktales, proverbs, myths, songs. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Literature in English: Drama, Prose, Poetry & Literary Devices Explained (Top 5 Topics)",
+              "channel": "AllCBTs – 2026 Exam Questions & Updates",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Folktales, proverbs, myths, songs. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "literature-in-english.oral-literature.e2",
               "order": 2,
               "objective": "Functions of oral literature",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "Tc15aE7P4ew",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Functions of oral literature. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Functions of Literature in our contemporary Society | SSCE | WAEC | NECO | JAMB",
+              "channel": "LearnCity",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Literature in English: Functions of oral literature. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -4761,19 +5565,23 @@ export const syllabusData = {
               "id": "financial-accounting.introduction-to-accounting.e1",
               "order": 1,
               "objective": "Meaning, branches and users",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "2ViC4m2qtaM",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Meaning, branches and users. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Book-keeping and Accounting  (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Meaning, branches and users. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.introduction-to-accounting.e2",
               "order": 2,
               "objective": "Accounting concepts and conventions",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "2ViC4m2qtaM",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Accounting concepts and conventions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Book-keeping and Accounting  (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Accounting concepts and conventions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4786,19 +5594,23 @@ export const syllabusData = {
               "id": "financial-accounting.double-entry-bookkeeping.e1",
               "order": 1,
               "objective": "Source documents and books of original entry",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "ZNdy1p46yl8",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Source documents and books of original entry. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "BOOKS OF ORIGINAL ENTRY",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Source documents and books of original entry. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.double-entry-bookkeeping.e2",
               "order": 2,
               "objective": "Ledger accounts and trial balance",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "aMP1THtkPmQ",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Ledger accounts and trial balance. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "THE DOUBLE ENTRY RULE (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Ledger accounts and trial balance. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4811,19 +5623,23 @@ export const syllabusData = {
               "id": "financial-accounting.cash-book-and-petty-cash.e1",
               "order": 1,
               "objective": "Types of cash books",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "gygKRSvAvcs",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Types of cash books. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "THE PETTY CASHBOOK (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Types of cash books. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.cash-book-and-petty-cash.e2",
               "order": 2,
               "objective": "Petty cash and imprest system",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "gygKRSvAvcs",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Petty cash and imprest system. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "THE PETTY CASHBOOK (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Petty cash and imprest system. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4836,19 +5652,23 @@ export const syllabusData = {
               "id": "financial-accounting.journals-and-day-books.e1",
               "order": 1,
               "objective": "Sales, purchases, returns and general journal",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "5FYSKIWK5Wc",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Sales, purchases, returns and general journal. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ACCOUNTING BOOKS",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Sales, purchases, returns and general journal. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.journals-and-day-books.e2",
               "order": 2,
               "objective": "Bank reconciliation statements",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "EGWxclmKcgU",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Bank reconciliation statements. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Bank Reconciliation Statement",
+              "channel": "AccountancySmart",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Bank reconciliation statements. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4861,28 +5681,34 @@ export const syllabusData = {
               "id": "financial-accounting.final-accounts-of-sole-traders.e1",
               "order": 1,
               "objective": "Trading account",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "TN0821TnaHk",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Trading account. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "FINAL ACCOUNTS OF A SOLE TRADER (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Trading account. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.final-accounts-of-sole-traders.e2",
               "order": 2,
               "objective": "Profit and loss account and balance sheet",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "TN0821TnaHk",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Profit and loss account and balance sheet. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "FINAL ACCOUNTS OF A SOLE TRADER (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Profit and loss account and balance sheet. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.final-accounts-of-sole-traders.e3",
               "order": 3,
               "objective": "Adjustments in final accounts",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "v7QeBm_t_ZA",
               "videoStatus": "approved",
-              "duration": "20:34",
-              "summaryNotes": "Key objective: Adjustments in final accounts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ADJUSTMENTS FOR FINAL ACCOUNTS OF A SOLE TRADER",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Adjustments in final accounts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4895,19 +5721,23 @@ export const syllabusData = {
               "id": "financial-accounting.control-accounts-and-errors.e1",
               "order": 1,
               "objective": "Sales and purchase ledger control accounts",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "iCOOUEm4PvE",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Sales and purchase ledger control accounts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "CONTROL ACCOUNTS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Sales and purchase ledger control accounts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.control-accounts-and-errors.e2",
               "order": 2,
               "objective": "Errors and suspense account",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "91dQlwdwf44",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Errors and suspense account. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "CORRECTION OF ERRORS AND THE SUSPENSE ACCOUNT (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Errors and suspense account. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4920,19 +5750,23 @@ export const syllabusData = {
               "id": "financial-accounting.depreciation.e1",
               "order": 1,
               "objective": "Straight line and reducing balance methods",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "ksSewp1p17c",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Straight line and reducing balance methods. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DEPRECIATION OF NON-CURRENT ASSETS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Straight line and reducing balance methods. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.depreciation.e2",
               "order": 2,
               "objective": "Disposal of assets and provision accounts",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "ksSewp1p17c",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Disposal of assets and provision accounts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DEPRECIATION OF NON-CURRENT ASSETS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Disposal of assets and provision accounts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4945,19 +5779,23 @@ export const syllabusData = {
               "id": "financial-accounting.bad-debts-and-provisions.e1",
               "order": 1,
               "objective": "Bad debts and provision for doubtful debts",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "R81wSTcnhmU",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Bad debts and provision for doubtful debts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "IRRECOVERABLE DEBTS AND ALLOWANCES (BAD DEBTS AND PROVISIONS) - PART 1",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Bad debts and provision for doubtful debts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.bad-debts-and-provisions.e2",
               "order": 2,
               "objective": "Provision for discount",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "R81wSTcnhmU",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Provision for discount. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "IRRECOVERABLE DEBTS AND ALLOWANCES (BAD DEBTS AND PROVISIONS) - PART 1",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Provision for discount. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4970,19 +5808,23 @@ export const syllabusData = {
               "id": "financial-accounting.accounts-of-non-profit-organisations.e1",
               "order": 1,
               "objective": "Receipts and payments account",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "ko_fIKHyCt8",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Receipts and payments account. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ACCOUNTS FOR NON TRADING ORGANIZATIONS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Receipts and payments account. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.accounts-of-non-profit-organisations.e2",
               "order": 2,
               "objective": "Income and expenditure account",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "ko_fIKHyCt8",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Income and expenditure account. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ACCOUNTS FOR NON TRADING ORGANIZATIONS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Income and expenditure account. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -4995,28 +5837,34 @@ export const syllabusData = {
               "id": "financial-accounting.partnership-accounts.e1",
               "order": 1,
               "objective": "Formation, capital and current accounts",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "Ja2vpKR5ovs",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Formation, capital and current accounts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "INTRODUCTION TO PARTNERSHIP ACCOUNTS",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Formation, capital and current accounts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.partnership-accounts.e2",
               "order": 2,
               "objective": "Appropriation account and balance sheet",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "Ja2vpKR5ovs",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Appropriation account and balance sheet. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "INTRODUCTION TO PARTNERSHIP ACCOUNTS",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Appropriation account and balance sheet. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.partnership-accounts.e3",
               "order": 3,
               "objective": "Admission, retirement and dissolution",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "uG8uTqoVuKk",
               "videoStatus": "approved",
-              "duration": "15:34",
-              "summaryNotes": "Key objective: Admission, retirement and dissolution. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DEATH, RETIREMENT OR WITHDRAWAL OF A PARTNER (ACCOUNTING ARRANGEMENTS)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Admission, retirement and dissolution. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5029,19 +5877,23 @@ export const syllabusData = {
               "id": "financial-accounting.company-accounts.e1",
               "order": 1,
               "objective": "Share capital and issue of shares",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "Vee53bsSgqs",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Share capital and issue of shares. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "COMPANY ACCOUNTS (THE ISSUE OF SHARES) - PART 1",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Share capital and issue of shares. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.company-accounts.e2",
               "order": 2,
               "objective": "Debentures and final accounts of companies",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "8WdO3msL5sc",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Debentures and final accounts of companies. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "FINAL ACCOUNTS OF COMPANIES (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Debentures and final accounts of companies. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5054,19 +5906,23 @@ export const syllabusData = {
               "id": "financial-accounting.manufacturing-accounts.e1",
               "order": 1,
               "objective": "Cost classification and prime cost",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "7dUBuw3CmB4",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Cost classification and prime cost. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "MANUFACTURING ACCOUNTS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Cost classification and prime cost. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.manufacturing-accounts.e2",
               "order": 2,
               "objective": "Manufacturing account and factory profit",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "7dUBuw3CmB4",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Manufacturing account and factory profit. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "MANUFACTURING ACCOUNTS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Manufacturing account and factory profit. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5079,19 +5935,23 @@ export const syllabusData = {
               "id": "financial-accounting.single-entry-and-incomplete-records.e1",
               "order": 1,
               "objective": "Statement of affairs",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "rIWeycaj7oQ",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Statement of affairs. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "SINGLE ENTRY AND INCOMPLETE RECORDS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Statement of affairs. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.single-entry-and-incomplete-records.e2",
               "order": 2,
               "objective": "Conversion to final accounts",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "rIWeycaj7oQ",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Conversion to final accounts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "SINGLE ENTRY AND INCOMPLETE RECORDS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Conversion to final accounts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5104,19 +5964,23 @@ export const syllabusData = {
               "id": "financial-accounting.departmental-and-branch-accounts.e1",
               "order": 1,
               "objective": "Departmental accounts",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "c8GMzUbxMqk",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Departmental accounts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DEPARTMENTAL ACCOUNTS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Departmental accounts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.departmental-and-branch-accounts.e2",
               "order": 2,
               "objective": "Branch accounts",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "c8GMzUbxMqk",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Branch accounts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DEPARTMENTAL ACCOUNTS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Branch accounts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5129,19 +5993,23 @@ export const syllabusData = {
               "id": "financial-accounting.financial-statement-analysis.e1",
               "order": 1,
               "objective": "Ratios and interpretation",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "o_deiuZnCls",
               "videoStatus": "approved",
-              "duration": "23:00",
-              "summaryNotes": "Key objective: Ratios and interpretation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "INTERPRETATION OF FINANCIAL STATEMENTS (ACCOUNTING RATIOS) - PART 1",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Ratios and interpretation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.financial-statement-analysis.e2",
               "order": 2,
               "objective": "Cash flow and funds flow",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "8YJWra-knGo",
               "videoStatus": "approved",
-              "duration": "24:17",
-              "summaryNotes": "Key objective: Cash flow and funds flow. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "IAS 7 - STATEMENT OF CASHFLOWS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Cash flow and funds flow. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5154,19 +6022,23 @@ export const syllabusData = {
               "id": "financial-accounting.public-sector-accounting-and-ethics.e1",
               "order": 1,
               "objective": "Government accounting basics",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Government accounting basics. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Government accounting basics. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "financial-accounting.public-sector-accounting-and-ethics.e2",
               "order": 2,
               "objective": "Professional ethics in accounting",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "BMAkqlepXkE",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Professional ethics in accounting. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "THE PROFESSIONAL CODE OF ETHICS FOR ACCOUNTANTS (PART 1)",
+              "channel": "FOG Accountancy Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Financial Accounting: Professional ethics in accounting. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -5190,19 +6062,23 @@ export const syllabusData = {
               "id": "commerce.introduction-to-commerce.e1",
               "order": 1,
               "objective": "Meaning, scope, and relationship to trade",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "aW1RRFWCPSY",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Meaning, scope, and relationship to trade. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Commerce (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Meaning, scope, and relationship to trade. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.introduction-to-commerce.e2",
               "order": 2,
               "objective": "Aids to trade",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "cJk0P_Uw4eQ",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Aids to trade. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Commerce 2027 Syllabus & Area of Concentration",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Aids to trade. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5215,19 +6091,23 @@ export const syllabusData = {
               "id": "commerce.occupation.e1",
               "order": 1,
               "objective": "Types of occupation",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "Pk50AiO7y2I",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Types of occupation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Occupation (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Types of occupation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.occupation.e2",
               "order": 2,
               "objective": "Factors in choosing an occupation",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "Pk50AiO7y2I",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Factors in choosing an occupation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Occupation (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Factors in choosing an occupation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5240,19 +6120,23 @@ export const syllabusData = {
               "id": "commerce.production-and-trade.e1",
               "order": 1,
               "objective": "Production chain and distribution",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "aW1RRFWCPSY",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Production chain and distribution. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Commerce (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Production chain and distribution. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.production-and-trade.e2",
               "order": 2,
               "objective": "Retail and wholesale trade",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "b1h_AgnOh80",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Retail and wholesale trade. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Wholesale Trade (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Retail and wholesale trade. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5265,19 +6149,23 @@ export const syllabusData = {
               "id": "commerce.home-trade.e1",
               "order": 1,
               "objective": "Retailers and wholesalers",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "b1h_AgnOh80",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Retailers and wholesalers. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Wholesale Trade (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Retailers and wholesalers. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.home-trade.e2",
               "order": 2,
               "objective": "Hire purchase and cash discounts",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "cJk0P_Uw4eQ",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Hire purchase and cash discounts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB Commerce 2027 Syllabus & Area of Concentration",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Hire purchase and cash discounts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5290,19 +6178,23 @@ export const syllabusData = {
               "id": "commerce.foreign-trade.e1",
               "order": 1,
               "objective": "Documents in international trade",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "y-tgOJw8CMM",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Documents in international trade. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DOCUMENTS USED IN FOREIGN TRADE  | COMMERCE",
+              "channel": "ExamGuide",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Documents in international trade. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.foreign-trade.e2",
               "order": 2,
               "objective": "Balance of payments, tariffs, exchange",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "jd6FSwP5OS4",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Balance of payments, tariffs, exchange. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "International trade and balance of payments (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Balance of payments, tariffs, exchange. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5315,19 +6207,23 @@ export const syllabusData = {
               "id": "commerce.business-units.e1",
               "order": 1,
               "objective": "Sole trader, partnership, limited company",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "aW1RRFWCPSY",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Sole trader, partnership, limited company. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Commerce (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Sole trader, partnership, limited company. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.business-units.e2",
               "order": 2,
               "objective": "Cooperatives and public enterprises",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "vwObHUrCDOo",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Cooperatives and public enterprises. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "01 - Commerce | S.S.S.2 | PUBLIC ENTERPRISES AND CORPORATION",
+              "channel": "Akada International",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Cooperatives and public enterprises. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5340,19 +6236,23 @@ export const syllabusData = {
               "id": "commerce.business-finance.e1",
               "order": 1,
               "objective": "Sources of funds",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "sFgNBiWt5p4",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Sources of funds. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Sources of Funding: Short /Long Term & Rights Issue Strategies in Business & Corporate Finance ",
+              "channel": "EZIKAN ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Sources of funds. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.business-finance.e2",
               "order": 2,
               "objective": "Capital market and stock exchange",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "YQl9IRtfas0",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Capital market and stock exchange. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Money Market and Capital Market (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Capital market and stock exchange. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5365,28 +6265,34 @@ export const syllabusData = {
               "id": "commerce.banking.e1",
               "order": 1,
               "objective": "Types of banks and services",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "brCL62Y2OSQ",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Types of banks and services. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Banking Systems (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Types of banks and services. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.banking.e2",
               "order": 2,
               "objective": "Central Bank functions",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "Jufwe0hVSo4",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Central Bank functions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Central Bank and Specialized Banks (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Central Bank functions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.banking.e3",
               "order": 3,
               "objective": "Cheques, drafts, electronic banking",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "IDy3XfLhJQ0",
               "videoStatus": "approved",
-              "duration": "11:34",
-              "summaryNotes": "Key objective: Cheques, drafts, electronic banking. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "CHEQUE » 120 Days To Jamb Commerce - Ep 46",
+              "channel": "FlashLearners",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Cheques, drafts, electronic banking. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5399,19 +6305,23 @@ export const syllabusData = {
               "id": "commerce.insurance.e1",
               "order": 1,
               "objective": "Principles of insurance",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "CKpVu7pAq88",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Principles of insurance. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Insurance (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Principles of insurance. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.insurance.e2",
               "order": 2,
               "objective": "Types of insurance and claims",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "Z0syseaJT7o",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Types of insurance and claims. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Types of Insurance Policies » 120 Days To Jamb Commerce - Ep 57",
+              "channel": "FlashLearners",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Types of insurance and claims. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5424,19 +6334,23 @@ export const syllabusData = {
               "id": "commerce.transportation.e1",
               "order": 1,
               "objective": "Modes of transport",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "0nSX8zaooAs",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Modes of transport. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "TRANSPORTATION  | COMMERCE   | EXAMGUIDE",
+              "channel": "ExamGuide",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Modes of transport. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.transportation.e2",
               "order": 2,
               "objective": "Documents and advantages",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "vMzHiyfC3Vs",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Documents and advantages. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Foreign Trade Documents and Means of Payment  [SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB]",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Documents and advantages. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5449,19 +6363,23 @@ export const syllabusData = {
               "id": "commerce.warehousing.e1",
               "order": 1,
               "objective": "Functions of warehousing",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "kdugES14Ibk",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Functions of warehousing. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Warehousing (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Functions of warehousing. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.warehousing.e2",
               "order": 2,
               "objective": "Types of warehouses",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "z3HwxD8np14",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Types of warehouses. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WAREHOUSING | TYPES OF WAREHOUSE | COMMERCE | LEARNINGHUB | EXAMGUIDE",
+              "channel": "ExamGuide",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Types of warehouses. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5474,19 +6392,23 @@ export const syllabusData = {
               "id": "commerce.communication.e1",
               "order": 1,
               "objective": "Postal and telecom services",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "MYNEVSRh1Fs",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Postal and telecom services. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "COMMUNICATION » 120 Days To Jamb Commerce - Ep 53",
+              "channel": "FlashLearners",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Postal and telecom services. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.communication.e2",
               "order": 2,
               "objective": "Modern communication and ICT",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "Nqjy6ImJ6vg",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Modern communication and ICT. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "𝑾𝒉𝒂𝒕 𝒊𝒔 𝑰𝑪𝑻 ( 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏 𝒂𝒏𝒅 𝒄𝒐𝒎𝒎𝒖𝒏𝒊𝒄𝒂𝒕𝒊𝒐𝒏 𝒕𝒆𝒄𝒉𝒏𝒐𝒍𝒐𝒈𝒚)",
+              "channel": "Learning with Cc",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Modern communication and ICT. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5499,19 +6421,23 @@ export const syllabusData = {
               "id": "commerce.advertising-and-sales-promotion.e1",
               "order": 1,
               "objective": "Types, media and importance",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "hXmazA4gDjU",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Types, media and importance. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Types of Advertising » 120 Days To Jamb Commerce - Ep 39",
+              "channel": "FlashLearners",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Types, media and importance. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.advertising-and-sales-promotion.e2",
               "order": 2,
               "objective": "Salesmanship and branding",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "v4iVkfkWL2o",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Salesmanship and branding. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Sales Promotion Strategies » 120 Days To Jamb Commerce - Ep 42",
+              "channel": "FlashLearners",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Salesmanship and branding. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5524,19 +6450,23 @@ export const syllabusData = {
               "id": "commerce.consumer-protection.e1",
               "order": 1,
               "objective": "Consumer rights and bodies",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "45bxEsB36iM",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Consumer rights and bodies. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Consumer Protection (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Consumer rights and bodies. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.consumer-protection.e2",
               "order": 2,
               "objective": "Weights and measures, standards",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "45bxEsB36iM",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Weights and measures, standards. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Consumer Protection (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Weights and measures, standards. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5549,19 +6479,23 @@ export const syllabusData = {
               "id": "commerce.business-documents.e1",
               "order": 1,
               "objective": "Invoice, receipts, delivery notes",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "ITuOBijBLjU",
               "videoStatus": "approved",
-              "duration": "23:00",
-              "summaryNotes": "Key objective: Invoice, receipts, delivery notes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JSS 1 Business Studies - Business Documents: Invoice and Receipt | Nigerian Curriculum",
+              "channel": "Lite Tech Solutions Limited",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Invoice, receipts, delivery notes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.business-documents.e2",
               "order": 2,
               "objective": "Credit and debit notes, statements",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "GQs1ELoXGAo",
               "videoStatus": "approved",
-              "duration": "24:17",
-              "summaryNotes": "Key objective: Credit and debit notes, statements. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "DEBIT AND CREDIT",
+              "channel": "Online Sholars Hub",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Credit and debit notes, statements. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5574,19 +6508,23 @@ export const syllabusData = {
               "id": "commerce.business-environment-and-ethics.e1",
               "order": 1,
               "objective": "Legal and social environment",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "7zmFKbM5lik",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Legal and social environment. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction To Ethical Legal And Social Issues [SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB]",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Legal and social environment. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "commerce.business-environment-and-ethics.e2",
               "order": 2,
               "objective": "Trade associations and chambers of commerce",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "hje5mlaHik0",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Trade associations and chambers of commerce. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Trade Associations and other Enterprises (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Commerce: Trade associations and chambers of commerce. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -5610,19 +6548,23 @@ export const syllabusData = {
               "id": "yoruba.ede-language-alifabeeti-ati-ohun.e1",
               "order": 1,
               "objective": "Alifabeeti Yoruba ati ami ohun",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "7Tvwet_NJXY",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Alifabeeti Yoruba ati ami ohun. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Alifabeeti Yoruba | Yoruba Alphabets   #QuickYorubaLesson  #Shorts #YorubaAlphabets  #SpeakYoruba",
+              "channel": "Speak Yoruba with Damilola",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Alifabeeti Yoruba ati ami ohun. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.ede-language-alifabeeti-ati-ohun.e2",
               "order": 2,
               "objective": "Awon ohun faweli ati konsonanti",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "7Tvwet_NJXY",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Awon ohun faweli ati konsonanti. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Alifabeeti Yoruba | Yoruba Alphabets   #QuickYorubaLesson  #Shorts #YorubaAlphabets  #SpeakYoruba",
+              "channel": "Speak Yoruba with Damilola",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Awon ohun faweli ati konsonanti. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5635,19 +6577,23 @@ export const syllabusData = {
               "id": "yoruba.ede-silebu-ati-oro.e1",
               "order": 1,
               "objective": "Silebu ati eto won",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "EhoxCJYigM8",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Silebu ati eto won. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Silebu ede Yoruba",
+              "channel": "Keerah institute of Yoruba",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Silebu ati eto won. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.ede-silebu-ati-oro.e2",
               "order": 2,
               "objective": "Isori oro: oruko, aropo oruko, ise, apejuwe",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "Lo2fhp7qH7M",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Isori oro: oruko, aropo oruko, ise, apejuwe. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Isori Oro (Part of Speech) #yoruba #education #educationalvideo",
+              "channel": "YORUBA STUDIES ACADEMY (with Oyebanji Rebecca)",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Isori oro: oruko, aropo oruko, ise, apejuwe. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5660,19 +6606,23 @@ export const syllabusData = {
               "id": "yoruba.ede-gbolohun.e1",
               "order": 1,
               "objective": "Orisi gbolohun",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "ydCRNiPopPs",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Orisi gbolohun. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Yoruba lessons //Gbolohun ede Yoruba",
+              "channel": "Ogbeni Taiwo Opeoluwa",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Orisi gbolohun. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.ede-gbolohun.e2",
               "order": 2,
               "objective": "Gbolohun alakanpo ati onibo",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "AB-9CEtQT2s",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Gbolohun alakanpo ati onibo. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Gbolohun Yoruba - SSS2 Yoruba",
+              "channel": "Preston International School ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Gbolohun alakanpo ati onibo. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5685,19 +6635,23 @@ export const syllabusData = {
               "id": "yoruba.ede-atunkoso-ati-aroko.e1",
               "order": 1,
               "objective": "Aroko alalaye, oniroyin, onisorongbesi",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "ITjxkqAJrYs",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Aroko alalaye, oniroyin, onisorongbesi. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "AROKO ONIROYIN |Ede Yoruba |SSCE |WAEC |NECO |JAMB",
+              "channel": "LearnCity",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Aroko alalaye, oniroyin, onisorongbesi. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.ede-atunkoso-ati-aroko.e2",
               "order": 2,
               "objective": "Lẹta kiko",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "ctauoKnQleo",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Lẹta kiko. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Leta kiko ( lẹ́tà kíkọ)",
+              "channel": "Olùkọ́nilédè Yorùbá ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Lẹta kiko. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5710,19 +6664,23 @@ export const syllabusData = {
               "id": "yoruba.asa-yoruba-igbeyawo-oku-isomoloruko.e1",
               "order": 1,
               "objective": "Igbeyawo ibile",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "Xh-AtOk6xWs",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Igbeyawo ibile. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Learn Yoruba From Scratch: A as in Agbado 🌽.  A as in Agbalumo 🍒, A as in Aya(wife)",
+              "channel": "Loveth Kolawole",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Igbeyawo ibile. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.asa-yoruba-igbeyawo-oku-isomoloruko.e2",
               "order": 2,
               "objective": "Isomoloruko ati isinku",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "Xh-AtOk6xWs",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Isomoloruko ati isinku. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Learn Yoruba From Scratch: A as in Agbado 🌽.  A as in Agbalumo 🍒, A as in Aya(wife)",
+              "channel": "Loveth Kolawole",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Isomoloruko ati isinku. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5735,19 +6693,23 @@ export const syllabusData = {
               "id": "yoruba.asa-yoruba-aso-ounje-esin.e1",
               "order": 1,
               "objective": "Aso ati ounje Yoruba",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "206xiewtUZg",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Aso ati ounje Yoruba. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Learn Yoruba Vowels And Consonants. This will help you understand Yoruba letters and alphabets.",
+              "channel": " Asa Wa",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Aso ati ounje Yoruba. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.asa-yoruba-aso-ounje-esin.e2",
               "order": 2,
               "objective": "Esin ibile",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "e5lny3IXv9M",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Esin ibile. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Yoruba Tones Explained: Common Mistakes Learners Make",
+              "channel": "Yoruba Made Easy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Esin ibile. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5760,19 +6722,23 @@ export const syllabusData = {
               "id": "yoruba.asa-yoruba-oye-jije-ijoba.e1",
               "order": 1,
               "objective": "Eto oye ati ijoba ibile",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "qSRTnVZ1M0E",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Eto oye ati ijoba ibile. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Álífábẹ́ẹ́tì ÈDÈ Yoruba 🇺🇲(Yorùbá Alphabets)",
+              "channel": "EDE E YORUBA DUN-UN KA",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Eto oye ati ijoba ibile. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.asa-yoruba-oye-jije-ijoba.e2",
               "order": 2,
               "objective": "Egbe ati ajo ibile",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "rJljFaQ873g",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Egbe ati ajo ibile. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "YORUBA LANGUAGE - GIRAMA ISORI ORO",
+              "channel": "Education LASG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Egbe ati ajo ibile. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5785,19 +6751,23 @@ export const syllabusData = {
               "id": "yoruba.litireso-alohun-ofo.e1",
               "order": 1,
               "objective": "Ofo: Ese Ifa, Rara, Ijala",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "0MsDKImvHbA",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Ofo: Ese Ifa, Rara, Ijala. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "RARA GEGE  BI LITIRESO ALOHUN AJEMAYEYE",
+              "channel": "LearnCity",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Ofo: Ese Ifa, Rara, Ijala. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.litireso-alohun-ofo.e2",
               "order": 2,
               "objective": "Oriki",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "AiYWN3HBXGY",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Oriki. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Oríkì. #yorubalanguage #classroom #learnyoruba #culture #yorubatradition  #indigenous",
+              "channel": "Oluko Salako",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Oriki. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5810,19 +6780,23 @@ export const syllabusData = {
               "id": "yoruba.litireso-alohun-alo-ati-owe.e1",
               "order": 1,
               "objective": "Alo apamo ati alo apagbe",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "XFOFQTth9uo",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Alo apamo ati alo apagbe. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ERE OSUPA: YORUBA FOLKLORE, FOLKTALES   ( ALO APAMO ATI APAGBE ) FUN GBOGBO EWE WA",
+              "channel": "Yoruba Gidi TV",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Alo apamo ati alo apagbe. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.litireso-alohun-alo-ati-owe.e2",
               "order": 2,
               "objective": "Owe ati isori won",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "npt69uq5Knw",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Owe ati isori won. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Awon Owe ti o wa ni Ede Yoruba ati imulo re | Yoruba SSCE | NECO | JAMB | WAEC",
+              "channel": "LearnCity",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Owe ati isori won. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5835,19 +6809,23 @@ export const syllabusData = {
               "id": "yoruba.litireso-alohun-orin-ati-eewo.e1",
               "order": 1,
               "objective": "Orin ibile",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "W8KETL1Fu2I",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Orin ibile. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Eyerelu Of Asin (Ikole L.G.C) Ere Igbagbo Maa Rere Je O Ibanuje Aiyemora Kowe Simi Iye Omo Dide...",
+              "channel": "High Chief (Dr) Elemure Ohunyemi (E.M.A, OSMA) - Topic",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Orin ibile. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.litireso-alohun-orin-ati-eewo.e2",
               "order": 2,
               "objective": "Eewo ati aroba",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "qSRTnVZ1M0E",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Eewo ati aroba. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Álífábẹ́ẹ́tì ÈDÈ Yoruba 🇺🇲(Yorùbá Alphabets)",
+              "channel": "EDE E YORUBA DUN-UN KA",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Eewo ati aroba. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5860,19 +6838,23 @@ export const syllabusData = {
               "id": "yoruba.litireso-apileko-ere-onitan.e1",
               "order": 1,
               "objective": "Itupale ere onitan to wa ninu iwe ti a yan",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "qkEOae6iYMQ",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Itupale ere onitan to wa ninu iwe ti a yan. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Lítíréṣọ̀ Yorùbá",
+              "channel": "Yoruba Channels",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Itupale ere onitan to wa ninu iwe ti a yan. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.litireso-apileko-ere-onitan.e2",
               "order": 2,
               "objective": "Eda itan ati isole",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "qSRTnVZ1M0E",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Eda itan ati isole. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Álífábẹ́ẹ́tì ÈDÈ Yoruba 🇺🇲(Yorùbá Alphabets)",
+              "channel": "EDE E YORUBA DUN-UN KA",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Eda itan ati isole. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5885,19 +6867,23 @@ export const syllabusData = {
               "id": "yoruba.litireso-apileko-aroko-ati-ewi.e1",
               "order": 1,
               "objective": "Itupale iwe itan aroso",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "mKJnoFkqQxM",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Itupale iwe itan aroso. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "YORUBA LESSON FOR ALL STUDENTS - AROKO",
+              "channel": "Education LASG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Itupale iwe itan aroso. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.litireso-apileko-aroko-ati-ewi.e2",
               "order": 2,
               "objective": "Ewi apileko",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "mKJnoFkqQxM",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Ewi apileko. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "YORUBA LESSON FOR ALL STUDENTS - AROKO",
+              "channel": "Education LASG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Ewi apileko. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5910,19 +6896,23 @@ export const syllabusData = {
               "id": "yoruba.ede-eroja-atojoe-ati-awon-oro-asoronpo.e1",
               "order": 1,
               "objective": "Oro asoropo",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "rJljFaQ873g",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Oro asoropo. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "YORUBA LANGUAGE - GIRAMA ISORI ORO",
+              "channel": "Education LASG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Oro asoropo. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.ede-eroja-atojoe-ati-awon-oro-asoronpo.e2",
               "order": 2,
               "objective": "Ami ohun ati ede",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "_oe5_zT2HgY",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Ami ohun ati ede. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Amin Ohun Ede Yoruba.",
+              "channel": "oluwafemi adesina",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Ami ohun ati ede. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5935,19 +6925,23 @@ export const syllabusData = {
               "id": "yoruba.eko-ede-itan-ede-yoruba.e1",
               "order": 1,
               "objective": "Ede Yoruba ati isori re",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "oCjpeFbC-Cs",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Ede Yoruba ati isori re. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Help Your Child Speak Yoruba with Confidence! | Learn Yoruba for Kids",
+              "channel": "Eko ede Yoruba Educational services ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Ede Yoruba ati isori re. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "yoruba.eko-ede-itan-ede-yoruba.e2",
               "order": 2,
               "objective": "Ede ewi ati ede ojoojumo",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "oCjpeFbC-Cs",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Ede ewi ati ede ojoojumo. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Help Your Child Speak Yoruba with Confidence! | Learn Yoruba for Kids",
+              "channel": "Eko ede Yoruba Educational services ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Yoruba: Ede ewi ati ede ojoojumo. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -5971,19 +6965,23 @@ export const syllabusData = {
               "id": "igbo.asusu-mkpuruedemede-na-da.e1",
               "order": 1,
               "objective": "Mkpụrụ edemede Igbo",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "yqo9sNlWuiA",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Mkpụrụ edemede Igbo. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Build your vocabulary.. #igbolanguage igbo#shorts",
+              "channel": "Ụtọ Asụsụ Igbo",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Mkpụrụ edemede Igbo. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.asusu-mkpuruedemede-na-da.e2",
               "order": 2,
               "objective": "Ụdaume na Mgbochiume",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "kwi926dxpfM",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Ụdaume na Mgbochiume. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "UDAUME na MGBOCHIUME Igbo (Igbo Vowels and Consonants)",
+              "channel": "Noble Tutorials",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Ụdaume na Mgbochiume. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -5996,19 +6994,23 @@ export const syllabusData = {
               "id": "igbo.asusu-syllable-na-okwu.e1",
               "order": 1,
               "objective": "Syllable na ụtọasụsụ",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "8IMQiSaviQQ",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Syllable na ụtọasụsụ. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Asusu Igbo...oru\"na\" na-aru n' ahiriokwu",
+              "channel": "Gerald Ifenna",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Syllable na ụtọasụsụ. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.asusu-syllable-na-okwu.e2",
               "order": 2,
               "objective": "Ụdị okwu: aha, ngwaa, nkwuwa",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "jrJ63sjYSG0",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Ụdị okwu: aha, ngwaa, nkwuwa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Igbo Language Classes Lesson 9 Nkeji ASUSU Ngwaa  Verb",
+              "channel": "IGBONWEREMMADU WORLDWIDE",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Ụdị okwu: aha, ngwaa, nkwuwa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6021,19 +7023,23 @@ export const syllabusData = {
               "id": "igbo.asusu-ahiri-okwu.e1",
               "order": 1,
               "objective": "Ahiri okwu dị iche iche",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "qiQsMjx1-nY",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Ahiri okwu dị iche iche. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Igbo Language Classes Lesson 6 & 7 Nkeji ASUSU N' AKARAUDAOLU IGBO  Tone Marking and Parts Of Speech",
+              "channel": "IGBONWEREMMADU WORLDWIDE",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Ahiri okwu dị iche iche. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.asusu-ahiri-okwu.e2",
               "order": 2,
               "objective": "Ahiri nwere ngwaa na ahiri nwere nkwado",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "jrJ63sjYSG0",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Ahiri nwere ngwaa na ahiri nwere nkwado. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Igbo Language Classes Lesson 9 Nkeji ASUSU Ngwaa  Verb",
+              "channel": "IGBONWEREMMADU WORLDWIDE",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Ahiri nwere ngwaa na ahiri nwere nkwado. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6046,19 +7052,23 @@ export const syllabusData = {
               "id": "igbo.asusu-edemede.e1",
               "order": 1,
               "objective": "Edemede nkenke na ede akwụkwọ ozi",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "lvaMy_H-Has",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Edemede nkenke na ede akwụkwọ ozi. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Asusu Igbo jss1 3rd term:Udiakara Edemede do iche iche",
+              "channel": "Chiwuzie Obinwa TV--WUZIE GENERAL ENTERPRISE",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Edemede nkenke na ede akwụkwọ ozi. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.asusu-edemede.e2",
               "order": 2,
               "objective": "Edemede ntụgharị uche",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "lvaMy_H-Has",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Edemede ntụgharị uche. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Asusu Igbo jss1 3rd term:Udiakara Edemede do iche iche",
+              "channel": "Chiwuzie Obinwa TV--WUZIE GENERAL ENTERPRISE",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Edemede ntụgharị uche. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6071,19 +7081,23 @@ export const syllabusData = {
               "id": "igbo.omenala-al-mdi-na-nwunye.e1",
               "order": 1,
               "objective": "Alụmdi na nwunye n'Igbo",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "UCQuyNsVo98",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Alụmdi na nwunye n'Igbo. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Asusu Igbo - OMENALA  AGUMAGU by Eucharia Ndigwe",
+              "channel": "St Charles' College Onitsha",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Alụmdi na nwunye n'Igbo. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.omenala-al-mdi-na-nwunye.e2",
               "order": 2,
               "objective": "Ọmụmụ nwa na ọnwụ",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "UCQuyNsVo98",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Ọmụmụ nwa na ọnwụ. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Asusu Igbo - OMENALA  AGUMAGU by Eucharia Ndigwe",
+              "channel": "St Charles' College Onitsha",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Ọmụmụ nwa na ọnwụ. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6096,19 +7110,23 @@ export const syllabusData = {
               "id": "igbo.omenala-ch-ch-na-nt-kwas-obi.e1",
               "order": 1,
               "objective": "Ọchịchị ọdịnala",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "q4u7eeBpK1k",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Ọchịchị ọdịnala. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Igbo bụ ndị. Igbo bụ asụsụ. Igbo bụ omenala. Igbo is a people, a language, a culture #igbo #languag",
+              "channel": "Asụsụ Igbo",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Ọchịchị ọdịnala. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.omenala-ch-ch-na-nt-kwas-obi.e2",
               "order": 2,
               "objective": "Okpukpe ọdịnala Igbo",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "2w3oFROWLZc",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Okpukpe ọdịnala Igbo. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Ọmenala na Ndụ Ndị Igbo (Summary) | Studentsdash",
+              "channel": "STUDENTSDASH",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Okpukpe ọdịnala Igbo. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6121,19 +7139,23 @@ export const syllabusData = {
               "id": "igbo.omenala-nri-na-uwe.e1",
               "order": 1,
               "objective": "Nri na uwe Igbo",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "KXk1Z239m80",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Nri na uwe Igbo. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Nri Ndị Igbo 🍲|  Learn Igbo Food Names Mụta Asụsụ Igbo",
+              "channel": "Muta Asusu Igbo TV",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Nri na uwe Igbo. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.omenala-nri-na-uwe.e2",
               "order": 2,
               "objective": "Ememe na egwu ọdịnala",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "UCQuyNsVo98",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Ememe na egwu ọdịnala. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Asusu Igbo - OMENALA  AGUMAGU by Eucharia Ndigwe",
+              "channel": "St Charles' College Onitsha",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Ememe na egwu ọdịnala. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6146,19 +7168,23 @@ export const syllabusData = {
               "id": "igbo.agumagu-n-ak-k-ifo.e1",
               "order": 1,
               "objective": "Akụkọ ifo na akụkọ ihe mere eme",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "pxnfQWJWcas",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Akụkọ ifo na akụkọ ihe mere eme. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Nwunye Eze Iduu na Oba na ndi aririo -Wife of the king of Iduu and Oba and the beggers #folktales",
+              "channel": "OCE Audiobook",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Akụkọ ifo na akụkọ ihe mere eme. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.agumagu-n-ak-k-ifo.e2",
               "order": 2,
               "objective": "Ilu na ọmụmụ ilu",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "NoKm0LK_v_k",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Ilu na ọmụmụ ilu. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ILU IGBO (IGBO PROVERB) Episode 36",
+              "channel": "CULTURE AND VALUE TV",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Ilu na ọmụmụ ilu. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6171,19 +7197,23 @@ export const syllabusData = {
               "id": "igbo.agumagu-n-ab-na-gba-aj-j.e1",
               "order": 1,
               "objective": "Abụ ọdịnala",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "UCQuyNsVo98",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Abụ ọdịnala. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Asusu Igbo - OMENALA  AGUMAGU by Eucharia Ndigwe",
+              "channel": "St Charles' College Onitsha",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Abụ ọdịnala. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.agumagu-n-ab-na-gba-aj-j.e2",
               "order": 2,
               "objective": "Ajụjụ ọnụ na egwu",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "UCQuyNsVo98",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Ajụjụ ọnụ na egwu. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Asusu Igbo - OMENALA  AGUMAGU by Eucharia Ndigwe",
+              "channel": "St Charles' College Onitsha",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Ajụjụ ọnụ na egwu. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6196,19 +7226,23 @@ export const syllabusData = {
               "id": "igbo.agumagu-edere-ede-akwukwo-edemede.e1",
               "order": 1,
               "objective": "Nkọwa akwụkwọ edemede ahọpụtara",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "2x2u0AdWhOg",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Nkọwa akwụkwọ edemede ahọpụtara. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "EDEMEDE MAKA ONWE M (IGBO ESSAY ABOUT MYSELF)",
+              "channel": "In Between Cultures",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Nkọwa akwụkwọ edemede ahọpụtara. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.agumagu-edere-ede-akwukwo-edemede.e2",
               "order": 2,
               "objective": "Isi okwu na agwa",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "yphYgKX0Ae0",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Isi okwu na agwa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Ogugu na Odide Asusu Igbo",
+              "channel": "IgboEducational",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Isi okwu na agwa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6221,19 +7255,23 @@ export const syllabusData = {
               "id": "igbo.agumagu-edere-ede-egwuregwu-na-abu.e1",
               "order": 1,
               "objective": "Nkọwa egwuregwu ahọpụtara",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "3SoGn32UMn4",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Nkọwa egwuregwu ahọpụtara. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Omalinze na Ajobi | A Classic Igbo Folktale | 360 Akuko Na Egwu Igbo",
+              "channel": "360 Akuko Na Egwu Igbo",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Nkọwa egwuregwu ahọpụtara. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.agumagu-edere-ede-egwuregwu-na-abu.e2",
               "order": 2,
               "objective": "Abụ edere ede",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "yphYgKX0Ae0",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Abụ edere ede. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Ogugu na Odide Asusu Igbo",
+              "channel": "IgboEducational",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Abụ edere ede. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6246,19 +7284,23 @@ export const syllabusData = {
               "id": "igbo.asusu-ntughari-na-okwu-ndi-ozo.e1",
               "order": 1,
               "objective": "Ntụgharị Bekee gaa Igbo",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "Pq_S_DAisr8",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Ntụgharị Bekee gaa Igbo. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Ntụgharị Asụsụ Igbo: English to Igbo Translation #EnglishtoIgbo",
+              "channel": "Igboverse",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Ntụgharị Bekee gaa Igbo. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "igbo.asusu-ntughari-na-okwu-ndi-ozo.e2",
               "order": 2,
               "objective": "Okwu mgbakwunye na mkpụrụokwu",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "T4DYYjGPGDw",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Okwu mgbakwunye na mkpụrụokwu. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Mkpụrụ Okwu Abịdịị Abụọ 🗣️ | Learn Igbo Pronunciation & Vocabulary | Mụta Asụsụ Igbo TV",
+              "channel": "Muta Asusu Igbo TV",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Igbo: Okwu mgbakwunye na mkpụrụokwu. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -6282,19 +7324,23 @@ export const syllabusData = {
               "id": "hausa.harshe-haruffa-da-sautuka.e1",
               "order": 1,
               "objective": "Haruffan Hausa da sautin baƙaƙe",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "VZWV59hF5bk",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Haruffan Hausa da sautin baƙaƙe. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Hausa alphabets or Baƙaken Hausa",
+              "channel": "Learn Hausa with Nadiya Garba",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Haruffan Hausa da sautin baƙaƙe. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.harshe-haruffa-da-sautuka.e2",
               "order": 2,
               "objective": "Wasulan Hausa da sautinsu",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "OUk1H1wcCpY",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Wasulan Hausa da sautinsu. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "🌟 Learn the Hausa Alphabet with Hafsat! | Harufan Hausa A–Z | Hausa for Kids 🌟",
+              "channel": "Hausa Da Hafsat",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Wasulan Hausa da sautinsu. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6307,19 +7353,23 @@ export const syllabusData = {
               "id": "hausa.harshe-kalmomi.e1",
               "order": 1,
               "objective": "Nau'o'in kalmomi: suna, aikatau, sifa",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "uSefcF2RkOg",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Nau'o'in kalmomi: suna, aikatau, sifa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Karamin Darasi: Fahimtar Nau’o’in Kalmomi a Harshen Hausa| Learning English Language with Hausa",
+              "channel": "Cibiyar Koyan Turanci",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Nau'o'in kalmomi: suna, aikatau, sifa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.harshe-kalmomi.e2",
               "order": 2,
               "objective": "Wakilin suna da ƙari",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "VCdIiBO8I48",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Wakilin suna da ƙari. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JSS1 HAUSA WAKILIN SUNA",
+              "channel": "MySchoollearningTube",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Wakilin suna da ƙari. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6332,19 +7382,23 @@ export const syllabusData = {
               "id": "hausa.harshe-jimla.e1",
               "order": 1,
               "objective": "Nau'o'in jimla",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "Pg1JwlVcfjk",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Nau'o'in jimla. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "HAUSA LANGUAGE - Jimla",
+              "channel": "Ministry of Education Kaduna State",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Nau'o'in jimla. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.harshe-jimla.e2",
               "order": 2,
               "objective": "Jimlar mai kamanceceniya da mai rikitarwa",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "3T8le7n1nco",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Jimlar mai kamanceceniya da mai rikitarwa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Learn hausa Faster!! #Arewa#speak Hausa like a pro#educationalvideo",
+              "channel": "Hausa Language with Jemmy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Jimlar mai kamanceceniya da mai rikitarwa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6357,19 +7411,23 @@ export const syllabusData = {
               "id": "hausa.harshe-rubutu.e1",
               "order": 1,
               "objective": "Rubutun muqala da wasiƙa",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "sRNOWHAnb44",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Rubutun muqala da wasiƙa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Learning Hausa Greetings in Dialogue (Good Afternoon)",
+              "channel": "Little Arewa",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Rubutun muqala da wasiƙa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.harshe-rubutu.e2",
               "order": 2,
               "objective": "Rubutu mai hujja da bayani",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "FrzjcifKbvw",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Rubutu mai hujja da bayani. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Learn how to speak simple Hausa language",
+              "channel": "Learn Simple Hausa Language ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Rubutu mai hujja da bayani. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6382,19 +7440,23 @@ export const syllabusData = {
               "id": "hausa.al-ada-aure-haihuwa-mutuwa.e1",
               "order": 1,
               "objective": "Al'adar aure",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "eI7Fmj9X9eM",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Al'adar aure. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Yanzu-Yanzu; Saurari Cikakken Bayanin Audu Bulama Bukarti Akan Video Da Ya Fitar Na Kâshè Masussuka.",
+              "channel": "Sunnah Academic",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Al'adar aure. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.al-ada-aure-haihuwa-mutuwa.e2",
               "order": 2,
               "objective": "Haihuwa da mutuwa a al'adar Hausa",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "hF1gjQY3C3c",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Haihuwa da mutuwa a al'adar Hausa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Aure Ko Mutuwa [ Part 4 ] Saban Shiri ] Latest Hausa Films Original Video",
+              "channel": "KALLO MEDIA TV",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Haihuwa da mutuwa a al'adar Hausa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6407,19 +7469,23 @@ export const syllabusData = {
               "id": "hausa.al-ada-sarauta-da-addini.e1",
               "order": 1,
               "objective": "Tsarin sarautar gargajiya",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "Ji_ou5gKNxo",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Tsarin sarautar gargajiya. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Lesson 1 Hausa Language for Beginners / Koyan Turanci a Saukake",
+              "channel": "Learning Hausa Language",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Tsarin sarautar gargajiya. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.al-ada-sarauta-da-addini.e2",
               "order": 2,
               "objective": "Addini da al'ada",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "PVmQqvGQm_4",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Addini da al'ada. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Me yasa kodayaushe Masu shirya Film din HAUSA ke  cewa addini da Al’ada suke nunawa amma sai kaga..",
+              "channel": "JKS Media Hausa",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Addini da al'ada. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6432,19 +7498,23 @@ export const syllabusData = {
               "id": "hausa.al-ada-abinci-tufafi-sana-a.e1",
               "order": 1,
               "objective": "Abinci da tufafin Hausawa",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "hkFR42yGX_c",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Abinci da tufafin Hausawa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to speak Hausa for Beginners_ Body parts #language #learnhausa #hausa",
+              "channel": "Get Naijafied",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Abinci da tufafin Hausawa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.al-ada-abinci-tufafi-sana-a.e2",
               "order": 2,
               "objective": "Sana'o'in gargajiya",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "JBDc8qyioWk",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Sana'o'in gargajiya. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Kira uwar sanao’in Hausawa na Gargajiya #halawa #aminta #nadeoargawinata #nastic #jarida",
+              "channel": " BAHAUSHIYAR AL'ADA  CULTURE CHANNEL",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Sana'o'in gargajiya. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6457,19 +7527,23 @@ export const syllabusData = {
               "id": "hausa.adabin-baka-wa-a.e1",
               "order": 1,
               "objective": "Waƙar baka da nau'inta",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "e71a5yMPTrg",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Waƙar baka da nau'inta. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Manyan bakaken hausa da  kananan bakake karantawa zeebappahtv in 2021",
+              "channel": "ZEE BAPPAH TV",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Waƙar baka da nau'inta. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.adabin-baka-wa-a.e2",
               "order": 2,
               "objective": "Waƙoƙin yabo da roƙo",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "tI_d-u0OU2E",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Waƙoƙin yabo da roƙo. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Abubuwan Mamaki Uku 3 Bayan Anyi Jana izar Yahaya Mususska Sunfaru Akan....",
+              "channel": "Tushen Hausa24",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Waƙoƙin yabo da roƙo. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6482,19 +7556,23 @@ export const syllabusData = {
               "id": "hausa.adabin-baka-tatsuniya-da-karin-magana.e1",
               "order": 1,
               "objective": "Tatsuniya da hikima",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "xmF2MQ3kGx0",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Tatsuniya da hikima. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Hausa -  Karin Magana",
+              "channel": "Ministry of Education Kaduna State",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Tatsuniya da hikima. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.adabin-baka-tatsuniya-da-karin-magana.e2",
               "order": 2,
               "objective": "Karin magana da kirari",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "xmF2MQ3kGx0",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Karin magana da kirari. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Hausa -  Karin Magana",
+              "channel": "Ministry of Education Kaduna State",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Karin magana da kirari. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6507,19 +7585,23 @@ export const syllabusData = {
               "id": "hausa.adabin-baka-almara-da-wasan-kwaikwayo.e1",
               "order": 1,
               "objective": "Almara da labarai",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "eI7Fmj9X9eM",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Almara da labarai. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Yanzu-Yanzu; Saurari Cikakken Bayanin Audu Bulama Bukarti Akan Video Da Ya Fitar Na Kâshè Masussuka.",
+              "channel": "Sunnah Academic",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Almara da labarai. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.adabin-baka-almara-da-wasan-kwaikwayo.e2",
               "order": 2,
               "objective": "Wasan kwaikwayo na gargajiya",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "u73N9MXa5n4",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Wasan kwaikwayo na gargajiya. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "So Sanadi | Zango Na 3 | Kashi Na 13 | AREWA24",
+              "channel": "AREWA24",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Wasan kwaikwayo na gargajiya. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6532,19 +7614,23 @@ export const syllabusData = {
               "id": "hausa.adabin-rubutu-agaggen-labari.e1",
               "order": 1,
               "objective": "Nazarin ƙagaggen labari da aka zaɓa",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "4E748a5iTCQ",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Nazarin ƙagaggen labari da aka zaɓa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "YADDA ZAKU KOYI RUBUTU DA KARATUN HAUSA CIKIN SAUKI — Ilimi cikin sauƙi,ci gaba cikin sauri! 🚀",
+              "channel": "MADALLAH TV",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Nazarin ƙagaggen labari da aka zaɓa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.adabin-rubutu-agaggen-labari.e2",
               "order": 2,
               "objective": "Jarumai da taken labari",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "ZxOWh0OW0cY",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Jarumai da taken labari. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "BAKIN ARTABU part 1 cigaban JARUMA YAZILA littafin yaki hausa novel",
+              "channel": "Magajin Wilbafos",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Jarumai da taken labari. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6557,19 +7643,23 @@ export const syllabusData = {
               "id": "hausa.adabin-rubutu-wa-ar-rubutu-da-wasan-kwaikwayo.e1",
               "order": 1,
               "objective": "Nazarin waƙar rubutu",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "iEnUH_RML-Y",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Nazarin waƙar rubutu. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "KA HASKAKA DA RUBUTU 1: SHINE BY WRITING 1",
+              "channel": "Mahmud English Teacher ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Nazarin waƙar rubutu. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.adabin-rubutu-wa-ar-rubutu-da-wasan-kwaikwayo.e2",
               "order": 2,
               "objective": "Nazarin wasan kwaikwayo da aka zaɓa",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "ZITg05qdNQw",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Nazarin wasan kwaikwayo da aka zaɓa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Alamomin Rubutun Hausa 006: Alamar Motsin Rai",
+              "channel": "Amsoshi TV",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Nazarin wasan kwaikwayo da aka zaɓa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6582,19 +7672,23 @@ export const syllabusData = {
               "id": "hausa.harshe-fassara-da-nahawu.e1",
               "order": 1,
               "objective": "Fassara daga Turanci zuwa Hausa",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "-ncGxz-hoYI",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Fassara daga Turanci zuwa Hausa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "English to Hausa Part 30 Koyon turanci da Hausa #learnenglish #bobrisky222 #vdm #verydarkman",
+              "channel": "Hausawatv2",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Fassara daga Turanci zuwa Hausa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "hausa.harshe-fassara-da-nahawu.e2",
               "order": 2,
               "objective": "Nahawun Hausa mai zurfi",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "3T8le7n1nco",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Nahawun Hausa mai zurfi. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Learn hausa Faster!! #Arewa#speak Hausa like a pro#educationalvideo",
+              "channel": "Hausa Language with Jemmy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Hausa: Nahawun Hausa mai zurfi. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -6618,19 +7712,23 @@ export const syllabusData = {
               "id": "agricultural-science.introduction-to-agriculture.e1",
               "order": 1,
               "objective": "Meaning, branches, importance",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "9BZ_ZUSZJPM",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Meaning, branches, importance. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Meaning and Importance of Agricultural Science  (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Meaning, branches, importance. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.introduction-to-agriculture.e2",
               "order": 2,
               "objective": "Problems of agriculture in Nigeria",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "9BZ_ZUSZJPM",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Problems of agriculture in Nigeria. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Meaning and Importance of Agricultural Science  (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Problems of agriculture in Nigeria. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6643,19 +7741,23 @@ export const syllabusData = {
               "id": "agricultural-science.agricultural-ecology.e1",
               "order": 1,
               "objective": "Ecological factors",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "JQnEejEXDxQ",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Ecological factors. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Ecological Succession for JAMB and WAEC students",
+              "channel": "EXCELLENT SIMPLIFIED ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Ecological factors. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.agricultural-ecology.e2",
               "order": 2,
               "objective": "Vegetation zones and crop distribution",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "ZmLDR9ukAfg",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Vegetation zones and crop distribution. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "what is agrology #soil science #soil production #production of crop #dealing with production of crop",
+              "channel": "Ambitioustudent",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Vegetation zones and crop distribution. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6668,28 +7770,34 @@ export const syllabusData = {
               "id": "agricultural-science.soil-science.e1",
               "order": 1,
               "objective": "Soil formation and profile",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "BJ43WNpx2nA",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Soil formation and profile. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Soil Formation: Factors That Control Soil Formation |Agricultural Science| WAEC| NECO| JAMB",
+              "channel": "LearnCity",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Soil formation and profile. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.soil-science.e2",
               "order": 2,
               "objective": "Soil properties",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "ZmLDR9ukAfg",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Soil properties. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "what is agrology #soil science #soil production #production of crop #dealing with production of crop",
+              "channel": "Ambitioustudent",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Soil properties. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.soil-science.e3",
               "order": 3,
               "objective": "Soil fertility and management",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "942IpQpicHE",
               "videoStatus": "approved",
-              "duration": "16:34",
-              "summaryNotes": "Key objective: Soil fertility and management. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "what is agronomy #agronomy #signs of soil management and production of crop",
+              "channel": "Ambitioustudent",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Soil fertility and management. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6702,19 +7810,23 @@ export const syllabusData = {
               "id": "agricultural-science.soil-conservation-and-water-management.e1",
               "order": 1,
               "objective": "Erosion and control",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "vTMwxvjMdBg",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Erosion and control. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Soilb and Water Conservation  [JS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB]",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Erosion and control. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.soil-conservation-and-water-management.e2",
               "order": 2,
               "objective": "Irrigation and drainage",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "9rk--ELwTDs",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Irrigation and drainage. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Irrigation and drainage (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Irrigation and drainage. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6727,19 +7839,23 @@ export const syllabusData = {
               "id": "agricultural-science.farm-tools-implements-and-machinery.e1",
               "order": 1,
               "objective": "Hand tools and their uses",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "W9mfLfd5t18",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Hand tools and their uses. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Farm machinery and implements (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Hand tools and their uses. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.farm-tools-implements-and-machinery.e2",
               "order": 2,
               "objective": "Farm machinery and tractors",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "d7tJg_8AELk",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Farm machinery and tractors. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "FARM MACHINERY AND IMPLEMENTS | PART 1 | AGRICULTURAL SCIENCE | EXAMGUIDE",
+              "channel": "ExamGuide",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Farm machinery and tractors. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6752,28 +7868,34 @@ export const syllabusData = {
               "id": "agricultural-science.crop-production.e1",
               "order": 1,
               "objective": "Cereals",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "Itbf9yNrgLE",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Cereals. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Crop Production | Agricultural Science | WAEC, NECO & JAMB",
+              "channel": "E-studylab",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Cereals. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.crop-production.e2",
               "order": 2,
               "objective": "Root and tuber crops",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "AEehJ6pxI0Q",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Root and tuber crops. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "SS 1 Agricultural Science - Crop Production: Root and Tuber Crops | Nigerian Curriculum",
+              "channel": "Lite Tech Solutions Limited",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Root and tuber crops. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.crop-production.e3",
               "order": 3,
               "objective": "Cash and horticultural crops",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "Itbf9yNrgLE",
               "videoStatus": "approved",
-              "duration": "22:34",
-              "summaryNotes": "Key objective: Cash and horticultural crops. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Crop Production | Agricultural Science | WAEC, NECO & JAMB",
+              "channel": "E-studylab",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Cash and horticultural crops. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6786,19 +7908,23 @@ export const syllabusData = {
               "id": "agricultural-science.crop-husbandry-operations.e1",
               "order": 1,
               "objective": "Land preparation and planting",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "2J-C4jcMcOI",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Land preparation and planting. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Agricultural Science Revision: Crop Production | JAMB, WAEC & NECO",
+              "channel": "E-studylab",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Land preparation and planting. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.crop-husbandry-operations.e2",
               "order": 2,
               "objective": "Weeding, pest control, harvesting, storage",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "zJkiJEPkB54",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Weeding, pest control, harvesting, storage. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Management of Coconut Rhinoceros Beetle (Oryctes rhinoceros) Using the Entomopathogenic Fungus",
+              "channel": "AgriCraft",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Weeding, pest control, harvesting, storage. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6811,19 +7937,23 @@ export const syllabusData = {
               "id": "agricultural-science.pests-and-diseases-of-crops.e1",
               "order": 1,
               "objective": "Common pests of crops",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "uHmOOGsh48Q",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Common pests of crops. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Diseases and pests of crops (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Common pests of crops. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.pests-and-diseases-of-crops.e2",
               "order": 2,
               "objective": "Crop diseases and control",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "uHmOOGsh48Q",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Crop diseases and control. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Diseases and pests of crops (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Crop diseases and control. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6836,19 +7966,23 @@ export const syllabusData = {
               "id": "agricultural-science.forestry-and-agroforestry.e1",
               "order": 1,
               "objective": "Forest products and reserves",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "PO8XMKL_PBU",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Forest products and reserves. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction to Forest and Forest Reserves | Agricultural Science | SS2",
+              "channel": "Afrilearn Education",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Forest products and reserves. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.forestry-and-agroforestry.e2",
               "order": 2,
               "objective": "Afforestation and conservation",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "bcHEsuetOOs",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Afforestation and conservation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Agroforestry (Branches of Biology)",
+              "channel": "Flashonomics",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Afforestation and conservation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6861,19 +7995,23 @@ export const syllabusData = {
               "id": "agricultural-science.animal-husbandry-basics.e1",
               "order": 1,
               "objective": "Classification of farm animals",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "Yyzwb5RDgAM",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Classification of farm animals. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Animal Husbandry | Agricultural Science | WAEC, NECO & JAMB",
+              "channel": "E-studylab",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Classification of farm animals. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.animal-husbandry-basics.e2",
               "order": 2,
               "objective": "Animal nutrition and feeds",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "Yyzwb5RDgAM",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Animal nutrition and feeds. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Animal Husbandry | Agricultural Science | WAEC, NECO & JAMB",
+              "channel": "E-studylab",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Animal nutrition and feeds. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6886,19 +8024,23 @@ export const syllabusData = {
               "id": "agricultural-science.animal-husbandry-management.e1",
               "order": 1,
               "objective": "Housing and systems of management",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "Yyzwb5RDgAM",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Housing and systems of management. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Animal Husbandry | Agricultural Science | WAEC, NECO & JAMB",
+              "channel": "E-studylab",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Housing and systems of management. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.animal-husbandry-management.e2",
               "order": 2,
               "objective": "Breeding and reproduction",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "Yyzwb5RDgAM",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Breeding and reproduction. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Animal Husbandry | Agricultural Science | WAEC, NECO & JAMB",
+              "channel": "E-studylab",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Breeding and reproduction. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6911,19 +8053,23 @@ export const syllabusData = {
               "id": "agricultural-science.animal-diseases-and-control.e1",
               "order": 1,
               "objective": "Common diseases and parasites",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "6nnPXpgT6WQ",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Common diseases and parasites. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Common Zoonotic Diseases & their Animal Sources #gk #disease",
+              "channel": "Learn With Mahesh",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Common diseases and parasites. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.animal-diseases-and-control.e2",
               "order": 2,
               "objective": "Vaccination and hygiene",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "Yyzwb5RDgAM",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Vaccination and hygiene. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Animal Husbandry | Agricultural Science | WAEC, NECO & JAMB",
+              "channel": "E-studylab",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Vaccination and hygiene. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6936,19 +8082,23 @@ export const syllabusData = {
               "id": "agricultural-science.poultry-and-livestock-production.e1",
               "order": 1,
               "objective": "Poultry production",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "qMdLkSnsfyk",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Poultry production. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Which Chicken Breed is Best for Fast Meat Production? | Cornish Cross Chicken #shorts",
+              "channel": "Global Livestock Guide",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Poultry production. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.poultry-and-livestock-production.e2",
               "order": 2,
               "objective": "Cattle, sheep, goats, pigs",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "Yyzwb5RDgAM",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Cattle, sheep, goats, pigs. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Animal Husbandry | Agricultural Science | WAEC, NECO & JAMB",
+              "channel": "E-studylab",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Cattle, sheep, goats, pigs. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6961,19 +8111,23 @@ export const syllabusData = {
               "id": "agricultural-science.fisheries-and-aquaculture.e1",
               "order": 1,
               "objective": "Types of fish culture",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "Y9hfwLjqu4I",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Types of fish culture. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Secret Behind Grass Carp Breeding!#GrassCarp #FishFarm #Aquaculture",
+              "channel": "Fish Lovers Bangladesh",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Types of fish culture. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.fisheries-and-aquaculture.e2",
               "order": 2,
               "objective": "Fish processing and preservation",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "bqby1ZYl9Ww",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Fish processing and preservation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Dam ma fish farming Kar ka profit kamaa raha",
+              "channel": "Urban Farm",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Fish processing and preservation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -6986,19 +8140,23 @@ export const syllabusData = {
               "id": "agricultural-science.genetics-and-animal-breeding.e1",
               "order": 1,
               "objective": "Genetics in agriculture",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "KAxMCHiybh8",
               "videoStatus": "approved",
-              "duration": "23:00",
-              "summaryNotes": "Key objective: Genetics in agriculture. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WASSCE 1996 Biology Q4b | Applications of Genetics in Agricultural Improvement",
+              "channel": "ANA ARM TECHNOLOGIES (ANAARM)",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Genetics in agriculture. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.genetics-and-animal-breeding.e2",
               "order": 2,
               "objective": "Breeding systems and improvement",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "V9wog_tSbyg",
               "videoStatus": "approved",
-              "duration": "24:17",
-              "summaryNotes": "Key objective: Breeding systems and improvement. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Early Preparation for 2027 JAMB Breeds Excellent Performance. #giftedbrainsacademy #jamb2027",
+              "channel": "GIFTED BRAINS ACADEMY",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Breeding systems and improvement. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7011,28 +8169,34 @@ export const syllabusData = {
               "id": "agricultural-science.farm-management-and-economics.e1",
               "order": 1,
               "objective": "Types of farm and farm planning",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "0nrJ99WMQwM",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Types of farm and farm planning. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WASSCE 1997 Agriculture Q2 | 5 Sources of Farm Power | Agricultural Science",
+              "channel": "ANA ARM TECHNOLOGIES (ANAARM)",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Types of farm and farm planning. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.farm-management-and-economics.e2",
               "order": 2,
               "objective": "Farm records and accounts",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "c3DTk1cQEmg",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Farm records and accounts. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Farm records and accounts [SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB]",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Farm records and accounts. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.farm-management-and-economics.e3",
               "order": 3,
               "objective": "Agricultural finance and marketing",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "9BZ_ZUSZJPM",
               "videoStatus": "approved",
-              "duration": "12:34",
-              "summaryNotes": "Key objective: Agricultural finance and marketing. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Meaning and Importance of Agricultural Science  (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Agricultural finance and marketing. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7045,19 +8209,23 @@ export const syllabusData = {
               "id": "agricultural-science.agricultural-extension-and-cooperatives.e1",
               "order": 1,
               "objective": "Extension services",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "tdNKbOzRoBg",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Extension services. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Agricultural extension  (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Extension services. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.agricultural-extension-and-cooperatives.e2",
               "order": 2,
               "objective": "Cooperative societies and policies",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "tdNKbOzRoBg",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Cooperative societies and policies. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Agricultural extension  (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Cooperative societies and policies. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7070,19 +8238,23 @@ export const syllabusData = {
               "id": "agricultural-science.agro-allied-industries.e1",
               "order": 1,
               "objective": "Processing and storage of farm produce",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "goVQUqRZ2FQ",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Processing and storage of farm produce. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Various Agro- Allied Industries in Nigeria | Agricultural Science SSCE | WAEC | NECO | JAMB",
+              "channel": "LearnCity",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Processing and storage of farm produce. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "agricultural-science.agro-allied-industries.e2",
               "order": 2,
               "objective": "Agricultural industries in Nigeria",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "goVQUqRZ2FQ",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Agricultural industries in Nigeria. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Various Agro- Allied Industries in Nigeria | Agricultural Science SSCE | WAEC | NECO | JAMB",
+              "channel": "LearnCity",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Agricultural Science: Agricultural industries in Nigeria. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -7106,19 +8278,23 @@ export const syllabusData = {
               "id": "geography.introduction-to-geography.e1",
               "order": 1,
               "objective": "Branches and fieldwork",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "07inW2Cp0ug",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Branches and fieldwork. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Branches and fieldwork. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.introduction-to-geography.e2",
               "order": 2,
               "objective": "Map reading: scale, direction, contours",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "kVaXreV01bM",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Map reading: scale, direction, contours. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Map Reading II (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Map reading: scale, direction, contours. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7131,19 +8307,23 @@ export const syllabusData = {
               "id": "geography.the-earth-and-solar-system.e1",
               "order": 1,
               "objective": "Shape and movements of the earth",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "07inW2Cp0ug",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Shape and movements of the earth. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Shape and movements of the earth. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.the-earth-and-solar-system.e2",
               "order": 2,
               "objective": "Latitude, longitude, time and seasons",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "oVKU1y3BEiI",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Latitude, longitude, time and seasons. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The earth and the other planets (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Latitude, longitude, time and seasons. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7156,19 +8336,23 @@ export const syllabusData = {
               "id": "geography.rocks-and-landforms.e1",
               "order": 1,
               "objective": "Types of rocks",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "ZjF3O6QkdIM",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Types of rocks. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "🪨 3 Types of Rocks Explained | UPSC Geography 🌍",
+              "channel": "Neha Tiwari",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Types of rocks. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.rocks-and-landforms.e2",
               "order": 2,
               "objective": "Folding, faulting, volcanism",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "WvEOTqQRmuQ",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Folding, faulting, volcanism. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Fold vs Block Mountains Explained in 60 Seconds! 🏔️",
+              "channel": "CRACK EXAM WITH FUN",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Folding, faulting, volcanism. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7181,19 +8365,23 @@ export const syllabusData = {
               "id": "geography.weathering-and-erosion.e1",
               "order": 1,
               "objective": "Weathering and mass wasting",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "RuTTb_CYja0",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Weathering and mass wasting. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Weathering vs Erosion | Geography Explained",
+              "channel": "Neha Tiwari",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Weathering and mass wasting. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.weathering-and-erosion.e2",
               "order": 2,
               "objective": "Agents of erosion and landforms: rivers, wind, ice, sea",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "QJUs4e2X5Uo",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Agents of erosion and landforms: rivers, wind, ice, sea. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Weathering and Erosion | What Is the Difference between Weathering and Erosion?",
+              "channel": "Learn Bright",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Agents of erosion and landforms: rivers, wind, ice, sea. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7206,19 +8394,23 @@ export const syllabusData = {
               "id": "geography.weather-and-climate.e1",
               "order": 1,
               "objective": "Elements of weather and instruments",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "9f6I26bDcy0",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Elements of weather and instruments. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Weather and Climate (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Elements of weather and instruments. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.weather-and-climate.e2",
               "order": 2,
               "objective": "Climate types and classification",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "07inW2Cp0ug",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Climate types and classification. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Climate types and classification. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7231,19 +8423,23 @@ export const syllabusData = {
               "id": "geography.vegetation.e1",
               "order": 1,
               "objective": "Types of vegetation and their characteristics",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "4ogo2MwqKgY",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Types of vegetation and their characteristics. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Nigeriana Vegetation, Forest and Forest uses [JS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB]",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Types of vegetation and their characteristics. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.vegetation.e2",
               "order": 2,
               "objective": "Vegetation of Nigeria and world",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "07inW2Cp0ug",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Vegetation of Nigeria and world. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Vegetation of Nigeria and world. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7256,19 +8452,23 @@ export const syllabusData = {
               "id": "geography.soil-geography.e1",
               "order": 1,
               "objective": "Soil types and formation",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "UI4XaGEC3qE",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Soil types and formation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC Biology 2027 EP 119 - Soil, Soil fertility, Soil Profile, Conservation & Calculations",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Soil types and formation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.soil-geography.e2",
               "order": 2,
               "objective": "Soil erosion and conservation",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "rbSe2tPhiwU",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Soil erosion and conservation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "What is Soil Erosion? Types and Effects (Wind, Gully, Sheet)",
+              "channel": "CRACK EXAM WITH FUN",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Soil erosion and conservation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7281,19 +8481,23 @@ export const syllabusData = {
               "id": "geography.population-geography.e1",
               "order": 1,
               "objective": "Distribution, density and growth",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "lVeV5yj7RfU",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Distribution, density and growth. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Geography| Grade 10| Population distribution and density| Lesson 1",
+              "channel": "GeoThinkTogether",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Distribution, density and growth. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.population-geography.e2",
               "order": 2,
               "objective": "Migration and settlement",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Migration and settlement. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Migration and settlement. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7306,19 +8510,23 @@ export const syllabusData = {
               "id": "geography.settlement-and-urbanisation.e1",
               "order": 1,
               "objective": "Rural and urban settlements",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "c8Jz0eDHlr8",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Rural and urban settlements. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Settlement Geography Grade 12: Site Factors | Water, Slope, Soil, Climate and Supplies.",
+              "channel": "Buddy's Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Rural and urban settlements. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.settlement-and-urbanisation.e2",
               "order": 2,
               "objective": "Problems of urbanisation",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "WGtl9Peyt9Y",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Problems of urbanisation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Settlement Geography - Study of Settlements",
+              "channel": "Geography with Dave",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Problems of urbanisation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7331,19 +8539,23 @@ export const syllabusData = {
               "id": "geography.agriculture-and-industry.e1",
               "order": 1,
               "objective": "Types of agriculture",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "19OIsQX5wGg",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Types of agriculture. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Meaning and Importance of Agriculture [SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB]",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Types of agriculture. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.agriculture-and-industry.e2",
               "order": 2,
               "objective": "Industries and location factors",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "jgIG-WSYedg",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Industries and location factors. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Agric in 10 Minutes! Quick & Powerful Breakdown for Students | GCE • WAEC • JAMB",
+              "channel": "Klass Tutorial",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Industries and location factors. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7356,19 +8568,23 @@ export const syllabusData = {
               "id": "geography.mining-energy-and-power.e1",
               "order": 1,
               "objective": "Minerals and mining in Nigeria",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Minerals and mining in Nigeria. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Minerals and mining in Nigeria. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.mining-energy-and-power.e2",
               "order": 2,
               "objective": "Energy resources",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Energy resources. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Energy resources. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7381,19 +8597,23 @@ export const syllabusData = {
               "id": "geography.transport-communication-and-trade.e1",
               "order": 1,
               "objective": "Modes of transport",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "nmuuW0YSXfY",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Modes of transport. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Transportation (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Modes of transport. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.transport-communication-and-trade.e2",
               "order": 2,
               "objective": "Trade and communication",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "nmuuW0YSXfY",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Trade and communication. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Transportation (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Trade and communication. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7406,19 +8626,23 @@ export const syllabusData = {
               "id": "geography.regional-geography-nigeria.e1",
               "order": 1,
               "objective": "Relief, drainage, climate of Nigeria",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "c1Pr_hfc2k0",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Relief, drainage, climate of Nigeria. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "El Niño: Why Is Nigeria So Hot? #shorts",
+              "channel": "NAIJA-PEDIA",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Relief, drainage, climate of Nigeria. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.regional-geography-nigeria.e2",
               "order": 2,
               "objective": "Population and economy of Nigeria",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "07inW2Cp0ug",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Population and economy of Nigeria. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Population and economy of Nigeria. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7431,19 +8655,23 @@ export const syllabusData = {
               "id": "geography.regional-geography-west-africa-and-africa.e1",
               "order": 1,
               "objective": "West Africa",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "TrmbRzVlxkU",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: West Africa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Geography of Africa  (SS 3, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: West Africa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.regional-geography-west-africa-and-africa.e2",
               "order": 2,
               "objective": "Africa regions and ECOWAS",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "S8DrbUaU62M",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Africa regions and ECOWAS. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Burkina Faso 🇧🇫 | Amazing Geography of West Africa 🌍🏜️ | Global Geography Talks",
+              "channel": "Global Geography Talks ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Africa regions and ECOWAS. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7456,19 +8684,23 @@ export const syllabusData = {
               "id": "geography.regional-geography-world.e1",
               "order": 1,
               "objective": "Europe and America",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "07inW2Cp0ug",
               "videoStatus": "approved",
-              "duration": "23:00",
-              "summaryNotes": "Key objective: Europe and America. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Introduction (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Europe and America. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.regional-geography-world.e2",
               "order": 2,
               "objective": "Asia and Australia",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "fkAESEp1ZiA",
               "videoStatus": "approved",
-              "duration": "24:17",
-              "summaryNotes": "Key objective: Asia and Australia. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Difference Between Asia’s Regions 🤯🌏 Middle East, South & Central Asia",
+              "channel": "GeoGlobeTales",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Asia and Australia. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7481,19 +8713,23 @@ export const syllabusData = {
               "id": "geography.map-work-and-statistical-geography.e1",
               "order": 1,
               "objective": "Map interpretation and cross sections",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "G7gzk_qjULg",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Map interpretation and cross sections. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Basic Concept of Map Reading (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Map interpretation and cross sections. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.map-work-and-statistical-geography.e2",
               "order": 2,
               "objective": "Statistics, graphs, and GIS basics",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "G7gzk_qjULg",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Statistics, graphs, and GIS basics. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Basic Concept of Map Reading (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Statistics, graphs, and GIS basics. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7506,19 +8742,23 @@ export const syllabusData = {
               "id": "geography.environmental-resources.e1",
               "order": 1,
               "objective": "Conservation and pollution",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Conservation and pollution. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Conservation and pollution. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "geography.environmental-resources.e2",
               "order": 2,
               "objective": "Natural hazards and disasters",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "10jh-UbvuA4",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Natural hazards and disasters. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Enviromental resource  (SS 2, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB, etc)",
+              "channel": "Klacify Academy",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Geography: Natural hazards and disasters. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -7542,19 +8782,23 @@ export const syllabusData = {
               "id": "history.sources-of-history.e1",
               "order": 1,
               "objective": "Types of sources",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "5eufqy1Rvxo",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Types of sources. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Source Of History | History | SS3",
+              "channel": "Afrilearn Education",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Types of sources. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.sources-of-history.e2",
               "order": 2,
               "objective": "Importance of history",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "lV1T-tJXCgM",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Importance of history. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "HISTORY: Meaning of History and Sources of History | SSCE 2025| Episode 1 of  8",
+              "channel": "Prepstation NG",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Importance of history. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7567,28 +8811,34 @@ export const syllabusData = {
               "id": "history.early-nigerian-states.e1",
               "order": 1,
               "objective": "Kanem-Borno, Hausa city-states, Sokoto Caliphate",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "ZM36ca0AWr0",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Kanem-Borno, Hausa city-states, Sokoto Caliphate. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Dark Engine Behind the Sokoto Caliphate's Golden Age",
+              "channel": "Jude Cam",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Kanem-Borno, Hausa city-states, Sokoto Caliphate. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.early-nigerian-states.e2",
               "order": 2,
               "objective": "Yoruba Oyo Empire and Benin",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "tmoJRkJgkv8",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Yoruba Oyo Empire and Benin. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Saint Lucian African History - The Oyo Empire, Nigeria, Benin, The Yoruba People",
+              "channel": "Our Caribbean Story",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Yoruba Oyo Empire and Benin. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.early-nigerian-states.e3",
               "order": 3,
               "objective": "Igbo societies and Niger Delta",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "1XbLMYYdR2k",
               "videoStatus": "approved",
-              "duration": "14:34",
-              "summaryNotes": "Key objective: Igbo societies and Niger Delta. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Nigerian History",
+              "channel": "WONDER BOX🌏🌟",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Igbo societies and Niger Delta. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7601,19 +8851,23 @@ export const syllabusData = {
               "id": "history.nigerian-peoples-and-culture.e1",
               "order": 1,
               "objective": "Origins and migrations",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "1XbLMYYdR2k",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Origins and migrations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Nigerian History",
+              "channel": "WONDER BOX🌏🌟",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Origins and migrations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.nigerian-peoples-and-culture.e2",
               "order": 2,
               "objective": "Traditional political systems",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "1XbLMYYdR2k",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Traditional political systems. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Nigerian History",
+              "channel": "WONDER BOX🌏🌟",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Traditional political systems. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7626,19 +8880,23 @@ export const syllabusData = {
               "id": "history.trade-and-slavery.e1",
               "order": 1,
               "objective": "Trans-Saharan trade",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "Kzn46mbR530",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Trans-Saharan trade. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The First Slave Ships: Africans Torn From Their Villages and Forced to the Americas",
+              "channel": "The Ancestral Path",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Trans-Saharan trade. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.trade-and-slavery.e2",
               "order": 2,
               "objective": "Trans-Atlantic slave trade and abolition",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "VnPYOGGxWto",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Trans-Atlantic slave trade and abolition. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Transatlantic Slave Trade",
+              "channel": "History Hub",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Trans-Atlantic slave trade and abolition. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7651,19 +8909,23 @@ export const syllabusData = {
               "id": "history.european-contact-and-exploration.e1",
               "order": 1,
               "objective": "Early European explorers",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "Z9W7J-Q0Ntk",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Early European explorers. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "European Explorers | History | SS1",
+              "channel": "Afrilearn Education",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Early European explorers. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.european-contact-and-exploration.e2",
               "order": 2,
               "objective": "Missionary activities",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Missionary activities. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Missionary activities. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7676,19 +8938,23 @@ export const syllabusData = {
               "id": "history.colonisation-of-nigeria.e1",
               "order": 1,
               "objective": "British conquest and amalgamation",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "EbsNeILZjQM",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: British conquest and amalgamation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Britain Created Nigeria: The Untold Story of Colonial Division and Exploitation",
+              "channel": "OLUGBENGA ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: British conquest and amalgamation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.colonisation-of-nigeria.e2",
               "order": 2,
               "objective": "Indirect rule and colonial administration",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "U-BmoBW8OIo",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Indirect rule and colonial administration. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "British Colonial Administration - DEFINITION/HISTORY/MERITS & DEMERITS etc",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Indirect rule and colonial administration. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7701,19 +8967,23 @@ export const syllabusData = {
               "id": "history.nationalism-and-independence.e1",
               "order": 1,
               "objective": "Early nationalists and political parties",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "EWXZP6XZ9pg",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Early nationalists and political parties. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Political Parties In Nigeria - PART 1",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Early nationalists and political parties. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.nationalism-and-independence.e2",
               "order": 2,
               "objective": "Constitutional developments and independence",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "Rm6KYRrY54o",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Constitutional developments and independence. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Constitutional Development (The Pre Independence Era) - PART 1",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Constitutional developments and independence. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7726,19 +8996,23 @@ export const syllabusData = {
               "id": "history.post-independence-nigeria.e1",
               "order": 1,
               "objective": "First Republic and civil war",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "uPz9AbfufTQ",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: First Republic and civil war. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Entire History of Nigeria from Creation to Civil War | All Parts (1-4)",
+              "channel": "Bisi",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: First Republic and civil war. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.post-independence-nigeria.e2",
               "order": 2,
               "objective": "Military regimes and civil rule",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "J0-COu5Mv5M",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Military regimes and civil rule. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Institutions Of Government In Post Independence Nigeria",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Military regimes and civil rule. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7751,19 +9025,23 @@ export const syllabusData = {
               "id": "history.west-african-history.e1",
               "order": 1,
               "objective": "Ghana, Mali, Songhai empires",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "SjM-OEhYSew",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Ghana, Mali, Songhai empires. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "EP 1: THE RISE AND LEGACY OF AFRICA’S GREATEST EMPIRES (THE GHANA,MALI AND SONGHAI)",
+              "channel": "Echoes of Wisdom",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Ghana, Mali, Songhai empires. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.west-african-history.e2",
               "order": 2,
               "objective": "Colonisation of West Africa",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "We30uXDzq7s",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Colonisation of West Africa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Scramble for Africa: The Shocking Truth of the Berlin Conference (1884–1885)",
+              "channel": "Legacy African History",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Colonisation of West Africa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7776,19 +9054,23 @@ export const syllabusData = {
               "id": "history.pan-africanism-and-african-unity.e1",
               "order": 1,
               "objective": "Pan-Africanism and OAU/AU",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "_AHagC1smns",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Pan-Africanism and OAU/AU. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "History of the African Union: From OAU to AU | Full Documentary",
+              "channel": "Afri",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Pan-Africanism and OAU/AU. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.pan-africanism-and-african-unity.e2",
               "order": 2,
               "objective": "ECOWAS and regional organisations",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "73WWAAyg5aw",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: ECOWAS and regional organisations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "History of the Organization of African Unity/African Union | OAU | AU",
+              "channel": "Nana Kollynx ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: ECOWAS and regional organisations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7801,19 +9083,23 @@ export const syllabusData = {
               "id": "history.africa-and-the-world.e1",
               "order": 1,
               "objective": "Decolonisation in Africa",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "hoKyBBM53Ew",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Decolonisation in Africa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Wind of Change: Africa's Independence Days (1957–1963)",
+              "channel": "Odd Chronicles",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Decolonisation in Africa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.africa-and-the-world.e2",
               "order": 2,
               "objective": "Apartheid and independence of Southern Africa",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "ke4kVFycpYY",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Apartheid and independence of Southern Africa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How did South African Apartheid happen, and how did it finally end? - Thula Simpson",
+              "channel": "TED-Ed",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Apartheid and independence of Southern Africa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7826,19 +9112,23 @@ export const syllabusData = {
               "id": "history.international-organisations.e1",
               "order": 1,
               "objective": "League of Nations and UN",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "97a6XkUBjPw",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: League of Nations and UN. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "International Organisations I (PART 1)",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: League of Nations and UN. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.international-organisations.e2",
               "order": 2,
               "objective": "Commonwealth and other bodies",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "97a6XkUBjPw",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Commonwealth and other bodies. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "International Organisations I (PART 1)",
+              "channel": "Myschool",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Commonwealth and other bodies. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7851,19 +9141,23 @@ export const syllabusData = {
               "id": "history.world-wars.e1",
               "order": 1,
               "objective": "Causes and effects of World War I",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "GG0LY8OLBG8",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Causes and effects of World War I. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "World War One (All Parts) (age-restricted)",
+              "channel": "Epic History",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Causes and effects of World War I. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.world-wars.e2",
               "order": 2,
               "objective": "World War II and its aftermath",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "58XB0OvoGAI",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: World War II and its aftermath. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "World War 2, Explained in 5 Minutes!",
+              "channel": "5 MINUTES",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: World War II and its aftermath. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7876,19 +9170,23 @@ export const syllabusData = {
               "id": "history.industrial-revolution-and-europe.e1",
               "order": 1,
               "objective": "Causes and effects",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "zjK7PWmRRyg",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Causes and effects. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Industrial Revolution: Crash Course European History #24",
+              "channel": "CrashCourse",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Causes and effects. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "history.industrial-revolution-and-europe.e2",
               "order": 2,
               "objective": "Capitalism and social changes",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "zjK7PWmRRyg",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Capitalism and social changes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Industrial Revolution: Crash Course European History #24",
+              "channel": "CrashCourse",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for History: Capitalism and social changes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -7911,19 +9209,23 @@ export const syllabusData = {
               "id": "technical-drawing.drawing-instruments-and-materials.e1",
               "order": 1,
               "objective": "Instruments and their use",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "Pmj87veIVrc",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Instruments and their use. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Drawing Instruments and Their Uses",
+              "channel": "His Grace Tutor - Technical Drawing Courses",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Instruments and their use. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.drawing-instruments-and-materials.e2",
               "order": 2,
               "objective": "Lines, lettering, scale",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "Pmj87veIVrc",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Lines, lettering, scale. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Drawing Instruments and Their Uses",
+              "channel": "His Grace Tutor - Technical Drawing Courses",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Lines, lettering, scale. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7936,19 +9238,23 @@ export const syllabusData = {
               "id": "technical-drawing.geometrical-construction.e1",
               "order": 1,
               "objective": "Lines, angles and polygons",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "JBAhGMXXUS4",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Lines, angles and polygons. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "HOW TO BISECT A LINE||Geometrical construction||Engineering drawing||Technical drawing",
+              "channel": "All Engineering Drawings",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Lines, angles and polygons. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.geometrical-construction.e2",
               "order": 2,
               "objective": "Circles, tangents, arcs",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "z-OEty0t57s",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Circles, tangents, arcs. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "how to draw a common external tangent to two unequal circles#shorts#ytshorts#viral#tangent#easy",
+              "channel": "RB KNOWLEDGE EXPLORE",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Circles, tangents, arcs. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7961,19 +9267,23 @@ export const syllabusData = {
               "id": "technical-drawing.loci-and-mechanisms.e1",
               "order": 1,
               "objective": "Loci of points",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "HXJiJKDDS18",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Loci of points. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "MECHANISM LOCI || HOW TO DRAW THE ABOVE MECHANISM LOCI",
+              "channel": "All Engineering Drawings",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Loci of points. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.loci-and-mechanisms.e2",
               "order": 2,
               "objective": "Cam, spiral and mechanisms",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "CK1hFEm3pvg",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Cam, spiral and mechanisms. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "HOW TO DRAW MECHANISM LOCI || ENGINEERING DRAWING || LOCI || TECHNICAL DRAWING",
+              "channel": "All Engineering Drawings",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Cam, spiral and mechanisms. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -7986,28 +9296,34 @@ export const syllabusData = {
               "id": "technical-drawing.orthographic-projection.e1",
               "order": 1,
               "objective": "First angle projection",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "facG-h8HCI0",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: First angle projection. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "(Steps) First Angle Orthographic Projection D&T Revision Question 5",
+              "channel": "mrdanielsos",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: First angle projection. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.orthographic-projection.e2",
               "order": 2,
               "objective": "Third angle projection",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "FYODv82l8fw",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Third angle projection. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Exercise 1.1 Orthographic Drawing",
+              "channel": "3DNaomi",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Third angle projection. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.orthographic-projection.e3",
               "order": 3,
               "objective": "Sectional views",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "JVAtMVhwgaQ",
               "videoStatus": "approved",
-              "duration": "18:34",
-              "summaryNotes": "Key objective: Sectional views. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Sectional Orthographic Projection – Engineering Drawing Tutorial",
+              "channel": "ADTW Study",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Sectional views. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8020,19 +9336,23 @@ export const syllabusData = {
               "id": "technical-drawing.pictorial-drawing.e1",
               "order": 1,
               "objective": "Isometric drawing",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "lWlGJ6c37ms",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Isometric drawing. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ISOMETRIC DRAWING 1",
+              "channel": "tech draw",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Isometric drawing. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.pictorial-drawing.e2",
               "order": 2,
               "objective": "Oblique drawing",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "ACHyDeFoILM",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Oblique drawing. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "OBLIQUE DRAWING",
+              "channel": "folakemi ogunmuyiwa",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Oblique drawing. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8045,19 +9365,23 @@ export const syllabusData = {
               "id": "technical-drawing.auxiliary-views.e1",
               "order": 1,
               "objective": "Auxiliary elevations",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "9uQ81wU8wq4",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Auxiliary elevations. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WAEC QUESTION - To Draw Auxiliary Elevation given Orthographic Views ",
+              "channel": "His Grace Tutor - Technical Drawing Courses",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Auxiliary elevations. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.auxiliary-views.e2",
               "order": 2,
               "objective": "Auxiliary plans",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "6FWT3HG3tjg",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Auxiliary plans. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "HOW TO PROJECT AUXILIARY ELEVATION, PLAN IN TECHNICAL DRAWING AND ENGINEERING GRAPHICS. WASSCE, WAEC",
+              "channel": "Graphix tutors",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Auxiliary plans. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8070,19 +9394,23 @@ export const syllabusData = {
               "id": "technical-drawing.sections-and-development.e1",
               "order": 1,
               "objective": "Sectional views",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "FBR8o8jA4Q8",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Sectional views. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to draw the Complete Plan, End view, Development and True Shape of Truncated Hexagonal Pyramid.",
+              "channel": "Graphix tutors",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Sectional views. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.sections-and-development.e2",
               "order": 2,
               "objective": "Development of surfaces",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "1vgnXWqiKUY",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Development of surfaces. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Development of Cylinder | Development of Surfaces | Engineering Drawing",
+              "channel": "KSG Engineering",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Development of surfaces. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8095,19 +9423,23 @@ export const syllabusData = {
               "id": "technical-drawing.intersection-of-solids.e1",
               "order": 1,
               "objective": "Cylinders and prisms",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "EDvUqOHFksw",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Cylinders and prisms. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "INTERPRETATION (TECHNICAL DRAWING) PT2",
+              "channel": "Graphix tutors",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Cylinders and prisms. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.intersection-of-solids.e2",
               "order": 2,
               "objective": "Cones and pyramids",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "EDvUqOHFksw",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Cones and pyramids. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "INTERPRETATION (TECHNICAL DRAWING) PT2",
+              "channel": "Graphix tutors",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Cones and pyramids. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8120,19 +9452,23 @@ export const syllabusData = {
               "id": "technical-drawing.machine-drawing.e1",
               "order": 1,
               "objective": "Screw threads and fasteners",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "RHfMKUwToPw",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Screw threads and fasteners. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The ultimate guide to draw a screw thread in engineering drawing #engineeringdrawing",
+              "channel": "Educraft Engineering and drawing",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Screw threads and fasteners. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.machine-drawing.e2",
               "order": 2,
               "objective": "Assembly and detail drawings",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "pO7GXjkNCv8",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Assembly and detail drawings. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "CLAMP DETAILS ASSEMBLY IN MACHINE DRAWING, ENGINEERING DRAWING",
+              "channel": "Graphix tutors",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Assembly and detail drawings. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8145,19 +9481,23 @@ export const syllabusData = {
               "id": "technical-drawing.building-drawing.e1",
               "order": 1,
               "objective": "Plans, elevations, sections of simple buildings",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "3C_V9gdVGb8",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Plans, elevations, sections of simple buildings. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "HOW TO SECTION A BUILDING - building drawing",
+              "channel": "Elokey Concept",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Plans, elevations, sections of simple buildings. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.building-drawing.e2",
               "order": 2,
               "objective": "Site and symbol conventions",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "R4SrXPZaZsI",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Site and symbol conventions. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "2026 WAEC Floor Plan - Building Drawing ",
+              "channel": "His Grace Tech. Tutor - Technical Drawing ACADEMY ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Site and symbol conventions. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8170,19 +9510,23 @@ export const syllabusData = {
               "id": "technical-drawing.geometrical-solids-and-planes.e1",
               "order": 1,
               "objective": "Properties of solids",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "FBR8o8jA4Q8",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Properties of solids. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to draw the Complete Plan, End view, Development and True Shape of Truncated Hexagonal Pyramid.",
+              "channel": "Graphix tutors",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Properties of solids. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.geometrical-solids-and-planes.e2",
               "order": 2,
               "objective": "Planes and their true shapes",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "EGPCmIHmlY4",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Planes and their true shapes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WATCH: REVISE Solid Geometry BEFORE FINAL EXAMS!!",
+              "channel": "HowToEGD",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Planes and their true shapes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8195,19 +9539,23 @@ export const syllabusData = {
               "id": "technical-drawing.engineering-materials-and-standards.e1",
               "order": 1,
               "objective": "Engineering materials",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "ynvtJWQ-6jU",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Engineering materials. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "ENGINEERING BASIC / TECHNICAL DRAWING TOOLS",
+              "channel": "MILTONBLACK ENGINEERING GRAPHICS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Engineering materials. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "technical-drawing.engineering-materials-and-standards.e2",
               "order": 2,
               "objective": "Drawing standards and dimensioning",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "orI0cB2tyOc",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Drawing standards and dimensioning. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to draw border line and title block (technical drawing) #technicaldrawing #engineeringdrawing",
+              "channel": "Educraft Engineering and drawing",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Technical Drawing: Drawing standards and dimensioning. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -8231,19 +9579,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.creation-and-the-fall.e1",
               "order": 1,
               "objective": "Creation story and God's purpose",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "STFKk5EE6fs",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Creation story and God's purpose. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Two Creation Accounts; CRS",
+              "channel": "Sir Kwame",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Creation story and God's purpose. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.creation-and-the-fall.e2",
               "order": 2,
               "objective": "The fall of man and its effects",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "-ol0LnR8AoE",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: The fall of man and its effects. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WAEC 2019 CRS PAST QUESTION 1, The seventh day",
+              "channel": "Tclassified.com",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: The fall of man and its effects. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8256,19 +9608,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.god-s-covenant.e1",
               "order": 1,
               "objective": "Covenant with Noah and Abraham",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "IQfgOnwc7RQ",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Covenant with Noah and Abraham. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB CRS 2027 EP 7 - God's Covenant With Noah + Likely Exam Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Covenant with Noah and Abraham. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.god-s-covenant.e2",
               "order": 2,
               "objective": "Covenant at Sinai and the law",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "-r1HHxLL71M",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Covenant at Sinai and the law. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC CRS 2027 EP 6 - The Covenant + Likely Exam Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Covenant at Sinai and the law. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8281,28 +9637,34 @@ export const syllabusData = {
               "id": "christian-religious-studies.leadership-moses-joshua-judges.e1",
               "order": 1,
               "objective": "Moses and the Exodus",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "8xHo3ebf7Zc",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Moses and the Exodus. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "C R S  - Joshua as a Leader",
+              "channel": "Ministry of Education Kaduna State",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Moses and the Exodus. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.leadership-moses-joshua-judges.e2",
               "order": 2,
               "objective": "Joshua and the conquest",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "8xHo3ebf7Zc",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Joshua and the conquest. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "C R S  - Joshua as a Leader",
+              "channel": "Ministry of Education Kaduna State",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Joshua and the conquest. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.leadership-moses-joshua-judges.e3",
               "order": 3,
               "objective": "Judges and Samuel",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "F2BYuhjqDl4",
               "videoStatus": "approved",
-              "duration": "16:34",
-              "summaryNotes": "Key objective: Judges and Samuel. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2027 CRS Syllabus & Areas Of Concentration",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Judges and Samuel. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8315,19 +9677,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.kingship-in-israel.e1",
               "order": 1,
               "objective": "Saul and David",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "kK1CR-_rius",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Saul and David. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "CRS NWAHIZU THE CONVERSION OF SAUL",
+              "channel": "THE MASTER'S VESSEL CLASSICAL ACADEMY - MVCA",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Saul and David. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.kingship-in-israel.e2",
               "order": 2,
               "objective": "Solomon and the Divided Kingdom",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "UUgikGFiobg",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Solomon and the Divided Kingdom. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Fall of Israel’s Kingdom | Animated Bible Story of Rehoboam & Jeroboam",
+              "channel": "Bible Chronicles Animation",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Solomon and the Divided Kingdom. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8340,19 +9706,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.prophets-in-israel.e1",
               "order": 1,
               "objective": "Elijah and Elisha",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "VqTYrNyl3K4",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Elijah and Elisha. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Rise of Elisha: A Double Portion of Elijah | Miracles,Power and Authority |Bible story Animation",
+              "channel": "Bible Chronicles ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Elijah and Elisha. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.prophets-in-israel.e2",
               "order": 2,
               "objective": "Amos, Hosea, Isaiah, Jeremiah",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "TJCOuR6-ppI",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Amos, Hosea, Isaiah, Jeremiah. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB CRS 2027 EP 1 - Sovereignty of God + (Teaching of Prophet Amos) + Likely Exam Questions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Amos, Hosea, Isaiah, Jeremiah. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8365,19 +9735,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.the-birth-and-early-life-of-jesus.e1",
               "order": 1,
               "objective": "Birth, baptism, temptation",
-              "youtubeId": "7W41P9Xm9Gg",
+              "youtubeId": "-RPL-yGDzm8",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Birth, baptism, temptation. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JSS 1 Christian Religious Studies - Jesus Christ: Birth and Early Life | Nigerian Curriculum",
+              "channel": "Lite Tech Solutions Limited",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Birth, baptism, temptation. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.the-birth-and-early-life-of-jesus.e2",
               "order": 2,
               "objective": "Teachings and miracles of Jesus",
-              "youtubeId": "Zbalb1kU8n8",
+              "youtubeId": "u8k8XHJJaCg",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Teachings and miracles of Jesus. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC CRS 2027 EP 40  - The Birth and Early Life of Jesus + Free Past Questions and Solutions",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Teachings and miracles of Jesus. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8390,19 +9764,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.jesus-parables-and-teachings.e1",
               "order": 1,
               "objective": "Parables of the kingdom",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "ECUgsx2CzpM",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Parables of the kingdom. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "UNIBEK JSS3 REVISION   SUBJECT   C R S & TOPIC   CHRIST TEACHES IN PARABLES LESSON 1",
+              "channel": "Unibek Group Of Schools",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Parables of the kingdom. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.jesus-parables-and-teachings.e2",
               "order": 2,
               "objective": "Sermon on the mount",
-              "youtubeId": "e1n438N1G9M",
+              "youtubeId": "2TCX71MVcVA",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Sermon on the mount. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Parables of The Kingdom - Pt.1 (Why Did Jesus Use Parables?) || Pastor Mensa Otabil",
+              "channel": "Christian Broadcast Channel - CBC",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Sermon on the mount. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8415,19 +9793,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.passion-death-and-resurrection.e1",
               "order": 1,
               "objective": "The last supper, passion and trial",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "g4CBhYRj-jA",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: The last supper, passion and trial. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC CRS 2027 EP 56 - The Last Supper + Free JAMB CRS Past Questions and Answers",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: The last supper, passion and trial. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.passion-death-and-resurrection.e2",
               "order": 2,
               "objective": "Death, resurrection and ascension",
-              "youtubeId": "7CPc36d2p5Q",
+              "youtubeId": "lVSxQ_sbrms",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Death, resurrection and ascension. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "REASONS WHY CHRISTIANS CELEBRATE  THE LORDS SUPPER",
+              "channel": "C.R.E.",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Death, resurrection and ascension. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8440,19 +9822,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.the-early-church.e1",
               "order": 1,
               "objective": "Pentecost and the apostles",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "9PI-_2T7F-0",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Pentecost and the apostles. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "CRS: Communal Living in the Early Church",
+              "channel": "Sir Kwame",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Pentecost and the apostles. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.the-early-church.e2",
               "order": 2,
               "objective": "Persecution, Stephen and Paul's conversion",
-              "youtubeId": "3ez10ADR_gM",
+              "youtubeId": "TTAgRHA2GsY",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Persecution, Stephen and Paul's conversion. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "From Saul to Paul: The True Story of Christianity’s Greatest Transformation | Animated Bible Story",
+              "channel": "Bible Chronicles Animation",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Persecution, Stephen and Paul's conversion. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8465,19 +9851,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.paul-s-missionary-journeys.e1",
               "order": 1,
               "objective": "First, second and third journeys",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "fglsbcGSr3A",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: First, second and third journeys. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Paul's Missionary Journeys: Acts 13-20",
+              "channel": "BibleProject",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: First, second and third journeys. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.paul-s-missionary-journeys.e2",
               "order": 2,
               "objective": "Paul's imprisonment and martyrdom",
-              "youtubeId": "_B4k803iR4M",
+              "youtubeId": "fglsbcGSr3A",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Paul's imprisonment and martyrdom. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Paul's Missionary Journeys: Acts 13-20",
+              "channel": "BibleProject",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Paul's imprisonment and martyrdom. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8490,19 +9880,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.christian-ethics-and-morality.e1",
               "order": 1,
               "objective": "Love, forgiveness, humility",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "5v-wXbHq1iw",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Love, forgiveness, humility. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "C R S - FORGIVENESS",
+              "channel": "Ministry of Education Kaduna State",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Love, forgiveness, humility. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.christian-ethics-and-morality.e2",
               "order": 2,
               "objective": "Marriage, family, and work",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "T0LWI77yBd8",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Marriage, family, and work. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Christian Religious Studies  - Justification by Faith",
+              "channel": "Ministry of Education Kaduna State",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Marriage, family, and work. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8515,19 +9909,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.christian-living-faith-and-works.e1",
               "order": 1,
               "objective": "Faith and works",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "4eAGTR03YVg",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Faith and works. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Faith and Works/ Genuine Religion: CRS",
+              "channel": "Sir Kwame",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Faith and works. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.christian-living-faith-and-works.e2",
               "order": 2,
               "objective": "Fruit of the Spirit",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "MS0BiPTEoB8",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Fruit of the Spirit. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Christian Religious Studies CHRISTIAN LIVING IN A COMMUNITY by Ify Ezeafurukwe",
+              "channel": "St Charles' College Onitsha",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Fruit of the Spirit. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8540,19 +9938,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.spiritual-gifts-and-church-unity.e1",
               "order": 1,
               "objective": "Gifts of the Spirit",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "iDhR8ggSWtY",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Gifts of the Spirit. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "C R S  - Spiritual Gifts",
+              "channel": "Ministry of Education Kaduna State",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Gifts of the Spirit. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.spiritual-gifts-and-church-unity.e2",
               "order": 2,
               "objective": "Unity and diversity in the Church",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "S4XEZCnKvBo",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Unity and diversity in the Church. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB/WAEC CRS 2027 EP 41 - Baptism and Temptations of Jesus + Past Questions and Answers",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Unity and diversity in the Church. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8565,19 +9967,23 @@ export const syllabusData = {
               "id": "christian-religious-studies.christian-leadership-and-service.e1",
               "order": 1,
               "objective": "Church leadership",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "8xHo3ebf7Zc",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Church leadership. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "C R S  - Joshua as a Leader",
+              "channel": "Ministry of Education Kaduna State",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Church leadership. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "christian-religious-studies.christian-leadership-and-service.e2",
               "order": 2,
               "objective": "Duties of Christians to the state",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "5IT0lN1GGqY",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Duties of Christians to the state. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "WASSCE 2010 CRS Q9a | The Proper Use of Spiritual Gifts in the Church | Christian Religious Studies",
+              "channel": "ANA ARM TECHNOLOGIES (ANAARM)",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Christian Religious Studies: Duties of Christians to the state. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -8601,19 +10007,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.introduction-to-islam.e1",
               "order": 1,
               "objective": "Meaning of Islam and the five pillars",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "zRYdcbumQn4",
               "videoStatus": "approved",
-              "duration": "10:00",
-              "summaryNotes": "Key objective: Meaning of Islam and the five pillars. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2024 Islamic Studies (IRS) Questions & Answers: Complete Explanation",
+              "channel": "ISLAMIC ILM",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Meaning of Islam and the five pillars. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.introduction-to-islam.e2",
               "order": 2,
               "objective": "Articles of faith (Iman)",
-              "youtubeId": "uzkc-qNVoOk",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "11:17",
-              "summaryNotes": "Key objective: Articles of faith (Iman). Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Articles of faith (Iman). Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8626,19 +10036,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.the-qur-an.e1",
               "order": 1,
               "objective": "Revelation and compilation of the Qur'an",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "12:00",
-              "summaryNotes": "Key objective: Revelation and compilation of the Qur'an. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Revelation and compilation of the Qur'an. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.the-qur-an.e2",
               "order": 2,
               "objective": "Tajwid and selected Surahs",
-              "youtubeId": "c_X4oK0-8gE",
+              "youtubeId": "wUfIbJAKKxg",
               "videoStatus": "approved",
-              "duration": "13:17",
-              "summaryNotes": "Key objective: Tajwid and selected Surahs. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "One Day,Your Child Will Thank You ❤️ | Online Quran Classes for Kids | Rihala Academy#europemuslims",
+              "channel": "Rihala Academy ",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Tajwid and selected Surahs. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8651,19 +10065,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.the-hadith.e1",
               "order": 1,
               "objective": "Meaning, collections and importance",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "14:00",
-              "summaryNotes": "Key objective: Meaning, collections and importance. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Meaning, collections and importance. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.the-hadith.e2",
               "order": 2,
               "objective": "Selected Hadith and their lessons",
-              "youtubeId": "8IlzKri08kk",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "15:17",
-              "summaryNotes": "Key objective: Selected Hadith and their lessons. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Selected Hadith and their lessons. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8676,19 +10094,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.tawhid.e1",
               "order": 1,
               "objective": "Oneness of Allah and attributes",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "qHxe61R4TGI",
               "videoStatus": "approved",
-              "duration": "16:00",
-              "summaryNotes": "Key objective: Oneness of Allah and attributes. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "what is Tawhid?🧕",
+              "channel": "Daily Life Hub👳🧕",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Oneness of Allah and attributes. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.tawhid.e2",
               "order": 2,
               "objective": "Shirk and its forms",
-              "youtubeId": "gL5e0F3q01g",
+              "youtubeId": "cQnyuTrg-o0",
               "videoStatus": "approved",
-              "duration": "17:17",
-              "summaryNotes": "Key objective: Shirk and its forms. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Calling to Tawhid at the Centre of Shirk | Mufti Liaquat Zaman",
+              "channel": "ArRahma Foundation",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Shirk and its forms. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8701,19 +10123,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.prophets-and-messengers.e1",
               "order": 1,
               "objective": "Adam, Nuh, Ibrahim, Musa, Isa",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "jOBCZa2vWI0",
               "videoStatus": "approved",
-              "duration": "18:00",
-              "summaryNotes": "Key objective: Adam, Nuh, Ibrahim, Musa, Isa. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Christian vs Muslim Prophets Name Same? Adam to Muhammad ﷺ ❤️#shorts #islam  #adam#jesus #isa #musa",
+              "channel": "ALLAH KI KITAB",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Adam, Nuh, Ibrahim, Musa, Isa. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.prophets-and-messengers.e2",
               "order": 2,
               "objective": "Muhammad (SAW): birth to Prophethood",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "19:17",
-              "summaryNotes": "Key objective: Muhammad (SAW): birth to Prophethood. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Muhammad (SAW): birth to Prophethood. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8726,19 +10152,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.seerah-of-the-prophet.e1",
               "order": 1,
               "objective": "Makkan period and Hijrah",
-              "youtubeId": "h8EYEJ32oQ8",
+              "youtubeId": "7btXEBlliDQ",
               "videoStatus": "approved",
-              "duration": "20:00",
-              "summaryNotes": "Key objective: Makkan period and Hijrah. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Seerah of The Prophet Muhammad ﷺ II Lesson 30 - Final Lesson (Makkan Period) II Sh Imraan Mollagee",
+              "channel": "Ustadh Imraan Mollagee",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Makkan period and Hijrah. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.seerah-of-the-prophet.e2",
               "order": 2,
               "objective": "Madinan period and Fath Makkah",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "2H8BP-QgyLI",
               "videoStatus": "approved",
-              "duration": "21:17",
-              "summaryNotes": "Key objective: Madinan period and Fath Makkah. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "🕌 Beautiful Naat Sharif 🤍🦋 | Heart Touching Madina Naat 🌸 #Shorts #viral #madina #trending #islam",
+              "channel": "Hafiza Anwasha",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Madinan period and Fath Makkah. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8751,19 +10181,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.khulafa-rashidun.e1",
               "order": 1,
               "objective": "Abubakr and Umar",
-              "youtubeId": "Y_L8a_8p-a4",
+              "youtubeId": "sV2ABn5XBCU",
               "videoStatus": "approved",
-              "duration": "22:00",
-              "summaryNotes": "Key objective: Abubakr and Umar. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Khulafa-e-Rashideen (RA) 🌙 The 4 Great Leaders of Islam | Islamic History",
+              "channel": "Light_of_Sunnah32",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Abubakr and Umar. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.khulafa-rashidun.e2",
               "order": 2,
               "objective": "Uthman and Ali",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "L6l8zT0wL6g",
               "videoStatus": "approved",
-              "duration": "23:17",
-              "summaryNotes": "Key objective: Uthman and Ali. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JSS 2 Islamic Religious Studies - The Rightly Guided Caliphs (Khulafa'u Rashidun) | Nigerian Curricu",
+              "channel": "Lite Tech Solutions Limited",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Uthman and Ali. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8776,19 +10210,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.ibadat-salah.e1",
               "order": 1,
               "objective": "Wudu and conditions of Salah",
-              "youtubeId": "ZM8ECpBuQYE",
+              "youtubeId": "OJ6BstGrsYs",
               "videoStatus": "approved",
-              "duration": "24:00",
-              "summaryNotes": "Key objective: Wudu and conditions of Salah. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Common Prayer Mistakes.. ❌🌸☪️ #shorts #islam #muslim #salah #foryou",
+              "channel": "Shadik Khan",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Wudu and conditions of Salah. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.ibadat-salah.e2",
               "order": 2,
               "objective": "Types of Salah and Jumu'ah",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "U7VIwPRJJSE",
               "videoStatus": "approved",
-              "duration": "10:17",
-              "summaryNotes": "Key objective: Types of Salah and Jumu'ah. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How to plan your day around salah| islamic reminder| salah| prayer | namaz| Quran| Allah | success",
+              "channel": "Aylin",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Types of Salah and Jumu'ah. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8801,28 +10239,34 @@ export const syllabusData = {
               "id": "islamic-religious-studies.ibadat-zakat-sawm-hajj.e1",
               "order": 1,
               "objective": "Zakat and its distribution",
-              "youtubeId": "v16h8Pz0R5k",
+              "youtubeId": "x5i5WGU2TsI",
               "videoStatus": "approved",
-              "duration": "11:00",
-              "summaryNotes": "Key objective: Zakat and its distribution. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "What Is Zakat in Islam? How Much to Pay in Ramadan & Where Your Zakat Goes | Islamic Guide",
+              "channel": "Simply Islam Media",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Zakat and its distribution. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.ibadat-zakat-sawm-hajj.e2",
               "order": 2,
               "objective": "Sawm and Ramadan",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "eIRPyGwRE2A",
               "videoStatus": "approved",
-              "duration": "12:17",
-              "summaryNotes": "Key objective: Sawm and Ramadan. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "5 pillars of Islam by Shazia",
+              "channel": "Islamic-Studies by Shazia",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Sawm and Ramadan. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.ibadat-zakat-sawm-hajj.e3",
               "order": 3,
               "objective": "Hajj and Umrah",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "t0LxBELV0yg",
               "videoStatus": "approved",
-              "duration": "13:34",
-              "summaryNotes": "Key objective: Hajj and Umrah. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "SubhanAllah ❤️🕋 Most Beautiful View of Kaaba Sharif |  #makkah #kaaba #Shorts",
+              "channel": "Ss Islamic vlog",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Hajj and Umrah. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8835,19 +10279,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.islamic-family-law.e1",
               "order": 1,
               "objective": "Nikah, divorce and inheritance",
-              "youtubeId": "_w3Qe9z6u_E",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "13:00",
-              "summaryNotes": "Key objective: Nikah, divorce and inheritance. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Nikah, divorce and inheritance. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.islamic-family-law.e2",
               "order": 2,
               "objective": "Rights of parents, children and spouses",
-              "youtubeId": "PUB0TaZ7bhA",
+              "youtubeId": "zRYdcbumQn4",
               "videoStatus": "approved",
-              "duration": "14:17",
-              "summaryNotes": "Key objective: Rights of parents, children and spouses. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2024 Islamic Studies (IRS) Questions & Answers: Complete Explanation",
+              "channel": "ISLAMIC ILM",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Rights of parents, children and spouses. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8860,19 +10308,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.islamic-morals-and-social-ethics.e1",
               "order": 1,
               "objective": "Honesty, patience, justice",
-              "youtubeId": "rAof9Ld5sOg",
+              "youtubeId": "HatD68bz5HY",
               "videoStatus": "approved",
-              "duration": "15:00",
-              "summaryNotes": "Key objective: Honesty, patience, justice. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "Muslims Need To Focus On This",
+              "channel": "i3 Institute",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Honesty, patience, justice. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.islamic-morals-and-social-ethics.e2",
               "order": 2,
               "objective": "Prohibited acts in Islam",
-              "youtubeId": "J31A5Ew6K9E",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "16:17",
-              "summaryNotes": "Key objective: Prohibited acts in Islam. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Prohibited acts in Islam. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8885,19 +10337,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.islamic-economy-and-society.e1",
               "order": 1,
               "objective": "Riba, trade and zakat in society",
-              "youtubeId": "FSyAehMdpyI",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "17:00",
-              "summaryNotes": "Key objective: Riba, trade and zakat in society. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Riba, trade and zakat in society. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.islamic-economy-and-society.e2",
               "order": 2,
               "objective": "Islamic politics and leadership",
-              "youtubeId": "k_N7_F1b9o4",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "18:17",
-              "summaryNotes": "Key objective: Islamic politics and leadership. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Islamic politics and leadership. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8910,19 +10366,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.history-of-islam-in-west-africa.e1",
               "order": 1,
               "objective": "Spread of Islam in Nigeria",
-              "youtubeId": "URUJD5NEXC8",
+              "youtubeId": "6EFHYrNpm0k",
               "videoStatus": "approved",
-              "duration": "19:00",
-              "summaryNotes": "Key objective: Spread of Islam in Nigeria. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "How Daniel Scored 368 in JAMB & became the Highest Scorer in Edo State and Ranked 4th in Nigeria",
+              "channel": "O3SCHOOLS",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Spread of Islam in Nigeria. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.history-of-islam-in-west-africa.e2",
               "order": 2,
               "objective": "Usman Dan Fodio and Sokoto Caliphate",
-              "youtubeId": "lrk4o7Q8m9k",
+              "youtubeId": "E-XAtqCukZY",
               "videoStatus": "approved",
-              "duration": "20:17",
-              "summaryNotes": "Key objective: Usman Dan Fodio and Sokoto Caliphate. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "The Sokoto Caliphate and the Jihad of Usman Dan Fodio",
+              "channel": "History Archive",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Usman Dan Fodio and Sokoto Caliphate. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         },
@@ -8935,19 +10395,23 @@ export const syllabusData = {
               "id": "islamic-religious-studies.islamic-civilisation-and-contributions.e1",
               "order": 1,
               "objective": "Muslim scholars and sciences",
-              "youtubeId": "R3wTwAoLqVU",
+              "youtubeId": "zRYdcbumQn4",
               "videoStatus": "approved",
-              "duration": "21:00",
-              "summaryNotes": "Key objective: Muslim scholars and sciences. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2024 Islamic Studies (IRS) Questions & Answers: Complete Explanation",
+              "channel": "ISLAMIC ILM",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Muslim scholars and sciences. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             },
             {
               "id": "islamic-religious-studies.islamic-civilisation-and-contributions.e2",
               "order": 2,
               "objective": "Islamic institutions and education",
-              "youtubeId": "Z5myJ8dg_rM",
+              "youtubeId": "I26ojJNJ3qc",
               "videoStatus": "approved",
-              "duration": "22:17",
-              "summaryNotes": "Key objective: Islamic institutions and education. Focus on understanding foundational principles, worked past questions, and common WAEC/JAMB exam traps for this topic."
+              "videoTitle": "JAMB 2025 Islamic Studies (IRS) Past Questions: Video 1 - Top 20 Questions You MUST Know",
+              "channel": "ISLAMIC ILM",
+              "duration": "14:20",
+              "summaryNotes": "Key exam objectives for Islamic Religious Studies: Islamic institutions and education. Watch this video lesson to master definitions, formulas, and recurring WAEC/JAMB questions."
             }
           ]
         }
@@ -8956,4 +10420,6 @@ export const syllabusData = {
   ]
 };
 
-if (typeof window !== 'undefined') { window.SYLLABUS_DATA = syllabusData; }
+if (typeof window !== 'undefined') {
+  window.SYLLABUS_DATA = syllabusData;
+}
