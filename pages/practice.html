@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Tests — ScholarNet</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <style>
+    body { background: #f4faf6; }
+    .practice-hero {
+      background: var(--gradient-hero);
+      padding: 3.5rem 0 3rem;
+      text-align: center;
+      position: relative;
+    }
+    .practice-hero h1 { color: var(--white); margin-bottom: 0.5rem; }
+    .practice-hero p  { color: rgba(255,255,255,0.7); }
+
+    .quiz-setup {
+      max-width: 680px;
+      margin: -2rem auto 0;
+      position: relative;
+      z-index: 10;
+      padding: 0 1rem;
+    }
+    .setup-card {
+      background: var(--white);
+      border-radius: var(--border-radius-xl);
+      padding: 2rem;
+      box-shadow: var(--shadow-xl);
+    }
+    .setup-card h3 { font-size: 1.1rem; margin-bottom: 1.25rem; }
+    .setup-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .setup-field { display: flex; flex-direction: column; gap: 0.4rem; }
+    .setup-field label { font-size: 0.85rem; font-weight: 600; color: var(--text-light); }
+    .setup-field select {
+      padding: 0.7rem 1rem;
+      border: 1.5px solid rgba(0,0,0,0.12);
+      border-radius: var(--border-radius);
+      font-size: 0.95rem;
+      color: var(--text);
+      background: var(--white);
+      transition: var(--transition);
+      cursor: pointer;
+    }
+    .setup-field select:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(0,166,81,0.1); }
+
+    .quiz-type-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+      margin: 1.25rem 0;
+    }
+    .quiz-type-btn {
+      border: 2px solid rgba(0,0,0,0.1);
+      border-radius: var(--border-radius);
+      padding: 1rem;
+      text-align: center;
+      cursor: pointer;
+      transition: var(--transition);
+      background: var(--white);
+    }
+    .quiz-type-btn:hover { border-color: var(--primary); }
+    .quiz-type-btn.selected { border-color: var(--primary); background: rgba(0,166,81,0.08); }
+    .quiz-type-btn .icon { font-size: 1.5rem; margin-bottom: 0.35rem; }
+    .quiz-type-btn .name { font-weight: 700; font-size: 0.875rem; }
+    .quiz-type-btn .desc { font-size: 0.75rem; color: var(--text-light); }
+
+    #quiz-root { padding: 2rem 0; max-width: 900px; margin: 0 auto; }
+    .hidden { display: none; }
+
+    @media (max-width: 640px) {
+      .quiz-setup { margin: -1.5rem auto 0; padding: 0 0.75rem; }
+      .setup-card { padding: 1.25rem 1rem; }
+      .quiz-type-grid { grid-template-columns: 1fr; gap: 0.5rem; }
+      .setup-grid { grid-template-columns: 1fr; }
+      .quiz-type-btn { display: flex; align-items: center; gap: 0.85rem; text-align: left; padding: 0.75rem 1rem; }
+      .quiz-type-btn .icon { font-size: 1.3rem; margin-bottom: 0; }
+      .quiz-type-btn .desc { display: inline-block; }
+      .setup-summary { grid-template-columns: 1fr; gap: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container">
+    <a href="../index.html" class="navbar-brand">
+      <span class="logo-icon">🎓</span><span>SCHOLARNET</span>
+    </a>
+    <ul class="navbar-nav" id="navbar-nav">
+      <li><a href="../index.html" class="nav-link">Home</a></li>
+      <li><a href="subjects.html" class="nav-link">Subjects</a></li>
+      <li><a href="practice.html" class="nav-link active">Practice</a></li>
+      <li><a href="learn.html" class="nav-link">Learn</a></li>
+      <li><a href="leaderboard.html" class="nav-link">Leaderboard</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <button class="dark-toggle">🌙</button>
+      <a href="dashboard.html" class="btn btn-primary btn-sm">Dashboard</a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="practice-hero">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="label" style="display:inline-block;background:rgba(0,166,81,0.2);border:1px solid rgba(0,166,81,0.4);color:#4ade80;font-size:0.8rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:0.35rem 1rem;border-radius:9999px;margin-bottom:1rem;">✏️ Practice Mode</div>
+    <h1>Test Your Knowledge</h1>
+    <p>Practice with real JAMB past questions (2010–2024), topic drills, or full mock exams.</p>
+  </div>
+</div>
+
+<!-- Setup Card -->
+<div class="quiz-setup" id="quiz-setup">
+  <div class="setup-card animate-on-scroll">
+    <h3>⚙️ Configure Your Practice Session</h3>
+
+    <!-- Quiz Type -->
+    <div class="quiz-type-grid">
+      <div class="quiz-type-btn selected" data-type="past">
+        <div class="icon">📋</div>
+        <div class="name">Past Questions</div>
+        <div class="desc">Real JAMB questions by year</div>
+      </div>
+      <div class="quiz-type-btn" data-type="practice">
+        <div class="icon">📝</div>
+        <div class="name">Topic Practice</div>
+        <div class="desc">Focus on specific topics</div>
+      </div>
+      <div class="quiz-type-btn" data-type="mock">
+        <div class="icon">🎯</div>
+        <div class="name">Mock Exam</div>
+        <div class="desc">Full 60-minute simulation</div>
+      </div>
+    </div>
+
+    <!-- Subject + Year -->
+    <div class="setup-grid">
+      <div class="setup-field">
+        <label>📚 Subject</label>
+        <select id="sel-subject">
+          <option value="mathematics">Mathematics</option>
+          <option value="english">English Language</option>
+          <option value="physics">Physics</option>
+          <option value="chemistry">Chemistry</option>
+          <option value="biology">Biology</option>
+          <option value="economics">Economics</option>
+          <option value="government">Government</option>
+          <option value="literature">Literature in English</option>
+          <option value="commerce">Commerce</option>
+          <option value="civic">Civic Education</option>
+          <option value="computer">Computer Studies</option>
+        </select>
+      </div>
+      <div class="setup-field" id="year-wrap">
+        <label>📅 Year (Past Questions)</label>
+        <select id="sel-year">
+          <option value="2024">JAMB 2024</option>
+          <option value="2023">JAMB 2023</option>
+          <option value="2022">JAMB 2022</option>
+          <option value="2021">JAMB 2021</option>
+          <option value="2020">JAMB 2020</option>
+          <option value="2019">JAMB 2019</option>
+          <option value="2018">JAMB 2018</option>
+          <option value="2017">JAMB 2017</option>
+          <option value="2016">JAMB 2016</option>
+          <option value="2015">JAMB 2015</option>
+          <option value="2014">JAMB 2014</option>
+          <option value="2013">JAMB 2013</option>
+          <option value="2012">JAMB 2012</option>
+          <option value="2011">JAMB 2011</option>
+          <option value="2010">JAMB 2010</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.75rem;margin:1.25rem 0;padding:1rem;background:rgba(0,166,81,0.05);border-radius:var(--border-radius);">
+      <div style="text-align:center;">
+        <div style="font-size:1.3rem;font-weight:800;color:var(--primary);" id="q-count">~15</div>
+        <div style="font-size:0.75rem;color:var(--text-light);">Questions</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:1.3rem;font-weight:800;color:var(--primary);" id="time-est">30min</div>
+        <div style="font-size:0.75rem;color:var(--text-light);">Time Limit</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:1.3rem;font-weight:800;color:var(--primary);">+XP</div>
+        <div style="font-size:0.75rem;color:var(--text-light);">Earn Points</div>
+      </div>
+    </div>
+
+    <button class="btn btn-primary btn-full btn-lg" id="start-quiz-btn">
+      🚀 Start Practice Now
+    </button>
+    <p style="font-size:0.78rem;color:var(--text-light);text-align:center;margin-top:0.75rem;">
+      Questions are shuffled. Your results are saved automatically.
+    </p>
+  </div>
+</div>
+
+<!-- Quiz Root -->
+<div class="container">
+  <div id="quiz-root" class="hidden"></div>
+</div>
+
+<script type="module">
+  import '../js/app.js';
+  import { QuizEngine } from '../js/quiz.js';
+
+  let selectedType = 'past';
+
+  // Quiz type selection
+  document.querySelectorAll('.quiz-type-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.quiz-type-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      selectedType = btn.dataset.type;
+      const yearWrap = document.getElementById('year-wrap');
+      const timeEl = document.getElementById('time-est');
+      const qEl = document.getElementById('q-count');
+      if (selectedType === 'mock') {
+        yearWrap.style.opacity = '0.4';
+        timeEl.textContent = '60min';
+        qEl.textContent = '40';
+      } else if (selectedType === 'past') {
+        yearWrap.style.opacity = '1';
+        timeEl.textContent = '30min';
+        qEl.textContent = '~15';
+      } else {
+        yearWrap.style.opacity = '0.4';
+        timeEl.textContent = '5min';
+        qEl.textContent = '10';
+      }
+    });
+  });
+
+  // Check URL params for auto-start
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('subject')) {
+    document.getElementById('sel-subject').value = params.get('subject') || 'mathematics';
+  }
+  if (params.get('year')) {
+    document.getElementById('sel-year').value = params.get('year') || '2024';
+  }
+  if (params.get('type')) {
+    const typeParam = params.get('type');
+    document.querySelectorAll('.quiz-type-btn').forEach(b => {
+      b.classList.toggle('selected', b.dataset.type === typeParam);
+    });
+    selectedType = typeParam;
+  }
+
+  document.getElementById('start-quiz-btn').addEventListener('click', () => {
+    const subject = document.getElementById('sel-subject').value;
+    const year    = document.getElementById('sel-year').value;
+
+    // Hide setup, show quiz
+    document.getElementById('quiz-setup').style.display = 'none';
+    const root = document.getElementById('quiz-root');
+    root.classList.remove('hidden');
+
+    const engine = new QuizEngine({ subject, year, type: selectedType, containerId: 'quiz-root' });
+    engine.start();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+</body>
+</html>

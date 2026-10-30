@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — ScholarNet</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <style>
+    body { background: #f4faf6; }
+    .progress-ring { display: flex; flex-direction: column; gap: 0.75rem; }
+    .progress-item label { font-size: 0.85rem; font-weight: 600; display: flex; justify-content: space-between; margin-bottom: 0.35rem; }
+    .subject-quick-card {
+      background: var(--white);
+      border-radius: var(--border-radius);
+      padding: 1rem 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      border: 1px solid rgba(0,0,0,0.06);
+      transition: var(--transition);
+      cursor: pointer;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .subject-quick-card:hover { transform: translateX(4px); border-color: var(--primary); }
+    .subject-quick-card .icon { font-size: 1.6rem; }
+    .subject-quick-card .name { font-weight: 600; font-size: 0.9rem; }
+    .subject-quick-card .progress-label { font-size: 0.75rem; color: var(--text-light); }
+    .motivational {
+      background: var(--gradient-primary);
+      border-radius: var(--border-radius-lg);
+      padding: 1.5rem;
+      color: white;
+      margin-bottom: 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .motivational::after {
+      content: '🌟';
+      position: absolute;
+      right: 1rem;
+      bottom: 0;
+      font-size: 5rem;
+      opacity: 0.15;
+    }
+    .motivational p { margin: 0; font-size: 1rem; font-weight: 500; color: rgba(255,255,255,0.9); }
+    .motivational .quote { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.35rem; color: var(--white); font-style: italic; }
+  </style>
+</head>
+<body>
+
+<div class="app-layout">
+  <!-- ====== SIDEBAR ====== -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <a href="../index.html" class="navbar-brand">
+        <span class="logo-icon">🎓</span>
+        <span>SCHOLARNET</span>
+      </a>
+    </div>
+    <nav class="sidebar-nav">
+      <span class="nav-section-title">Main</span>
+      <a href="dashboard.html" class="nav-item active">
+        <span class="icon">🏠</span> Dashboard
+      </a>
+      <a href="subjects.html" class="nav-item">
+        <span class="icon">📚</span> My Subjects
+      </a>
+      <a href="learn.html" class="nav-item">
+        <span class="icon">📖</span> Learn
+      </a>
+      <a href="practice.html" class="nav-item">
+        <span class="icon">✏️</span> Practice Tests
+        <span class="badge-count">3</span>
+      </a>
+
+      <span class="nav-section-title">Progress</span>
+      <a href="#progress" class="nav-item">
+        <span class="icon">📊</span> My Progress
+      </a>
+      <a href="leaderboard.html" class="nav-item">
+        <span class="icon">🏆</span> Leaderboard
+      </a>
+      <a href="#streaks" class="nav-item">
+        <span class="icon">🔥</span> Streaks
+      </a>
+
+      <span class="nav-section-title">Account</span>
+      <a href="#settings" class="nav-item">
+        <span class="icon">⚙️</span> Settings
+      </a>
+      <a href="#" class="nav-item" id="logout-btn">
+        <span class="icon">🚪</span> Logout
+      </a>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="user-mini">
+        <img class="avatar" id="user-avatar" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=80&auto=format&fit=crop&q=80" alt="User">
+        <div class="user-mini-info">
+          <div class="name" id="user-name">Loading...</div>
+          <div class="role">JAMB Candidate 2025</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ====== MAIN CONTENT ====== -->
+  <main class="main-content">
+    <div class="page-header">
+      <div class="flex-gap">
+        <button class="btn btn-ghost btn-sm" id="sidebar-toggle" style="font-size:1.2rem;">☰</button>
+        <div>
+          <h1 id="welcome-heading">Good morning! 👋</h1>
+          <p style="color:var(--text-light);font-size:0.85rem;margin:0;">Keep up the great work — your exam is getting closer!</p>
+        </div>
+      </div>
+      <div class="flex-gap">
+        <div style="text-align:right;">
+          <div style="font-size:0.8rem;color:var(--text-light);">Study Streak</div>
+          <div style="font-size:1.1rem;font-weight:700;color:var(--primary);" id="streak-display">🔥 0 days</div>
+        </div>
+        <a href="practice.html" class="btn btn-primary btn-sm">📝 Quick Practice</a>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <!-- Motivational Quote -->
+      <div class="motivational animate-on-scroll">
+        <div class="quote">"The difference between ordinary and extraordinary is that little extra."</div>
+        <p>— Jimmy Johnson &nbsp;|&nbsp; Today's goal: <strong>2 hours of study</strong></p>
+      </div>
+
+      <!-- Stats Cards -->
+      <div class="stats-cards">
+        <div class="stat-card green animate-on-scroll">
+          <div class="stat-icon">📖</div>
+          <div class="value" id="lessons-count">0</div>
+          <div class="label">Lessons Completed</div>
+          <div class="change up">↑ 3 this week</div>
+        </div>
+        <div class="stat-card gold animate-on-scroll">
+          <div class="stat-icon">🎯</div>
+          <div class="value" id="score-display">0%</div>
+          <div class="label">Best Practice Score</div>
+          <div class="change up">↑ 5% from last test</div>
+        </div>
+        <div class="stat-card blue animate-on-scroll">
+          <div class="stat-icon">🔥</div>
+          <div class="value" id="streak-count">0</div>
+          <div class="label">Day Study Streak</div>
+          <div class="change up">↑ Personal best!</div>
+        </div>
+        <div class="stat-card purple animate-on-scroll">
+          <div class="stat-icon">🏆</div>
+          <div class="value" id="rank-display">#—</div>
+          <div class="label">National Rank</div>
+          <div class="change up">↑ 12 spots this week</div>
+        </div>
+      </div>
+
+      <!-- Grid: Progress + Activity + Countdown -->
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;margin-bottom:1.5rem;" id="progress">
+        <!-- Subject Progress -->
+        <div class="card animate-on-scroll" style="grid-column:span 2;">
+          <div class="card-header">📊 Subject Progress</div>
+          <div class="card-body">
+            <div class="progress-ring">
+              <div class="progress-item">
+                <label><span>📐 Mathematics</span><span style="color:var(--primary);">72%</span></label>
+                <div class="progress"><div class="progress-bar" style="width:72%"></div></div>
+              </div>
+              <div class="progress-item">
+                <label><span>📝 English Language</span><span style="color:var(--primary);">85%</span></label>
+                <div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+              </div>
+              <div class="progress-item">
+                <label><span>⚛️ Physics</span><span style="color:var(--primary);">58%</span></label>
+                <div class="progress"><div class="progress-bar" style="width:58%"></div></div>
+              </div>
+              <div class="progress-item">
+                <label><span>🧪 Chemistry</span><span style="color:var(--primary);">63%</span></label>
+                <div class="progress"><div class="progress-bar" style="width:63%"></div></div>
+              </div>
+              <div class="progress-item">
+                <label><span>🧬 Biology</span><span style="color:var(--primary);">79%</span></label>
+                <div class="progress"><div class="progress-bar" style="width:79%"></div></div>
+              </div>
+            </div>
+            <a href="subjects.html" class="btn btn-outline btn-sm" style="margin-top:1.25rem;">View All Subjects</a>
+          </div>
+        </div>
+
+        <!-- Countdown -->
+        <div class="card animate-on-scroll">
+          <div class="card-header">⏰ JAMB 2025 Countdown</div>
+          <div class="card-body">
+            <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:0.5rem;">Days until your exam:</p>
+            <div class="countdown-grid">
+              <div class="countdown-unit"><span class="num" id="cd-days">00</span><span class="unit-label">Days</span></div>
+              <div class="countdown-unit"><span class="num" id="cd-hrs">00</span><span class="unit-label">Hours</span></div>
+              <div class="countdown-unit"><span class="num" id="cd-mins">00</span><span class="unit-label">Mins</span></div>
+              <div class="countdown-unit"><span class="num" id="cd-secs">00</span><span class="unit-label">Secs</span></div>
+            </div>
+            <p style="font-size:0.8rem;color:var(--text-light);margin-top:1rem;text-align:center;">📅 Target: February 15, 2025</p>
+            <a href="practice.html?type=mock" class="btn btn-accent btn-sm btn-full" style="margin-top:1rem;">
+              🎯 Take Mock Exam
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grid: Activity + Quick Subjects -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
+        <!-- Recent Activity -->
+        <div class="card animate-on-scroll">
+          <div class="card-header">🕐 Recent Activity</div>
+          <div class="card-body">
+            <div class="activity-item">
+              <div class="activity-icon green">✅</div>
+              <div class="activity-text">
+                <div class="title">Completed: Quadratic Equations (Mathematics)</div>
+                <div class="time">2 hours ago · Score: 80%</div>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-icon blue">📖</div>
+              <div class="activity-text">
+                <div class="title">Studied: Grammar & Comprehension (English)</div>
+                <div class="time">Yesterday · 45 minutes</div>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-icon gold">🏆</div>
+              <div class="activity-text">
+                <div class="title">Moved to #342 on Leaderboard!</div>
+                <div class="time">2 days ago</div>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-icon green">✅</div>
+              <div class="activity-text">
+                <div class="title">Mock Exam: Physics (2023) — 68%</div>
+                <div class="time">3 days ago · 40/60 correct</div>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-icon blue">🔥</div>
+              <div class="activity-text">
+                <div class="title">Achieved 7-day study streak!</div>
+                <div class="time">1 week ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Access Subjects -->
+        <div class="animate-on-scroll">
+          <h3 style="font-size:1rem;font-weight:700;margin-bottom:1rem;">⚡ Quick Access</h3>
+          <div style="display:flex;flex-direction:column;gap:0.75rem;">
+            <a href="learn.html?subject=mathematics" class="subject-quick-card">
+              <span class="icon">📐</span>
+              <div>
+                <div class="name">Mathematics</div>
+                <div class="progress-label">72% complete · Continue: Calculus</div>
+              </div>
+              <span style="margin-left:auto;color:var(--text-light);">→</span>
+            </a>
+            <a href="practice.html?subject=english" class="subject-quick-card">
+              <span class="icon">📝</span>
+              <div>
+                <div class="name">English Language</div>
+                <div class="progress-label">85% complete · Continue: Oral English</div>
+              </div>
+              <span style="margin-left:auto;color:var(--text-light);">→</span>
+            </a>
+            <a href="learn.html?subject=physics" class="subject-quick-card">
+              <span class="icon">⚛️</span>
+              <div>
+                <div class="name">Physics</div>
+                <div class="progress-label">58% complete · Continue: Waves</div>
+              </div>
+              <span style="margin-left:auto;color:var(--text-light);">→</span>
+            </a>
+            <a href="learn.html?subject=chemistry" class="subject-quick-card">
+              <span class="icon">🧪</span>
+              <div>
+                <div class="name">Chemistry</div>
+                <div class="progress-label">63% complete · Continue: Organic Chemistry</div>
+              </div>
+              <span style="margin-left:auto;color:var(--text-light);">→</span>
+            </a>
+            <a href="subjects.html" class="btn btn-outline btn-sm btn-full" style="margin-top:0.5rem;">
+              + Add More Subjects
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Streaks Section -->
+      <div class="card animate-on-scroll" id="streaks" style="margin-bottom:1.5rem;">
+        <div class="card-header" style="display:flex;justify-content:space-between;align-items:center;">
+          <span>🔥 Study Streak & Daily Goals</span>
+          <span class="badge" style="background:rgba(255,107,0,0.12);color:#ff6b00;font-weight:700;">Active Streak</span>
+        </div>
+        <div class="card-body">
+          <p style="font-size:0.9rem;color:var(--text-light);margin-bottom:1.25rem;">
+            Practice for at least 15 minutes each day to maintain your streak and boost your exam retention by 80%.
+          </p>
+          <div style="display:grid;grid-template-columns:repeat(7, 1fr);gap:0.75rem;text-align:center;">
+            <div style="background:#e8f5e9;padding:0.75rem 0.5rem;border-radius:10px;border:1.5px solid #a5d6a7;">
+              <div style="font-size:0.75rem;font-weight:700;color:var(--primary);">MON</div>
+              <div style="font-size:1.4rem;margin:0.25rem 0;">✅</div>
+              <div style="font-size:0.7rem;color:var(--text-light);">Completed</div>
+            </div>
+            <div style="background:#e8f5e9;padding:0.75rem 0.5rem;border-radius:10px;border:1.5px solid #a5d6a7;">
+              <div style="font-size:0.75rem;font-weight:700;color:var(--primary);">TUE</div>
+              <div style="font-size:1.4rem;margin:0.25rem 0;">✅</div>
+              <div style="font-size:0.7rem;color:var(--text-light);">Completed</div>
+            </div>
+            <div style="background:#e8f5e9;padding:0.75rem 0.5rem;border-radius:10px;border:1.5px solid #a5d6a7;">
+              <div style="font-size:0.75rem;font-weight:700;color:var(--primary);">WED</div>
+              <div style="font-size:1.4rem;margin:0.25rem 0;">✅</div>
+              <div style="font-size:0.7rem;color:var(--text-light);">Completed</div>
+            </div>
+            <div style="background:#e8f5e9;padding:0.75rem 0.5rem;border-radius:10px;border:1.5px solid #a5d6a7;">
+              <div style="font-size:0.75rem;font-weight:700;color:var(--primary);">THU</div>
+              <div style="font-size:1.4rem;margin:0.25rem 0;">✅</div>
+              <div style="font-size:0.7rem;color:var(--text-light);">Completed</div>
+            </div>
+            <div style="background:#fff3e0;padding:0.75rem 0.5rem;border-radius:10px;border:2px solid #ff9800;">
+              <div style="font-size:0.75rem;font-weight:700;color:#e65100;">TODAY</div>
+              <div style="font-size:1.4rem;margin:0.25rem 0;">🔥</div>
+              <div style="font-size:0.7rem;color:#e65100;font-weight:700;">In Progress</div>
+            </div>
+            <div style="background:#f8f9fa;padding:0.75rem 0.5rem;border-radius:10px;border:1px dashed #ced4da;">
+              <div style="font-size:0.75rem;font-weight:700;color:#868e96;">SAT</div>
+              <div style="font-size:1.4rem;margin:0.25rem 0;">⏳</div>
+              <div style="font-size:0.7rem;color:#868e96;">Upcoming</div>
+            </div>
+            <div style="background:#f8f9fa;padding:0.75rem 0.5rem;border-radius:10px;border:1px dashed #ced4da;">
+              <div style="font-size:0.75rem;font-weight:700;color:#868e96;">SUN</div>
+              <div style="font-size:1.4rem;margin:0.25rem 0;">⏳</div>
+              <div style="font-size:0.7rem;color:#868e96;">Upcoming</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Settings Section -->
+      <div class="card animate-on-scroll" id="settings" style="margin-bottom:2rem;">
+        <div class="card-header">⚙️ Student Profile Settings</div>
+        <div class="card-body">
+          <form id="settings-form" style="max-width:650px;">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem;">
+              <div>
+                <label style="font-size:0.85rem;font-weight:600;display:block;margin-bottom:0.4rem;">Full Name</label>
+                <input type="text" id="setting-name" class="form-control" placeholder="Your Name" style="width:100%;padding:0.7rem 0.9rem;border-radius:8px;border:1.5px solid rgba(0,0,0,0.12);">
+              </div>
+              <div>
+                <label style="font-size:0.85rem;font-weight:600;display:block;margin-bottom:0.4rem;">Target JAMB/WAEC Score</label>
+                <input type="number" id="setting-target" class="form-control" placeholder="e.g. 320" style="width:100%;padding:0.7rem 0.9rem;border-radius:8px;border:1.5px solid rgba(0,0,0,0.12);">
+              </div>
+            </div>
+            <div style="margin-bottom:1.25rem;">
+              <label style="font-size:0.85rem;font-weight:600;display:block;margin-bottom:0.4rem;">Primary Examination</label>
+              <select id="setting-exam" style="width:100%;padding:0.7rem 0.9rem;border-radius:8px;border:1.5px solid rgba(0,0,0,0.12);background:white;">
+                <option value="JAMB">JAMB UTME (2025/2026)</option>
+                <option value="WAEC">WAEC WASSCE (May/June)</option>
+                <option value="NECO">NECO SSCE</option>
+                <option value="POST-UTME">Post-UTME Screening</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary" style="padding:0.75rem 1.75rem;">
+              💾 Save Profile Settings
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script type="module">
+  import '../js/app.js';
+  import { observeAuthState, logOut, getUserProfile, getGuestProfile, setGuestSession } from '../js/firebase-config.js';
+  import { startCountdown } from '../js/app.js';
+
+  const greetings = ['Good morning', 'Good afternoon', 'Good evening'];
+  const hour = new Date().getHours();
+  const greeting = hour < 12 ? greetings[0] : hour < 18 ? greetings[1] : greetings[2];
+
+  function populateDashboard(profile, user) {
+    const name = (profile?.displayName || user?.displayName || user?.email?.split('@')[0] || 'Scholar').split(' ')[0];
+    document.getElementById('welcome-heading').textContent = `${greeting}, ${name}! 👋`;
+    document.getElementById('user-name').textContent = profile?.displayName || user?.displayName || name;
+
+    const lessons = profile?.lessonsCompleted ?? 12;
+    const score = profile?.score ?? 84;
+    const streak = profile?.streak ?? 5;
+
+    document.getElementById('lessons-count').textContent = lessons;
+    document.getElementById('score-display').textContent = score + '%';
+    document.getElementById('streak-count').textContent = streak;
+    document.getElementById('streak-display').textContent = `🔥 ${streak} days`;
+    if (profile?.photoURL) {
+      document.getElementById('user-avatar').src = profile.photoURL;
+    }
+    setTimeout(() => { document.getElementById('rank-display').textContent = '#285'; }, 600);
+  }
+
+  observeAuthState(async (user) => {
+    if (user) {
+      const profile = await getUserProfile(user.uid).catch(() => null);
+      populateDashboard(profile, user);
+    } else {
+      const guest = getGuestProfile();
+      if (guest) {
+        populateDashboard(guest, { displayName: guest.displayName });
+      } else {
+        const newGuest = setGuestSession('Scholar Student');
+        populateDashboard(newGuest, { displayName: newGuest.displayName });
+      }
+    }
+  });
+
+  // Dynamic Exam Target Countdown: JAMB UTME season (April of upcoming examination cycle)
+  const now = new Date();
+  let examYear = now.getFullYear();
+  if (now.getMonth() > 3 || (now.getMonth() === 3 && now.getDate() > 25)) {
+    examYear++;
+  }
+  const target = new Date(`${examYear}-04-19T08:00:00`);
+  startCountdown(
+    target,
+    document.getElementById('cd-days'),
+    document.getElementById('cd-hrs'),
+    document.getElementById('cd-mins'),
+    document.getElementById('cd-secs')
+  );
+
+  document.getElementById('logout-btn').addEventListener('click', async () => {
+    await logOut();
+    window.location.href = '../index.html';
+  });
+
+  // Settings Save Handler
+  const settingsForm = document.getElementById('settings-form');
+  if (settingsForm) {
+    settingsForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const newName = document.getElementById('setting-name').value.trim();
+      const newTarget = document.getElementById('setting-target').value;
+      const newExam = document.getElementById('setting-exam').value;
+
+      const guest = getGuestProfile() || {};
+      if (newName) guest.displayName = newName;
+      if (newTarget) guest.targetScore = newTarget;
+      if (newExam) guest.examType = newExam;
+      localStorage.setItem('scholarnet_guest', JSON.stringify(guest));
+
+      if (newName) {
+        document.getElementById('welcome-heading').textContent = `${greeting}, ${newName.split(' ')[0]}! 👋`;
+        document.getElementById('user-name').textContent = newName;
+      }
+      import('../js/app.js').then(({ showToast }) => {
+        showToast('Settings Saved', 'Your student profile has been updated.', 'success');
+      });
+    });
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+rules_version = '2';
+
+// ===============================================================
+// SCHOLARNET — Cloud Firestore Security Rules
+// Educational Platform for Nigerian Students (JAMB UTME / WAEC SSCE)
+// ===============================================================
+//
+// Assumed Data Model
+// ===============================================================
+//
+// Collection: users
+// Document ID: {userId} (Must match request.auth.uid)
+// Fields:
+//   - uid: string (required, 1-128 chars, matches auth.uid, immutable)
+//   - displayName: string (required, 1-100 chars)
+//   - email: string (required, valid email pattern, max 150 chars)
+//   - phone: string (optional, max 25 chars)
+//   - photoURL: string (optional, max 500 chars)
+//   - examType: string (optional, e.g., 'JAMB', 'WAEC', 'NECO', max 50 chars)
+//   - targetScore: number|string (optional, 0-500 or string max 10 chars)
+//   - score: number (required, 0-500, cumulative/best benchmark score)
+//   - streak: number (required, 0-10000 days)
+//   - lessonsCompleted: number (required, 0-100000)
+//   - quizzesTaken: number (required, 0-100000)
+//   - createdAt: timestamp (required, <= request.time, immutable)
+//   - lastActiveDate: timestamp (required, <= request.time)
+//   - state: string (optional, Nigerian state, max 50 chars)
+//
+// Collection: quizResults
+// Document ID: {resultId} (Auto-generated Firestore document ID)
+// Fields:
+//   - userId: string (required, matches request.auth.uid, immutable)
+//   - subject: string (required, 1-50 chars, e.g., 'mathematics', 'physics')
+//   - score: number (required, 0-1000)
+//   - total: number (required, 1-1000)
+//   - year: string (required, 4-10 chars, e.g., '2024')
+//   - timestamp: timestamp (required, <= request.time)
+//   - percentage: number (required, 0-100)
+//
+// ===============================================================
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ===============================================================
+    // Global Helper Functions
+    // ===============================================================
+
+    // Check if the incoming request is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Check if the authenticated user owns the document path
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Validate email format
+    function isValidEmail(email) {
+      return email is string &&
+        email.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$");
+    }
+
+    // ===============================================================
+    // Domain Validator: User Profile
+    // (Called on BOTH create and update to prevent Update Bypass)
+    // ===============================================================
+    function isValidUser(data) {
+      let requiredFields = [
+        'uid', 'displayName', 'email', 'score', 'streak', 
+        'lessonsCompleted', 'quizzesTaken', 'createdAt', 'lastActiveDate'
+      ];
+      let allowedFields = [
+        'uid', 'displayName', 'email', 'phone', 'photoURL', 
+        'examType', 'targetScore', 'score', 'streak', 
+        'lessonsCompleted', 'quizzesTaken', 'createdAt', 'lastActiveDate', 'state'
+      ];
+
+      return data.keys().hasAll(requiredFields) &&
+             data.keys().hasOnly(allowedFields) &&
+             // Identity field
+             data.uid is string && 
+             data.uid.size() > 0 && 
+             data.uid.size() <= 128 &&
+             // Profile fields
+             data.displayName is string && 
+             data.displayName.size() >= 1 && 
+             data.displayName.size() <= 100 &&
+             data.email is string && 
+             (data.email.size() == 0 || isValidEmail(data.email)) && 
+             data.email.size() <= 150 &&
+             (!('phone' in data) || (data.phone is string && data.phone.size() <= 25)) &&
+             (!('photoURL' in data) || (data.photoURL is string && data.photoURL.size() <= 500)) &&
+             (!('examType' in data) || (data.examType is string && data.examType.size() <= 50)) &&
+             (!('targetScore' in data) || 
+               ((data.targetScore is int || data.targetScore is float) && data.targetScore >= 0 && data.targetScore <= 500) || 
+               (data.targetScore is string && data.targetScore.size() <= 10)) &&
+             (!('state' in data) || (data.state is string && data.state.size() <= 50)) &&
+             // Performance metrics
+             (data.score is int || data.score is float) && 
+             data.score >= 0 && 
+             data.score <= 500 &&
+             (data.streak is int || data.streak is float) && 
+             data.streak >= 0 && 
+             data.streak <= 10000 &&
+             (data.lessonsCompleted is int || data.lessonsCompleted is float) && 
+             data.lessonsCompleted >= 0 && 
+             data.lessonsCompleted <= 100000 &&
+             (data.quizzesTaken is int || data.quizzesTaken is float) && 
+             data.quizzesTaken >= 0 && 
+             data.quizzesTaken <= 100000 &&
+             // Timestamps
+             data.createdAt is timestamp && 
+             data.createdAt <= request.time &&
+             data.lastActiveDate is timestamp && 
+             data.lastActiveDate <= request.time;
+    }
+
+    // Verify critical immutable fields remain unchanged during profile updates
+    function areImmutableUserFieldsUnchanged() {
+      return request.resource.data.uid == resource.data.uid &&
+             request.resource.data.createdAt == resource.data.createdAt;
+    }
+
+    // ===============================================================
+    // Domain Validator: Quiz Results
+    // ===============================================================
+    function isValidQuizResult(data) {
+      let requiredFields = [
+        'userId', 'subject', 'score', 'total', 'year', 'timestamp', 'percentage'
+      ];
+
+      return data.keys().hasAll(requiredFields) &&
+             data.keys().hasOnly(requiredFields) &&
+             data.userId is string && 
+             data.userId.size() > 0 && 
+             data.userId.size() <= 128 &&
+             data.subject is string && 
+             data.subject.size() >= 1 && 
+             data.subject.size() <= 50 &&
+             (data.score is int || data.score is float) && 
+             data.score >= 0 && 
+             data.score <= 1000 &&
+             (data.total is int || data.total is float) && 
+             data.total >= 1 && 
+             data.total <= 1000 &&
+             data.year is string && 
+             data.year.size() >= 4 && 
+             data.year.size() <= 10 &&
+             (data.percentage is int || data.percentage is float) && 
+             data.percentage >= 0 && 
+             data.percentage <= 100 &&
+             data.timestamp is timestamp && 
+             data.timestamp <= request.time;
+    }
+
+    // ===============================================================
+    // Collection Rules
+    // ===============================================================
+
+    // -------------------------------------------------------------
+    // USERS COLLECTION
+    // -------------------------------------------------------------
+    match /users/{userId} {
+      // Read: Allowed for authenticated students to support the national leaderboard
+      // and student profile display across dashboard and ranking modules.
+      allow read: if isAuthenticated();
+
+      // Create: Authenticated students can create their own profile document matching their auth UID.
+      allow create: if isOwner(userId) && 
+                       request.resource.data.uid == userId &&
+                       isValidUser(request.resource.data);
+
+      // Update: Authenticated students can only update their own profile document.
+      // Must validate full schema and ensure immutable fields (uid, createdAt) are preserved.
+      allow update: if isOwner(userId) && 
+                       isValidUser(request.resource.data) &&
+                       areImmutableUserFieldsUnchanged();
+
+      // Delete: Owner can delete their account (NDPR compliance).
+      allow delete: if isOwner(userId);
+    }
+
+    // -------------------------------------------------------------
+    // QUIZ RESULTS COLLECTION
+    // -------------------------------------------------------------
+    match /quizResults/{resultId} {
+      // Read: Only the authenticated student who took the quiz/exam can read their own result.
+      allow read: if isAuthenticated() && 
+                     resource.data.userId == request.auth.uid;
+
+      // Create: Only the authenticated student can record their quiz result.
+      // Validates exam metrics, subject, and scores.
+      allow create: if isAuthenticated() && 
+                       request.resource.data.userId == request.auth.uid && 
+                       isValidQuizResult(request.resource.data);
+
+      // Update & Delete: Denied.
+      // Exam and quiz records are strictly append-only and immutable to preserve academic integrity.
+      allow update, delete: if false;
+    }
+
+    // ===============================================================
+    // Default Deny Root
+    // Deny any access to unmapped collections or paths by default
+    // ===============================================================
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

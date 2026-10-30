@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ScholarNet — Nigeria's #1 JAMB & WAEC exam prep platform. Ace your exams with 1,000+ practice questions, video lessons, and AI-powered study plans.">
+  <meta name="keywords" content="JAMB, WAEC, NECO, Nigerian students, exam prep, past questions, scholarnet">
+  <meta name="theme-color" content="#00A651">
+  <title>ScholarNet — Ace Your JAMB & WAEC Exams</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .hero-bg-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(13,17,23,0.97) 0%, rgba(13,17,23,0.85) 50%, rgba(0,50,20,0.7) 100%);
+      z-index: 0;
+    }
+    .subjects-section { background: #f4faf6; }
+    .howitworks-section { background: var(--white); }
+  </style>
+</head>
+<body>
+
+<!-- ====== NAVBAR ====== -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="index.html" class="navbar-brand">
+      <span class="logo-icon">🎓</span>
+      <span>SCHOLARNET</span>
+    </a>
+    <ul class="navbar-nav" id="navbar-nav">
+      <li><a href="index.html" class="nav-link active">Home</a></li>
+      <li><a href="pages/subjects.html" class="nav-link">Subjects</a></li>
+      <li><a href="pages/practice.html" class="nav-link">Practice</a></li>
+      <li><a href="pages/learn.html" class="nav-link">Learn</a></li>
+      <li><a href="pages/leaderboard.html" class="nav-link">Leaderboard</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <button class="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+      <a href="pages/auth.html" class="btn btn-outline btn-sm" style="color:rgba(255,255,255,0.8);border-color:rgba(255,255,255,0.3);">Log In</a>
+      <a href="pages/auth.html#signup" class="btn btn-primary btn-sm">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ====== HERO ====== -->
+<section class="hero" id="home">
+  <div class="particles"></div>
+  <div style="position:absolute;inset:0;overflow:hidden;">
+    <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1400&auto=format&fit=crop&q=80" alt="Students studying" style="width:100%;height:100%;object-fit:cover;opacity:0.25;">
+  </div>
+  <div class="hero-bg-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          🇳🇬 Nigeria's #1 Exam Prep Platform
+        </div>
+        <h1>
+          Ace Your <span class="highlight">JAMB & WAEC</span> Exams with Confidence
+        </h1>
+        <p>
+          Join 50,000+ Nigerian students who have transformed their study experience with real past questions, expert lessons, and AI-powered practice tests. Your best score starts here.
+        </p>
+        <div class="hero-cta">
+          <a href="pages/auth.html" class="btn btn-primary btn-lg">
+            🚀 Start Learning Free
+          </a>
+          <a href="pages/practice.html" class="btn btn-outline-white btn-lg">
+            📝 Take a Practice Test
+          </a>
+        </div>
+        <div class="hero-social-proof">
+          <div class="hero-avatars">
+            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=80&auto=format&fit=crop&q=80" alt="Student">
+            <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=80&auto=format&fit=crop&q=80" alt="Student">
+            <img src="https://images.unsplash.com/photo-1563306406-e66174fa3787?w=80&auto=format&fit=crop&q=80" alt="Student">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&auto=format&fit=crop&q=80" alt="Student">
+          </div>
+          <p><strong>50,000+</strong> students already crushing their exams</p>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img class="main-img" src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=700&auto=format&fit=crop&q=80" alt="Nigerian students studying">
+        <div class="floating-card card-1">
+          <span class="icon">📊</span>
+          <div>
+            <div style="font-weight:700;font-size:0.9rem;">Practice Score</div>
+            <div style="color:#4ade80;font-size:0.8rem;">+23% this week 🔥</div>
+          </div>
+        </div>
+        <div class="floating-card card-2">
+          <span class="icon">🏆</span>
+          <div>
+            <div style="font-weight:700;font-size:0.9rem;">Top Score</div>
+            <div style="color:var(--accent);font-size:0.8rem;">320/400 — JAMB Ready!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== STATS BAR ====== -->
+<section class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number" data-counter data-target="50000" data-suffix="+">50,000+</div>
+        <div class="stat-label">Active Students</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-counter data-target="1000" data-suffix="+">1,000+</div>
+        <div class="stat-label">Practice Questions</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-counter data-target="30" data-suffix="+">30+</div>
+        <div class="stat-label">Subjects Covered</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-counter data-target="95" data-suffix="%">95%</div>
+        <div class="stat-label">Student Pass Rate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FEATURED SUBJECTS ====== -->
+<section class="section subjects-section" id="subjects">
+  <div class="container">
+    <div class="section-header animate-on-scroll">
+      <div class="label">📚 Subjects</div>
+      <h2>Master Every JAMB & WAEC Subject</h2>
+      <p>Comprehensive study materials and practice questions covering all examinable topics in your syllabus.</p>
+    </div>
+    <div class="grid grid-4" id="featured-subjects">
+      <!-- Mathematics -->
+      <div class="subject-card animate-on-scroll" onclick="location.href='pages/learn.html?subject=mathematics'">
+        <span class="subject-icon">📐</span>
+        <h3>Mathematics</h3>
+        <p>Algebra, trigonometry, statistics, calculus and more — with worked examples.</p>
+        <div class="subject-meta">
+          <span>📖 45 Topics</span>
+          <span>❓ 200+ Questions</span>
+        </div>
+        <a href="pages/learn.html?subject=mathematics" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+      </div>
+      <!-- English -->
+      <div class="subject-card animate-on-scroll" onclick="location.href='pages/learn.html?subject=english'">
+        <span class="subject-icon">📝</span>
+        <h3>English Language</h3>
+        <p>Comprehension, grammar, essays, oral English and lexis & structure.</p>
+        <div class="subject-meta">
+          <span>📖 38 Topics</span>
+          <span>❓ 180+ Questions</span>
+        </div>
+        <a href="pages/learn.html?subject=english" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+      </div>
+      <!-- Physics -->
+      <div class="subject-card animate-on-scroll" onclick="location.href='pages/learn.html?subject=physics'">
+        <span class="subject-icon">⚛️</span>
+        <h3>Physics</h3>
+        <p>Mechanics, waves, electricity, magnetism, optics and modern physics.</p>
+        <div class="subject-meta">
+          <span>📖 52 Topics</span>
+          <span>❓ 210+ Questions</span>
+        </div>
+        <a href="pages/learn.html?subject=physics" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+      </div>
+      <!-- Chemistry -->
+      <div class="subject-card animate-on-scroll" onclick="location.href='pages/learn.html?subject=chemistry'">
+        <span class="subject-icon">🧪</span>
+        <h3>Chemistry</h3>
+        <p>Atomic structure, chemical bonding, reactions, organic chemistry and more.</p>
+        <div class="subject-meta">
+          <span>📖 48 Topics</span>
+          <span>❓ 195+ Questions</span>
+        </div>
+        <a href="pages/learn.html?subject=chemistry" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+      </div>
+      <!-- Biology -->
+      <div class="subject-card animate-on-scroll" onclick="location.href='pages/learn.html?subject=biology'">
+        <span class="subject-icon">🧬</span>
+        <h3>Biology</h3>
+        <p>Cell biology, genetics, ecology, human body systems and evolution.</p>
+        <div class="subject-meta">
+          <span>📖 50 Topics</span>
+          <span>❓ 220+ Questions</span>
+        </div>
+        <a href="pages/learn.html?subject=biology" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+      </div>
+      <!-- Economics -->
+      <div class="subject-card animate-on-scroll" onclick="location.href='pages/learn.html?subject=economics'">
+        <span class="subject-icon">📈</span>
+        <h3>Economics</h3>
+        <p>Micro and macro economics, Nigerian economy, market structures and trade.</p>
+        <div class="subject-meta">
+          <span>📖 40 Topics</span>
+          <span>❓ 160+ Questions</span>
+        </div>
+        <a href="pages/learn.html?subject=economics" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+      </div>
+      <!-- Government -->
+      <div class="subject-card animate-on-scroll" onclick="location.href='pages/learn.html?subject=government'">
+        <span class="subject-icon">🏛️</span>
+        <h3>Government</h3>
+        <p>Nigerian constitution, political institutions, democracy and international relations.</p>
+        <div class="subject-meta">
+          <span>📖 35 Topics</span>
+          <span>❓ 150+ Questions</span>
+        </div>
+        <a href="pages/learn.html?subject=government" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+      </div>
+      <!-- Literature -->
+      <div class="subject-card animate-on-scroll" onclick="location.href='pages/learn.html?subject=literature'">
+        <span class="subject-icon">📚</span>
+        <h3>Literature in English</h3>
+        <p>Poetry, prose, drama — African and non-African texts analysis and criticism.</p>
+        <div class="subject-meta">
+          <span>📖 28 Topics</span>
+          <span>❓ 140+ Questions</span>
+        </div>
+        <a href="pages/learn.html?subject=literature" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:2.5rem;">
+      <a href="pages/subjects.html" class="btn btn-outline btn-lg">View All 20+ Subjects →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====== HOW IT WORKS ====== -->
+<section class="section howitworks-section" id="how">
+  <div class="container">
+    <div class="section-header animate-on-scroll">
+      <div class="label">⚡ How It Works</div>
+      <h2>From Zero to JAMB Hero in 3 Steps</h2>
+      <p>Our proven system has helped thousands of Nigerian students achieve their dream scores.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card animate-on-scroll">
+        <div class="step-number">1</div>
+        <div style="font-size:2rem;margin-bottom:0.75rem;">👤</div>
+        <h3>Create Your Account</h3>
+        <p>Sign up in 30 seconds with your email or Google account. Tell us your target exam and score.</p>
+      </div>
+      <div class="step-card animate-on-scroll">
+        <div class="step-number">2</div>
+        <div style="font-size:2rem;margin-bottom:0.75rem;">📖</div>
+        <h3>Choose Your Subjects</h3>
+        <p>Select your JAMB or WAEC subjects and access structured lessons, notes, and worked examples.</p>
+      </div>
+      <div class="step-card animate-on-scroll">
+        <div class="step-number">3</div>
+        <div style="font-size:2rem;margin-bottom:0.75rem;">🏆</div>
+        <h3>Practice & Excel</h3>
+        <p>Tackle real past questions (2010–2024), track your progress, and compete on the leaderboard.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== TESTIMONIALS ====== -->
+<section class="section testimonials-section" id="testimonials">
+  <div class="container">
+    <div class="section-header animate-on-scroll">
+      <div class="label" style="background:rgba(0,166,81,0.2);color:#4ade80;">💬 Success Stories</div>
+      <h2 style="color:white;">Students Who Made It Happen</h2>
+      <p style="color:rgba(255,255,255,0.7);">Real results from real Nigerian students who used ScholarNet to ace their exams.</p>
+    </div>
+    <div class="testimonial-slider">
+      <div class="testimonial-track" id="testimonial-track">
+        <!-- Card 1 -->
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">ScholarNet changed my life! I scored 312 in JAMB after using the platform for just 3 months. The past questions are so accurate and the explanations are clear. I got admission to study Medicine at UNILAG!</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=100&auto=format&fit=crop&q=80" alt="Chidera Okafor">
+            <div>
+              <div class="author-name">Chidera Okafor</div>
+              <div class="author-title">Medicine, UNILAG — JAMB Score: 312</div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">I was struggling with Mathematics until I found ScholarNet. The step-by-step solutions made everything click. I went from failing practice tests to scoring A1 in my WAEC Maths. 100% recommended!</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80" alt="Emeka Nwachukwu">
+            <div>
+              <div class="author-name">Emeka Nwachukwu</div>
+              <div class="author-title">Engineering, OAU — WAEC: 7 A1s</div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">The leaderboard feature kept me motivated! I wanted to be number one in my state and that drive pushed me to study harder every day. I scored 298 in JAMB on my first attempt. Thank you ScholarNet!</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=100&auto=format&fit=crop&q=80" alt="Aisha Abdullahi">
+            <div>
+              <div class="author-name">Aisha Abdullahi</div>
+              <div class="author-title">Law, ABU Zaria — JAMB Score: 298</div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">As a village boy from Enugu with no access to lesson teachers, ScholarNet was my classroom. I studied on my phone every night. JAMB 2024: 305. God and ScholarNet made this possible!</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1563306406-e66174fa3787?w=100&auto=format&fit=crop&q=80" alt="Kelechi Eze">
+            <div>
+              <div class="author-name">Kelechi Eze</div>
+              <div class="author-title">Computer Science, UNN — JAMB Score: 305</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="slider-btn" id="slider-prev">←</button>
+      <div class="slider-dots">
+        <div class="slider-dot active"></div>
+        <div class="slider-dot"></div>
+        <div class="slider-dot"></div>
+        <div class="slider-dot"></div>
+      </div>
+      <button class="slider-btn" id="slider-next">→</button>
+    </div>
+  </div>
+</section>
+
+<!-- ====== NEWSLETTER ====== -->
+<section class="newsletter-section">
+  <div class="container">
+    <h2>📬 Get Free JAMB Tips & Updates</h2>
+    <p>Join 10,000+ students receiving weekly study tips, past question breakdowns, and exam news.</p>
+    <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+      <input type="email" placeholder="Enter your email address" required>
+      <button type="submit" class="btn btn-accent">Subscribe Free</button>
+    </form>
+  </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="navbar-brand" style="margin-bottom:1rem;">
+          <span class="logo-icon">🎓</span>
+          <span>SCHOLARNET</span>
+        </a>
+        <p>Nigeria's premier exam preparation platform for JAMB, WAEC, and NECO. Empowering students to achieve their dream scores.</p>
+        <div class="footer-socials">
+          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">𝕏</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
+          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">▶</a>
+          <a href="https://wa.me/2348000000000?text=Hello%20ScholarNet%20Team!" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Exams</h4>
+        <div class="footer-links">
+          <a href="pages/practice.html?type=past&exam=jamb">JAMB Past Questions</a>
+          <a href="pages/practice.html?type=past&exam=waec">WAEC Past Questions</a>
+          <a href="pages/practice.html?type=past&exam=neco">NECO Past Questions</a>
+          <a href="pages/practice.html?type=mock">Mock Exams</a>
+          <a href="pages/practice.html?type=topic">Topic Practice</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Subjects</h4>
+        <div class="footer-links">
+          <a href="pages/learn.html?subject=mathematics">Mathematics</a>
+          <a href="pages/learn.html?subject=english">English Language</a>
+          <a href="pages/learn.html?subject=physics">Physics</a>
+          <a href="pages/learn.html?subject=chemistry">Chemistry</a>
+          <a href="pages/subjects.html">All Subjects →</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <div class="footer-links">
+          <a href="javascript:void(0)" id="link-about">About Us</a>
+          <a href="javascript:void(0)" id="link-contact">Contact</a>
+          <a href="javascript:void(0)" id="link-privacy">Privacy Policy</a>
+          <a href="javascript:void(0)" id="link-terms">Terms of Service</a>
+          <a href="javascript:void(0)" id="link-faqs">FAQs</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 ScholarNet. Built with ❤️ for Nigerian students. All rights reserved.</p>
+      <p>🇳🇬 Made in Nigeria</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Universal Modal Dialog -->
+<div id="company-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:9999;align-items:center;justify-content:center;padding:1rem;">
+  <div style="background:var(--white);border-radius:24px;max-width:620px;width:100%;max-height:85vh;overflow-y:auto;padding:2.25rem 2rem;position:relative;box-shadow:var(--shadow-xl);border:1px solid rgba(0,166,81,0.2);">
+    <button id="modal-close-btn" style="position:absolute;top:1.25rem;right:1.25rem;border:none;background:none;font-size:1.6rem;cursor:pointer;color:var(--text-light);line-height:1;">✕</button>
+    <div id="modal-inner"></div>
+  </div>
+</div>
+
+<script type="module">
+  import './js/app.js';
+  import { observeAuthState } from './js/firebase-config.js';
+  import { showToast } from './js/app.js';
+
+  // Real-time auth observer on landing page
+  observeAuthState((user) => {
+    if (user) {
+      const actions = document.querySelector('.navbar-actions');
+      if (actions) {
+        const loginBtn = actions.querySelector('a[href="pages/auth.html"]');
+        const signupBtn = actions.querySelector('a[href="pages/auth.html#signup"]');
+        if (loginBtn) loginBtn.style.display = 'none';
+        if (signupBtn) {
+          signupBtn.href = 'pages/dashboard.html';
+          signupBtn.textContent = 'Dashboard 🚀';
+        }
+      }
+    }
+  });
+
+  window.handleNewsletter = function(e) {
+    e.preventDefault();
+    const btn = e.target.querySelector('button');
+    const input = e.target.querySelector('input');
+    btn.textContent = '✅ Subscribed!';
+    btn.disabled = true;
+    showToast('Subscribed!', 'You will receive weekly JAMB study tips and updates.', 'success');
+    input.value = '';
+    setTimeout(() => { btn.textContent = 'Subscribe Free'; btn.disabled = false; }, 3000);
+  };
+
+  // Company Modal Handlers
+  const modal = document.getElementById('company-modal');
+  const modalInner = document.getElementById('modal-inner');
+  const closeBtn = document.getElementById('modal-close-btn');
+
+  function showModal(content) {
+    modalInner.innerHTML = content;
+    modal.style.display = 'flex';
+  }
+
+  closeBtn.addEventListener('click', () => { modal.style.display = 'none'; });
+  modal.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
+
+  document.getElementById('link-about')?.addEventListener('click', () => {
+    showModal(`
+      <h2 style="font-size:1.6rem;color:var(--primary);margin-bottom:0.75rem;">🎓 About ScholarNet Nigeria</h2>
+      <p style="color:var(--text);line-height:1.7;margin-bottom:1rem;">
+        ScholarNet is Nigeria's mission-driven education technology platform built to provide free, high-quality, syllabus-aligned test preparation for <strong>JAMB UTME, WAEC WASSCE, and NECO</strong> candidates.
+      </p>
+      <p style="color:var(--text);line-height:1.7;margin-bottom:1.25rem;">
+        Founded to level the playing field, ScholarNet gives every Nigerian student—whether studying in Lagos, Abuja, Enugu, or Kano—access to past questions with verified step-by-step solutions, CBT timers, Khan Academy-style concept breakdowns, and national benchmarking.
+      </p>
+      <div style="background:rgba(0,166,81,0.08);border:1px solid rgba(0,166,81,0.25);border-radius:12px;padding:1.2rem;margin-bottom:1.5rem;">
+        <h4 style="margin-bottom:0.35rem;color:var(--secondary);">Our Core Mission</h4>
+        <p style="font-size:0.9rem;color:var(--text-light);margin:0;">To ensure zero Nigerian secondary school student is held back from tertiary admission due to lack of study materials or computer test practice.</p>
+      </div>
+      <a href="pages/practice.html" class="btn btn-primary btn-full">Start Practicing Free Now</a>
+    `);
+  });
+
+  document.getElementById('link-contact')?.addEventListener('click', () => {
+    showModal(`
+      <h2 style="font-size:1.6rem;margin-bottom:0.5rem;color:var(--text);">💬 Contact & Student Support</h2>
+      <p style="color:var(--text-light);font-size:0.95rem;margin-bottom:1.5rem;">Have questions about questions, syllabus coverage, or need study assistance? We are here to help!</p>
+      <div style="display:flex;flex-direction:column;gap:1rem;margin-bottom:1.5rem;">
+        <a href="https://wa.me/2348000000000?text=Hello%20ScholarNet%20Team!%20I%20need%20study%20support" target="_blank" class="btn btn-primary" style="background:#25D366;border-color:#25D366;display:flex;align-items:center;justify-content:center;gap:0.75rem;">
+          <span>💬</span> Chat on WhatsApp (+234 Support)
+        </a>
+        <div style="background:#f8f9fa;border:1px solid rgba(0,0,0,0.08);border-radius:12px;padding:1rem;">
+          <div style="font-size:0.85rem;color:var(--text-light);">Email Support:</div>
+          <div style="font-weight:700;color:var(--text);">support@scholarnet.ng</div>
+        </div>
+      </div>
+      <form onsubmit="event.preventDefault(); showToast('Message Sent', 'Thank you! We will reply within 24 hours.', 'success'); document.getElementById('company-modal').style.display='none';">
+        <div style="margin-bottom:0.75rem;">
+          <input type="text" placeholder="Your Name" required class="form-control" style="width:100%;padding:0.75rem;border-radius:8px;border:1.5px solid rgba(0,0,0,0.12);">
+        </div>
+        <div style="margin-bottom:0.75rem;">
+          <input type="email" placeholder="Your Email" required class="form-control" style="width:100%;padding:0.75rem;border-radius:8px;border:1.5px solid rgba(0,0,0,0.12);">
+        </div>
+        <div style="margin-bottom:1rem;">
+          <textarea placeholder="How can we assist you with your exam prep?" required rows="3" style="width:100%;padding:0.75rem;border-radius:8px;border:1.5px solid rgba(0,0,0,0.12);font-family:inherit;"></textarea>
+        </div>
+        <button type="submit" class="btn btn-accent btn-full">Send Message</button>
+      </form>
+    `);
+  });
+
+  document.getElementById('link-faqs')?.addEventListener('click', () => {
+    showModal(`
+      <h2 style="font-size:1.6rem;color:var(--text);margin-bottom:1.25rem;">❓ Frequently Asked Questions</h2>
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+        <div style="background:#f8faf8;border-left:4px solid var(--primary);padding:1rem;border-radius:8px;">
+          <strong style="color:var(--text);display:block;margin-bottom:0.35rem;">1. Is ScholarNet completely free?</strong>
+          <span style="font-size:0.88rem;color:var(--text-light);line-height:1.5;">Yes! All past questions, CBT simulations, and topic notes are 100% free for all Nigerian candidates.</span>
+        </div>
+        <div style="background:#f8faf8;border-left:4px solid var(--primary);padding:1rem;border-radius:8px;">
+          <strong style="color:var(--text);display:block;margin-bottom:0.35rem;">2. Does this work on my mobile phone?</strong>
+          <span style="font-size:0.88rem;color:var(--text-light);line-height:1.5;">Yes, ScholarNet is fully responsive and optimized for low data usage and all Android, iOS, and tablet devices.</span>
+        </div>
+        <div style="background:#f8faf8;border-left:4px solid var(--primary);padding:1rem;border-radius:8px;">
+          <strong style="color:var(--text);display:block;margin-bottom:0.35rem;">3. Are the questions actual past JAMB/WAEC questions?</strong>
+          <span style="font-size:0.88rem;color:var(--text-light);line-height:1.5;">Yes, our question banks are compiled directly from JAMB UTME (2010–2024) and WAEC SSCE verified past papers with explanations.</span>
+        </div>
+        <div style="background:#f8faf8;border-left:4px solid var(--primary);padding:1rem;border-radius:8px;">
+          <strong style="color:var(--text);display:block;margin-bottom:0.35rem;">4. What score should I aim for in JAMB?</strong>
+          <span style="font-size:0.88rem;color:var(--text-light);line-height:1.5;">Competitive courses like Medicine, Law, and Engineering typically require 280+ to 330+. Consistent daily practice on ScholarNet helps you reach and surpass that goal.</span>
+        </div>
+      </div>
+    `);
+  });
+
+  document.getElementById('link-privacy')?.addEventListener('click', () => {
+    showModal(`
+      <h2 style="font-size:1.6rem;color:var(--text);margin-bottom:0.75rem;">🔒 Privacy Policy</h2>
+      <p style="font-size:0.88rem;color:var(--text-light);line-height:1.6;margin-bottom:1rem;">Last updated: 2025</p>
+      <p style="color:var(--text);font-size:0.92rem;line-height:1.7;margin-bottom:1rem;">
+        At ScholarNet, we respect student privacy. We only collect the necessary information required to track your study streaks, save your CBT test history, and calculate your scores.
+      </p>
+      <ul style="color:var(--text);font-size:0.9rem;line-height:1.8;padding-left:1.25rem;margin-bottom:1.5rem;">
+        <li>We never sell or distribute student contact numbers or emails to third parties.</li>
+        <li>Authentication is secured via Google Firebase with enterprise encryption.</li>
+        <li>Your test performance data is protected under Cloud Firestore security rules.</li>
+      </ul>
+      <button class="btn btn-outline btn-full" onclick="document.getElementById('company-modal').style.display='none'">Understood</button>
+    `);
+  });
+
+  document.getElementById('link-terms')?.addEventListener('click', () => {
+    showModal(`
+      <h2 style="font-size:1.6rem;color:var(--text);margin-bottom:0.75rem;">📜 Terms of Service</h2>
+      <p style="color:var(--text);font-size:0.92rem;line-height:1.7;margin-bottom:1rem;">
+        By accessing ScholarNet, you agree to utilize our study materials for educational and exam preparation purposes.
+      </p>
+      <ul style="color:var(--text);font-size:0.9rem;line-height:1.8;padding-left:1.25rem;margin-bottom:1.5rem;">
+        <li>All simulated questions and study notes are curated to support legitimate examination preparation.</li>
+        <li>ScholarNet is an independent learning platform dedicated to advancing educational outcomes in Nigeria.</li>
+        <li>Users must adhere to academic integrity and respectful participation in student discussions.</li>
+      </ul>
+      <button class="btn btn-outline btn-full" onclick="document.getElementById('company-modal').style.display='none'">Close</button>
+    `);
+  });
+</script>
+</body>
+</html>

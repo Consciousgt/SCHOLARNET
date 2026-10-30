@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Subjects — ScholarNet</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <style>
+    body { background: #f4faf6; }
+    .subjects-hero {
+      background: var(--gradient-hero);
+      padding: 4rem 0 3rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .subjects-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 100%, rgba(0,166,81,0.2) 0%, transparent 60%);
+    }
+    .subjects-hero h1 { color: var(--white); margin-bottom: 0.5rem; }
+    .subjects-hero p  { color: rgba(255,255,255,0.7); font-size: 1.05rem; }
+    .filters-bar {
+      background: var(--white);
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      padding: 1.25rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .filters-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .subject-card-wrap { animation: fadeInUp 0.4s ease; }
+    .difficulty-easy   { background: rgba(72,187,120,0.1);  color: #276749; }
+    .difficulty-medium { background: rgba(246,173,85,0.12); color: #744210; }
+    .difficulty-hard   { background: rgba(229,62,62,0.1);   color: #822727; }
+
+    @media (max-width: 768px) {
+      .filters-inner {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .filter-tabs {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 0.5rem;
+        display: flex;
+        gap: 0.5rem;
+      }
+      .search-bar {
+        width: 100%;
+      }
+      .search-bar input {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container">
+    <a href="../index.html" class="navbar-brand">
+      <span class="logo-icon">🎓</span><span>SCHOLARNET</span>
+    </a>
+    <ul class="navbar-nav" id="navbar-nav">
+      <li><a href="../index.html" class="nav-link">Home</a></li>
+      <li><a href="subjects.html" class="nav-link active">Subjects</a></li>
+      <li><a href="practice.html" class="nav-link">Practice</a></li>
+      <li><a href="learn.html" class="nav-link">Learn</a></li>
+      <li><a href="leaderboard.html" class="nav-link">Leaderboard</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <button class="dark-toggle">🌙</button>
+      <a href="auth.html" class="btn btn-primary btn-sm">Dashboard</a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="subjects-hero">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="label" style="display:inline-block;background:rgba(0,166,81,0.2);border:1px solid rgba(0,166,81,0.4);color:#4ade80;font-size:0.8rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:0.35rem 1rem;border-radius:9999px;margin-bottom:1rem;">📚 All JAMB/WAEC Subjects</div>
+    <h1>Choose Your Subject</h1>
+    <p>20+ subjects fully covered with lessons, past questions (2010–2024), and topic practice.</p>
+  </div>
+</div>
+
+<!-- Filters Bar -->
+<div class="filters-bar">
+  <div class="container">
+    <div class="filters-inner">
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-category="all">All Subjects</button>
+        <button class="filter-tab" data-category="science">🔬 Science</button>
+        <button class="filter-tab" data-category="arts">🎨 Arts</button>
+        <button class="filter-tab" data-category="commercial">💼 Commercial</button>
+        <button class="filter-tab" data-category="social">🌍 Social Science</button>
+      </div>
+      <div class="search-bar">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="subject-search" placeholder="Search subjects...">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Subjects Grid -->
+<section class="section" style="padding-top:2.5rem;">
+  <div class="container">
+    <div class="grid grid-4" id="subjects-grid">
+
+      <!-- SCIENCE SUBJECTS -->
+      <div class="subject-card-wrap" data-subject-cat="science">
+        <div class="subject-card" onclick="location.href='learn.html?subject=mathematics'">
+          <span class="subject-icon">📐</span>
+          <h3 data-subject-name="Mathematics">Mathematics</h3>
+          <p>Number theory, algebra, calculus, statistics and geometry.</p>
+          <div class="subject-meta"><span>📖 45 Topics</span><span>❓ 200+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-medium">Intermediate</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.9</span>
+          </div>
+          <a href="learn.html?subject=mathematics" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="science">
+        <div class="subject-card" onclick="location.href='learn.html?subject=physics'">
+          <span class="subject-icon">⚛️</span>
+          <h3 data-subject-name="Physics">Physics</h3>
+          <p>Mechanics, waves, electricity, magnetism and modern physics.</p>
+          <div class="subject-meta"><span>📖 52 Topics</span><span>❓ 210+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-hard">Advanced</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.8</span>
+          </div>
+          <a href="learn.html?subject=physics" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="science">
+        <div class="subject-card" onclick="location.href='learn.html?subject=chemistry'">
+          <span class="subject-icon">🧪</span>
+          <h3 data-subject-name="Chemistry">Chemistry</h3>
+          <p>Atomic structure, bonding, reactions, and organic chemistry.</p>
+          <div class="subject-meta"><span>📖 48 Topics</span><span>❓ 195+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-hard">Advanced</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.7</span>
+          </div>
+          <a href="learn.html?subject=chemistry" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="science">
+        <div class="subject-card" onclick="location.href='learn.html?subject=biology'">
+          <span class="subject-icon">🧬</span>
+          <h3 data-subject-name="Biology">Biology</h3>
+          <p>Cell biology, genetics, ecology, and human systems.</p>
+          <div class="subject-meta"><span>📖 50 Topics</span><span>❓ 220+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-medium">Intermediate</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.9</span>
+          </div>
+          <a href="learn.html?subject=biology" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="science">
+        <div class="subject-card" onclick="location.href='learn.html?subject=further-maths'">
+          <span class="subject-icon">🔢</span>
+          <h3 data-subject-name="Further Mathematics">Further Mathematics</h3>
+          <p>Advanced calculus, matrices, complex numbers and vectors.</p>
+          <div class="subject-meta"><span>📖 38 Topics</span><span>❓ 160+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-hard">Advanced</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.6</span>
+          </div>
+          <a href="learn.html?subject=further-maths" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="science">
+        <div class="subject-card" onclick="location.href='learn.html?subject=agric'">
+          <span class="subject-icon">🌱</span>
+          <h3 data-subject-name="Agricultural Science">Agricultural Science</h3>
+          <p>Crop science, animal husbandry, soil, and farm management.</p>
+          <div class="subject-meta"><span>📖 40 Topics</span><span>❓ 155+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-easy">Beginner</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.8</span>
+          </div>
+          <a href="learn.html?subject=agric" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <!-- COMPULSORY -->
+      <div class="subject-card-wrap" data-subject-cat="arts">
+        <div class="subject-card" onclick="location.href='learn.html?subject=english'">
+          <span class="subject-icon">📝</span>
+          <h3 data-subject-name="English Language">English Language</h3>
+          <p>Comprehension, grammar, essays, oral English and lexis.</p>
+          <div class="subject-meta"><span>📖 38 Topics</span><span>❓ 180+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-medium">Intermediate</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.9</span>
+          </div>
+          <a href="learn.html?subject=english" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <!-- ARTS SUBJECTS -->
+      <div class="subject-card-wrap" data-subject-cat="arts">
+        <div class="subject-card" onclick="location.href='learn.html?subject=literature'">
+          <span class="subject-icon">📚</span>
+          <h3 data-subject-name="Literature in English">Literature in English</h3>
+          <p>Poetry, prose, drama and African literature analysis.</p>
+          <div class="subject-meta"><span>📖 28 Topics</span><span>❓ 140+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-medium">Intermediate</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.7</span>
+          </div>
+          <a href="learn.html?subject=literature" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="arts">
+        <div class="subject-card" onclick="location.href='learn.html?subject=crs'">
+          <span class="subject-icon">✝️</span>
+          <h3 data-subject-name="Christian Religious Studies">CRS / IRS</h3>
+          <p>Bible/Quran stories, religious principles and moral education.</p>
+          <div class="subject-meta"><span>📖 30 Topics</span><span>❓ 130+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-easy">Beginner</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.8</span>
+          </div>
+          <a href="learn.html?subject=crs" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="arts">
+        <div class="subject-card" onclick="location.href='learn.html?subject=history'">
+          <span class="subject-icon">🏛️</span>
+          <h3 data-subject-name="History">History</h3>
+          <p>Nigerian, African, and world history — pre-colonial to modern.</p>
+          <div class="subject-meta"><span>📖 35 Topics</span><span>❓ 145+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-medium">Intermediate</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.6</span>
+          </div>
+          <a href="learn.html?subject=history" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="arts">
+        <div class="subject-card" onclick="location.href='learn.html?subject=yoruba'">
+          <span class="subject-icon">🗣️</span>
+          <h3 data-subject-name="Yoruba Language">Yoruba / Igbo / Hausa</h3>
+          <p>Nigerian language grammar, oral tradition and literature.</p>
+          <div class="subject-meta"><span>📖 25 Topics</span><span>❓ 120+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-easy">Beginner</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.7</span>
+          </div>
+          <a href="learn.html?subject=yoruba" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <!-- COMMERCIAL SUBJECTS -->
+      <div class="subject-card-wrap" data-subject-cat="commercial">
+        <div class="subject-card" onclick="location.href='learn.html?subject=economics'">
+          <span class="subject-icon">📈</span>
+          <h3 data-subject-name="Economics">Economics</h3>
+          <p>Micro/macro economics, Nigerian economy and trade.</p>
+          <div class="subject-meta"><span>📖 40 Topics</span><span>❓ 160+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-medium">Intermediate</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.8</span>
+          </div>
+          <a href="learn.html?subject=economics" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="commercial">
+        <div class="subject-card" onclick="location.href='learn.html?subject=accounting'">
+          <span class="subject-icon">🧾</span>
+          <h3 data-subject-name="Financial Accounting">Financial Accounting</h3>
+          <p>Bookkeeping, final accounts, partnership and company accounts.</p>
+          <div class="subject-meta"><span>📖 36 Topics</span><span>❓ 150+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-medium">Intermediate</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.7</span>
+          </div>
+          <a href="learn.html?subject=accounting" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="commercial">
+        <div class="subject-card" onclick="location.href='learn.html?subject=commerce'">
+          <span class="subject-icon">🏪</span>
+          <h3 data-subject-name="Commerce">Commerce</h3>
+          <p>Trade, marketing, banking, insurance and business organization.</p>
+          <div class="subject-meta"><span>📖 32 Topics</span><span>❓ 140+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-easy">Beginner</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.8</span>
+          </div>
+          <a href="learn.html?subject=commerce" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="commercial">
+        <div class="subject-card" onclick="location.href='learn.html?subject=food'">
+          <span class="subject-icon">🍽️</span>
+          <h3 data-subject-name="Food and Nutrition">Food and Nutrition</h3>
+          <p>Nutrients, food preparation, preservation, and food science.</p>
+          <div class="subject-meta"><span>📖 28 Topics</span><span>❓ 115+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-easy">Beginner</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.7</span>
+          </div>
+          <a href="learn.html?subject=food" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <!-- SOCIAL SCIENCE -->
+      <div class="subject-card-wrap" data-subject-cat="social">
+        <div class="subject-card" onclick="location.href='learn.html?subject=government'">
+          <span class="subject-icon">🏛️</span>
+          <h3 data-subject-name="Government">Government</h3>
+          <p>Constitution, political systems, democracy and international law.</p>
+          <div class="subject-meta"><span>📖 35 Topics</span><span>❓ 150+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-medium">Intermediate</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.7</span>
+          </div>
+          <a href="learn.html?subject=government" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="social">
+        <div class="subject-card" onclick="location.href='learn.html?subject=geography'">
+          <span class="subject-icon">🌍</span>
+          <h3 data-subject-name="Geography">Geography</h3>
+          <p>Physical, human and regional geography of Nigeria and Africa.</p>
+          <div class="subject-meta"><span>📖 42 Topics</span><span>❓ 165+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-medium">Intermediate</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.8</span>
+          </div>
+          <a href="learn.html?subject=geography" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="social">
+        <div class="subject-card" onclick="location.href='learn.html?subject=civic'">
+          <span class="subject-icon">🗳️</span>
+          <h3 data-subject-name="Civic Education">Civic Education</h3>
+          <p>Citizenship, rights, duties, democracy and good governance.</p>
+          <div class="subject-meta"><span>📖 22 Topics</span><span>❓ 100+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-easy">Beginner</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.6</span>
+          </div>
+          <a href="learn.html?subject=civic" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="science">
+        <div class="subject-card" onclick="location.href='learn.html?subject=computer'">
+          <span class="subject-icon">💻</span>
+          <h3 data-subject-name="Computer Studies">Computer Studies</h3>
+          <p>Hardware, software, programming, the internet and data processing.</p>
+          <div class="subject-meta"><span>📖 30 Topics</span><span>❓ 130+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-easy">Beginner</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.8</span>
+          </div>
+          <a href="learn.html?subject=computer" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+      <div class="subject-card-wrap" data-subject-cat="science">
+        <div class="subject-card" onclick="location.href='learn.html?subject=tech-drawing'">
+          <span class="subject-icon">📏</span>
+          <h3 data-subject-name="Technical Drawing">Technical Drawing</h3>
+          <p>Plane geometry, solid geometry, engineering drawing and orthographic projection.</p>
+          <div class="subject-meta"><span>📖 25 Topics</span><span>❓ 110+ Qs</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+            <span class="badge difficulty-medium">Intermediate</span>
+            <span style="font-size:0.78rem;color:var(--text-light);">⭐ 4.5</span>
+          </div>
+          <a href="learn.html?subject=tech-drawing" class="btn btn-primary btn-sm btn-full">Start Learning</a>
+        </div>
+      </div>
+
+    </div>
+    <!-- Subject count -->
+    <p style="text-align:center;color:var(--text-light);font-size:0.875rem;margin-top:2rem;" id="subject-count">Showing 20 subjects</p>
+  </div>
+</section>
+
+<script type="module">
+  import '../js/app.js';
+
+  const searchInput = document.getElementById('subject-search');
+  const tabs = document.querySelectorAll('.filter-tab');
+  const cards = document.querySelectorAll('.subject-card-wrap');
+  const countEl = document.getElementById('subject-count');
+
+  let currentCategory = 'all';
+  let searchTerm = '';
+
+  function filterCards() {
+    let visible = 0;
+    cards.forEach(card => {
+      const cat = card.dataset.subjectCat;
+      const name = card.querySelector('h3').textContent.toLowerCase();
+      const desc = card.querySelector('p').textContent.toLowerCase();
+
+      const matchesCat = currentCategory === 'all' || cat === currentCategory;
+      const matchesSearch = !searchTerm || name.includes(searchTerm) || desc.includes(searchTerm);
+
+      if (matchesCat && matchesSearch) {
+        card.style.display = 'block';
+        visible++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    countEl.textContent = `Showing ${visible} of ${cards.length} subjects`;
+  }
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      currentCategory = tab.dataset.category;
+      filterCards();
+    });
+  });
+
+  searchInput.addEventListener('input', (e) => {
+    searchTerm = e.target.value.toLowerCase().trim();
+    filterCards();
+  });
+</script>
+</body>
+</html>

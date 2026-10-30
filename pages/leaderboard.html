@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="National Student Leaderboard on ScholarNet — See the highest JAMB and WAEC scorers in Nigeria.">
+  <title>National Leaderboard — ScholarNet</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <style>
+    body { background: #f4faf6; }
+    .leaderboard-hero {
+      background: var(--gradient-hero);
+      padding: 4rem 0 3.5rem;
+      text-align: center;
+      position: relative;
+      color: white;
+      overflow: hidden;
+    }
+    .leaderboard-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 120%, rgba(255,215,0,0.18) 0%, transparent 60%);
+    }
+    .leaderboard-hero h1 { color: var(--white); margin-bottom: 0.5rem; }
+    .leaderboard-hero p  { color: rgba(255,255,255,0.75); font-size: 1.05rem; }
+
+    /* Podium */
+    .podium-container {
+      max-width: 860px;
+      margin: -2.5rem auto 2.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1.15fr 1fr;
+      align-items: flex-end;
+      gap: 1.5rem;
+      padding: 0 1rem;
+      position: relative;
+      z-index: 10;
+    }
+    @media (max-width: 768px) {
+      .podium-container {
+        grid-template-columns: 1fr;
+        align-items: stretch;
+        margin-top: 1.5rem;
+      }
+    }
+
+    .podium-card {
+      background: var(--white);
+      border-radius: var(--border-radius-xl);
+      padding: 2rem 1.5rem 1.5rem;
+      text-align: center;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid rgba(0,0,0,0.06);
+      position: relative;
+      transition: var(--transition);
+    }
+    .podium-card:hover { transform: translateY(-6px); }
+    .podium-card.gold {
+      border: 2px solid #FFD700;
+      background: linear-gradient(180deg, #fffdf0 0%, #ffffff 100%);
+      box-shadow: 0 16px 36px rgba(255,215,0,0.22);
+      transform: translateY(-12px);
+    }
+    .podium-card.silver {
+      border-top: 4px solid #C0C0C0;
+    }
+    .podium-card.bronze {
+      border-top: 4px solid #CD7F32;
+    }
+    .podium-avatar-wrap {
+      width: 78px;
+      height: 78px;
+      margin: 0 auto 0.75rem;
+      position: relative;
+    }
+    .podium-card.gold .podium-avatar-wrap {
+      width: 92px;
+      height: 92px;
+    }
+    .podium-avatar {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      box-shadow: var(--shadow-md);
+    }
+    .podium-badge {
+      position: absolute;
+      bottom: -6px;
+      right: -6px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      background: white;
+      box-shadow: var(--shadow-sm);
+    }
+    .podium-name {
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text);
+      margin-bottom: 0.25rem;
+    }
+    .podium-state {
+      font-size: 0.8rem;
+      color: var(--text-light);
+      margin-bottom: 0.75rem;
+    }
+    .podium-score {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 0.25rem;
+    }
+    .podium-streak {
+      font-size: 0.78rem;
+      color: #e65100;
+      font-weight: 600;
+      background: #fff3e0;
+      padding: 0.25rem 0.6rem;
+      border-radius: 20px;
+      display: inline-block;
+    }
+
+    /* Filters Bar */
+    .lead-controls {
+      background: var(--white);
+      border-radius: var(--border-radius-lg);
+      padding: 1.25rem 1.5rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+    .filter-pills {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .filter-pill {
+      padding: 0.45rem 1rem;
+      border-radius: 30px;
+      border: 1.5px solid rgba(0,0,0,0.1);
+      background: var(--white);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-light);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .filter-pill.active, .filter-pill:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      background: rgba(0,166,81,0.06);
+    }
+
+    /* Leaderboard Table / Cards */
+    .board-table {
+      background: var(--white);
+      border-radius: var(--border-radius-xl);
+      box-shadow: var(--shadow-md);
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.06);
+    }
+    .board-row {
+      display: grid;
+      grid-template-columns: 70px 1fr 140px 120px 110px;
+      align-items: center;
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      transition: var(--transition);
+    }
+    .board-row:last-child { border-bottom: none; }
+    .board-row:hover { background: #fbfdfc; }
+    .board-header {
+      background: #f8faf8;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-light);
+    }
+    .rank-num {
+      font-weight: 800;
+      font-size: 1.1rem;
+      color: var(--text-light);
+    }
+    .student-cell {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+    .student-cell img {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .student-info .name {
+      font-weight: 700;
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+    .student-info .meta {
+      font-size: 0.78rem;
+      color: var(--text-light);
+    }
+    .badge-exam {
+      display: inline-block;
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      background: #e8f5e9;
+      color: var(--secondary);
+    }
+    .user-rank-strip {
+      background: linear-gradient(135deg, #00A651, #006030);
+      color: white;
+      border-radius: var(--border-radius-lg);
+      padding: 1.25rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 8px 24px rgba(0,166,81,0.25);
+      margin-top: 2rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    @media (max-width: 680px) {
+      .board-row {
+        grid-template-columns: 45px 1fr 85px;
+        padding: 0.85rem 1rem;
+      }
+      .col-state, .col-streak { display: none; }
+    }
+    @media (max-width: 500px) {
+      .user-rank-strip {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.25rem 1rem;
+      }
+      .user-rank-strip .btn {
+        width: 100%;
+        text-align: center;
+      }
+      .lead-controls {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .filter-pills {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container">
+    <a href="../index.html" class="navbar-brand">
+      <span class="logo-icon">🎓</span><span>SCHOLARNET</span>
+    </a>
+    <ul class="navbar-nav" id="navbar-nav">
+      <li><a href="../index.html" class="nav-link">Home</a></li>
+      <li><a href="subjects.html" class="nav-link">Subjects</a></li>
+      <li><a href="practice.html" class="nav-link">Practice</a></li>
+      <li><a href="learn.html" class="nav-link">Learn</a></li>
+      <li><a href="leaderboard.html" class="nav-link active">Leaderboard</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <button class="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+      <a href="dashboard.html" class="btn btn-outline btn-sm">My Dashboard</a>
+      <a href="practice.html" class="btn btn-primary btn-sm">Take a Quiz</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="leaderboard-hero">
+  <div class="container">
+    <div style="display:inline-block;background:rgba(255,215,0,0.2);color:var(--accent);padding:0.35rem 1rem;border-radius:20px;font-weight:700;font-size:0.85rem;margin-bottom:0.75rem;border:1px solid rgba(255,215,0,0.3);">
+      🏆 Hall of Academic Champions
+    </div>
+    <h1>National Student Leaderboard</h1>
+    <p>Honoring Nigeria's brightest minds excelling in JAMB UTME, WAEC SSCE & NECO CBT simulations</p>
+  </div>
+</header>
+
+<main class="container" style="padding-bottom: 4rem;">
+  
+  <!-- Podium for Top 3 -->
+  <div class="podium-container" id="podium-root">
+    
+    <!-- Rank 2: Silver -->
+    <div class="podium-card silver">
+      <div class="podium-avatar-wrap">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80" alt="Ibrahim Yusuf" class="podium-avatar">
+        <div class="podium-badge">🥈</div>
+      </div>
+      <div class="podium-name">Ibrahim Yusuf</div>
+      <div class="podium-state">Abuja FCT • JAMB</div>
+      <div class="podium-score">348</div>
+      <div class="podium-streak">🔥 24 days streak</div>
+    </div>
+
+    <!-- Rank 1: Gold -->
+    <div class="podium-card gold">
+      <div style="font-size:0.75rem;font-weight:800;color:#b7791f;letter-spacing:1px;text-transform:uppercase;margin-bottom:0.5rem;">
+        👑 National Top Scorer
+      </div>
+      <div class="podium-avatar-wrap">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&auto=format&fit=crop&q=80" alt="Zainab Aliyu" class="podium-avatar">
+        <div class="podium-badge">🥇</div>
+      </div>
+      <div class="podium-name" style="font-size:1.25rem;">Zainab Aliyu</div>
+      <div class="podium-state">Kano State • Science Track</div>
+      <div class="podium-score" style="font-size:1.8rem;color:#b7791f;">356</div>
+      <div class="podium-streak">🔥 38 days streak</div>
+    </div>
+
+    <!-- Rank 3: Bronze -->
+    <div class="podium-card bronze">
+      <div class="podium-avatar-wrap">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80" alt="Chukwudi Eze" class="podium-avatar">
+        <div class="podium-badge">🥉</div>
+      </div>
+      <div class="podium-name">Chukwudi Eze</div>
+      <div class="podium-state">Enugu State • Engineering</div>
+      <div class="podium-score">342</div>
+      <div class="podium-streak">🔥 19 days streak</div>
+    </div>
+
+  </div>
+
+  <!-- Filters & Controls -->
+  <div class="lead-controls">
+    <div class="filter-pills" id="timeframe-filters">
+      <button class="filter-pill active" data-time="week">This Week</button>
+      <button class="filter-pill" data-time="month">This Month</button>
+      <button class="filter-pill" data-time="all">All Time</button>
+    </div>
+
+    <div style="display:flex;align-items:center;gap:0.75rem;">
+      <label for="subj-filter" style="font-size:0.85rem;font-weight:600;color:var(--text-light);">Subject:</label>
+      <select id="subj-filter" class="form-control" style="padding:0.45rem 0.85rem;font-size:0.85rem;border-radius:20px;cursor:pointer;">
+        <option value="all">All Subjects (Combined)</option>
+        <option value="mathematics">Mathematics</option>
+        <option value="english">English Language</option>
+        <option value="physics">Physics</option>
+        <option value="chemistry">Chemistry</option>
+        <option value="biology">Biology</option>
+        <option value="economics">Economics</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Leaderboard Table -->
+  <div class="board-table">
+    <div class="board-row board-header">
+      <div>Rank</div>
+      <div>Student</div>
+      <div class="col-state">State / Track</div>
+      <div class="col-streak">Streak</div>
+      <div style="text-align:right;">Score</div>
+    </div>
+
+    <div id="board-body">
+      <!-- Injected via JavaScript -->
+    </div>
+  </div>
+
+  <!-- User Rank Strip -->
+  <div class="user-rank-strip">
+    <div style="display:flex;align-items:center;gap:1rem;">
+      <div style="font-size:2rem;">🎯</div>
+      <div>
+        <div style="font-weight:700;font-size:1.1rem;" id="user-strip-name">You are in the Top 5% of Nigerian Students!</div>
+        <div style="font-size:0.85rem;color:rgba(255,255,255,0.85);">Complete today's practice test to jump up the ranks.</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:0.75rem;align-items:center;">
+      <a href="practice.html" class="btn btn-accent btn-sm" style="color:var(--dark);font-weight:700;">Start Practice Now →</a>
+    </div>
+  </div>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-bottom" style="text-align:center;padding:2rem 0;color:var(--text-light);font-size:0.85rem;">
+    ScholarNet Nigeria • Empowering SSCE and JAMB Candidates with World-Class CBT Practice
+  </div>
+</footer>
+
+<script type="module">
+  import '../js/app.js';
+  import { getLeaderboard, observeAuthState } from '../js/firebase-config.js';
+
+  // Realistic sample Nigerian student rankings
+  const mockStudents = [
+    { rank: 1, name: "Zainab Aliyu", state: "Kano", exam: "JAMB (Science)", score: 356, streak: 38, photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&auto=format&fit=crop&q=80" },
+    { rank: 2, name: "Ibrahim Yusuf", state: "Abuja FCT", exam: "JAMB (Medicine)", score: 348, streak: 24, photo: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" },
+    { rank: 3, name: "Chukwudi Eze", state: "Enugu", exam: "JAMB (Engineering)", score: 342, streak: 19, photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80" },
+    { rank: 4, name: "Amina Bello", state: "Kaduna", exam: "WAEC / JAMB", score: 338, streak: 15, photo: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=100&auto=format&fit=crop&q=80" },
+    { rank: 5, name: "Tunde Balogun", state: "Lagos", exam: "JAMB (Commercial)", score: 334, streak: 18, photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80" },
+    { rank: 6, name: "Blessing Nwachukwu", state: "Imo", exam: "JAMB (Arts)", score: 329, streak: 12, photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80" },
+    { rank: 7, name: "Folake Adeleke", state: "Oyo", exam: "WAEC Science", score: 326, streak: 21, photo: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=100&auto=format&fit=crop&q=80" },
+    { rank: 8, name: "Emmanuel Bassey", state: "Akwa Ibom", exam: "JAMB (Law)", score: 321, streak: 9, photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100&auto=format&fit=crop&q=80" },
+    { rank: 9, name: "Damilola Adebayo", state: "Ogun", exam: "JAMB (Tech)", score: 318, streak: 14, photo: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80" },
+    { rank: 10, name: "Ngozi Okafor", state: "Anambra", exam: "WAEC & JAMB", score: 315, streak: 11, photo: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=100&auto=format&fit=crop&q=80" }
+  ];
+
+  function renderTable(list) {
+    const root = document.getElementById('board-body');
+    root.innerHTML = '';
+
+    list.forEach(item => {
+      const row = document.createElement('div');
+      row.className = 'board-row';
+      const medalIcon = item.rank === 1 ? '🥇' : item.rank === 2 ? '🥈' : item.rank === 3 ? '🥉' : `#${item.rank}`;
+
+      row.innerHTML = `
+        <div class="rank-num">${medalIcon}</div>
+        <div class="student-cell">
+          <img src="${item.photo || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80'}" alt="${item.name}">
+          <div class="student-info">
+            <div class="name">${item.name}</div>
+            <div class="meta"><span class="badge-exam">${item.exam || 'JAMB UTME'}</span></div>
+          </div>
+        </div>
+        <div class="col-state" style="font-size:0.85rem;color:var(--text);font-weight:500;">
+          📍 ${item.state || 'Lagos'}
+        </div>
+        <div class="col-streak" style="font-size:0.85rem;color:#e65100;font-weight:600;">
+          🔥 ${item.streak || 1} days
+        </div>
+        <div style="text-align:right;font-weight:800;font-size:1.15rem;color:var(--primary);">
+          ${item.score} <span style="font-size:0.75rem;color:var(--text-light);font-weight:400;">pts</span>
+        </div>
+      `;
+      root.appendChild(row);
+    });
+  }
+
+  // Load from Firebase or Fallback
+  async function loadData() {
+    try {
+      const fbData = await getLeaderboard(10);
+      if (fbData && fbData.length > 0) {
+        // Merge real users with mock benchmarks
+        const merged = fbData.map((u, i) => ({
+          rank: i + 1,
+          name: u.displayName || 'Scholar',
+          state: u.state || 'Nigeria',
+          exam: u.examType || 'JAMB',
+          score: u.score || 100,
+          streak: u.streak || 1,
+          photo: u.photoURL || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80'
+        }));
+        renderTable(merged);
+      } else {
+        renderTable(mockStudents);
+      }
+    } catch {
+      renderTable(mockStudents);
+    }
+  }
+
+  loadData();
+
+  // Filter pill switching
+  document.querySelectorAll('.filter-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      // Shuffling slightly for demonstration
+      const shuffled = [...mockStudents].sort(() => Math.random() - 0.5).map((s, idx) => ({ ...s, rank: idx + 1 }));
+      renderTable(shuffled);
+    });
+  });
+
+  document.getElementById('subj-filter').addEventListener('change', () => {
+    const sorted = [...mockStudents].sort((a, b) => b.score - a.score);
+    renderTable(sorted);
+  });
+
+  observeAuthState((user) => {
+    if (user) {
+      document.getElementById('user-strip-name').textContent = `Keep going, ${user.displayName || 'Scholar'}! You're rising up the leaderboard!`;
+    }
+  });
+</script>
+</body>
+</html>
