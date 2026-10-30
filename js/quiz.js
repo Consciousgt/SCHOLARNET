@@ -398,8 +398,19 @@ questionBank['econ'] = questionBank['economics'];
 questionBank['gov'] = questionBank['government'];
 
 // ============================================================
-// QUIZ ENGINE CLASS
+// SHUFFLE ALGORITHM & QUIZ ENGINE CLASS
 // ============================================================
+// Fisher-Yates (Knuth) Shuffle for true unbiased randomness
+export function shuffleArray(array) {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+
 export class QuizEngine {
   constructor({ subject, year, type, containerId, topicId = null, gateEpisode = null }) {
     this.subject = subject;
@@ -416,6 +427,9 @@ export class QuizEngine {
     this.timerInterval = null;
     this.submitted = false;
     this.startTime = Date.now();
+    if (typeof window !== 'undefined') {
+      window.__currentQuizEngine = this;
+    }
   }
 
   loadQuestions(topicId = null) {
@@ -423,10 +437,56 @@ export class QuizEngine {
     const pool = (fullBank && fullBank[this.subject]) ? fullBank[this.subject] : (questionBank[this.subject] || questionBank.mathematics);
     let filtered = topicId ? pool.filter(q => q.topic && (q.topic === topicId || q.topic.includes(topicId))) : pool;
     if (filtered.length === 0) filtered = pool;
-    const shuffled = [...filtered].sort(() => Math.random() - 0.5);
-    // 16 questions per episode/topic practice test (within requested 15-20 range)
-    const targetCount = this.type === 'mock' ? Math.min(shuffled.length, 40) : Math.min(shuffled.length, 16);
-    return shuffled.slice(0, targetCount);
+
+    // 1. Shuffle question order with Fisher-Yates (unbiased randomness on every retry & for every student)
+    const shuffledQuestions = shuffleArray(filtered);
+
+    // Standard 16 questions per episode/topic practice test (15-20 range)
+    const targetCount = this.type === 'mock' ? Math.min(shuffledQuestions.length, 40) : Math.min(shuffledQuestions.length, 16);
+    const selected = shuffledQuestions.slice(0, targetCount);
+
+    // 2. Shuffle options (A, B, C, D) for each question independently on every attempt & remap answer key
+    return selected.map(rawQ => {
+      // Deep clone so master bank options are never mutated
+      const q = JSON.parse(JSON.stringify(rawQ));
+      const originalCorrectOption = q.options[q.answer];
+
+      // Shuffle options with Fisher-Yates
+      q.options = shuffleArray(q.options);
+
+      // Re-map correct answer index
+      q.answer = q.options.indexOf(originalCorrectOption);
+
+      return q;
+    });
+  }
+
+  restart() {
+    this.submitted = false;
+    this.current = 0;
+    this.answers = {};
+    // Fresh re-shuffle of both questions and options for this retry
+    this.questions = this.loadQuestions(this.topicId);
+    this.timeLimit = this.type === 'mock' ? 60 * 60 : Math.max(this.questions.length * 50, 60);
+    this.timeLeft = this.timeLimit;
+    this.startTime = Date.now();
+
+    const area = document.getElementById('results-area');
+    if (area) area.style.display = 'none';
+    const header = document.querySelector('.quiz-header');
+    if (header) header.style.display = '';
+    const nav = document.querySelector('.quiz-nav');
+    if (nav) nav.style.display = '';
+    const submitBtn = document.getElementById('btn-submit');
+    if (submitBtn) submitBtn.style.display = '';
+    const mapWrap = document.getElementById('question-map-wrap');
+    if (mapWrap) mapWrap.style.display = '';
+    const quizArea = document.getElementById('question-area');
+    if (quizArea) quizArea.style.display = '';
+
+    this.render();
+    this.startTimer();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   start() {
@@ -708,7 +768,7 @@ export class QuizEngine {
             </div>
             <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
               <a href="learn.html?subject=${subj}&episode=${gateEp}" class="btn btn-primary" style="padding:0.75rem 1.5rem;font-weight:700;">↺ Rewatch Lesson Video</a>
-              <button onclick="location.reload()" class="btn btn-outline" style="padding:0.75rem 1.5rem;font-weight:700;">🔄 Retake Quiz</button>
+              <button onclick="window.__currentQuizEngine ? window.__currentQuizEngine.restart() : location.reload()" class="btn btn-outline" style="padding:0.75rem 1.5rem;font-weight:700;">🔄 Retake Quiz (Fresh Shuffle)</button>
             </div>
           </div>`;
         return;
@@ -762,7 +822,7 @@ export class QuizEngine {
           `).join('')}
         </div>
         <div style="display:flex;gap:1rem;margin-top:1.5rem;flex-wrap:wrap;">
-          <button class="btn btn-primary" onclick="location.reload()">Try Again 🔄</button>
+          <button class="btn btn-primary" onclick="window.__currentQuizEngine ? window.__currentQuizEngine.restart() : location.reload()">Try Again 🔄 (Fresh Shuffle)</button>
           <a href="../pages/learn.html" class="btn btn-outline">← Back to Lessons</a>
           <a href="dashboard.html" class="btn btn-ghost">Go to Dashboard</a>
         </div>
